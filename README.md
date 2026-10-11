@@ -4,6 +4,9 @@
 
 A web-based interactive quiz application with a sleek Gold & Black aesthetic designed to test and sharpen your TFT knowledge across 5 game modes.
 
+### 🌐 Play Live in Browser:
+👉 **[https://calling26.github.io/Helping_TFT_Players_Read/](https://calling26.github.io/Helping_TFT_Players_Read/)**
+
 ---
 
 ## 🎮 Game Modes
