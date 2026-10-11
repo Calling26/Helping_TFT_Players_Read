@@ -1,0 +1,2908 @@
+{
+  "champions": [
+    {
+      "apiName": "DA_Gromp18_AP",
+      "name": "Gromp",
+      "cost": 2,
+      "traits": [
+        "Riftbeast",
+        "Adaptor"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{f3b734c3102f71ed}.png",
+      "spell": {
+        "name": "Belchy Bubble",
+        "desc": "<Bright>Adaptor </Bright><Bright>:</Bright> Belch a noxious bubble at the current target that explodes on the first enemy hit, dealing @MagicDamageCalc1@  magic damage. Enemies within a 1 hex radius of the explosion take @MagicDamageCalc2@  magic damage over @PoisonDurationAP@ seconds.\r\\n\r\\n<dim>Adaptor </dim><dim>: Heavily slows the target.</dim>\r\\n\r\\nPurple Buff: Every @TraitTimer@ seconds, Gromp gains @TraitTimedAP@ Ability Power.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Murkwolf18",
+      "name": "Murkwolf",
+      "cost": 2,
+      "traits": [
+        "Riftbeast",
+        "Ravager"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{0ea96b4d47691e31}.png",
+      "spell": {
+        "name": "Rending Claws",
+        "desc": "Leap to the lowest Health enemy within @LeapHexRadius@ Hexes and deal @PhysicalDamageCalc1@  physical damage. The next @NumEmpoweredAttacks@ attacks gain @EmpowerAspd@ Attack Speed and deal @PhysicalDamageCalc2@  bonus physical damage.\r\\n\r\\nGrey Buff: Gain Precision and @TraitBaseCrit@ Critical Strike Chance, increased up to @TraitBonusCrit@ based on missing Health.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Sentry",
+      "name": "Pebbles",
+      "cost": 1,
+      "traits": [
+        "Riftbeast",
+        "Invoker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{e8a95eea9697c960}.png",
+      "spell": {
+        "name": "Azure Laser",
+        "desc": "Begin consuming @PercentManaPerSecond@ max Mana per second and channeling a laser on the target. Each second while casting, deal @MagicDamageCalc1@  magic damage to them and reduce their Magic Resist by @MRReduction@.\r\\n\r\\nTeal Buff: Gain @TraitManaRegenTooltip@ Mana Regen for every @TraitChannelSecondsTooltip@ seconds channeled.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Cinderling18",
+      "name": "Cinderling",
+      "cost": 1,
+      "traits": [
+        "Riftbeast",
+        "Hunter"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{3bcbfdbd732c6323}.png",
+      "spell": {
+        "name": "Razor Leaves",
+        "desc": "Summon five razor-sharp leaves that converge on the current target, dealing a total of @PhysicalDamageCalc1@  physical damage and applying @WoundLevel@% <Keyword>Wound</Keyword> and @BurnAmount@% <Keyword>Burn</Keyword> for @WoundDuration@ seconds.\r\\n\r\\nScarlet Buff: Cinderling gains @TraitADOnCast@ Attack Damage each cast.\r\\n\r\\n<rules>Wound: Reduces healing received.</rules>\r\\n<rules>Burn: Deals a percent of the target's max Health as true damage every second.</rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Scuttlecrab18",
+      "name": "Scuttlecrab",
+      "cost": 2,
+      "traits": [
+        "Riftbeast",
+        "Juggernaut"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{56c0d241812da38a}.png",
+      "spell": {
+        "name": "Can You Dig It?",
+        "desc": "<bright>Passive:</bright> Attacks are replaced by a dance that deals @PhysicalDamageCalc1@  physical damage to all adjacent enemies.\r\\n\r\\n<bright>Active:</bright> Burrow underground, gaining @BurrowDurability@ Durability for @BurrowDuration@ seconds and healing @HealthCalc1@  over the duration. \r\\n\r\\nGreen Buff: When allies fall below @TraitHealthThreshold@ Health, they restore @TraitPercentHeal@ max Health.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Krug18",
+      "name": "Krug",
+      "cost": 3,
+      "traits": [
+        "Riftbeast",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{3d59606a1e414504}.png",
+      "spell": {
+        "name": "Rock and Roll",
+        "desc": "<Bright>Passive:</Bright> On death, split into two Kruglettes with @HealthCalc1@  Health which immediately taunt, forcing enemies to attack them.\r\\n\r\\n<Bright>Active:</Bright> Gain @HealthCalc2@  max Health, then roll into the target, dealing @PhysicalDamageCalc1@  damage.\r\\n\r\\nSlate Buff: On death, Krug and Kruglettes Shield allies for @TraitShieldHealth@ max Health.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Sentinel18",
+      "name": "Sentinel",
+      "cost": 4,
+      "traits": [
+        "Riftbeast",
+        "Vanguard",
+        "Invoker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{94230c60604bffc1}.png",
+      "spell": {
+        "name": "Azure Shockwave",
+        "desc": "Gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds. Slam the ground, sending a fissure in the direction of the most enemies. Enemies hit are briefly knocked up, take @MagicDamageCalc1@  magic damage, and are <keyword>Mana Reaved</keyword> for @ManaReaveFlat@.\r\\n\r\\nBlue Buff: Each time Sentinel casts, allies gain @TraitAlliesManaRegen@ Mana Regen.\r\\n\r\\n<rules>Mana Reave: Increase the Mana cost of the next Ability cast.</rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Brambleback18",
+      "name": "Brambleback",
+      "cost": 4,
+      "traits": [
+        "Riftbeast",
+        "Ravager"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{0c5a019370385aa2}.png",
+      "spell": {
+        "name": "Crimson Fury",
+        "desc": "<bright>Passive:</bright> When the target dies, leap at the next target, dealing @PhysicalDamageCalc1@  physical damage.\r\\n\r\\n<bright>Active:</bright> Gain @FrenzyADPercent@ Attack Damage for @Duration@ seconds. During this time ignore @GenericCalc1@  Armor.\r\\n\r\\nRed Buff: Attacks @BurnAmount@% Burn enemies and heal Brambleback for @TraitMaxHealthHeal@ max Health.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Xayah",
+      "name": "Xayah",
+      "cost": 1,
+      "traits": [
+        "Elderwood",
+        "Fae",
+        "Rapidfire"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_centered_8.png",
+      "spell": {
+        "name": "Deadly Plumage",
+        "desc": "Gain @AttackSpeed@ Attack Speed for the next @NumAttacks@ attacks. These attacks are replaced with feathers that deal @PhysicalDamageCalc1@  physical damage and reduce Armor by @GenericCalc1@ .",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Ornn",
+      "name": "Ornn",
+      "cost": 1,
+      "traits": [
+        "Elderwood",
+        "Defender"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_centered_2.png",
+      "spell": {
+        "name": "Bellows Breath",
+        "desc": "<Bright>Active:</Bright> Gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds and deal @MagicDamageCalc1@  magic damage to enemies in a cone. \r\\n\r\\n<Bright>Quest:</Bright> Each player combat, Ornn stores damage blocked as Forge Power, increased by @DamageTaken3StarScalar@ at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. <Rules>(Forge Power: </Rules>@Stack@<Rules> / </Rules>@GenericCalc1@<Rules>)</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Nidalee18_AP",
+      "name": "Nidalee",
+      "cost": 4,
+      "traits": [
+        "Primal",
+        "Adaptor"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_centered_0.png",
+      "spell": {
+        "name": "Javelin Toss",
+        "desc": "<Bright>Adaptor </Bright><Bright>:</Bright> Gain @BonusAttackSpeed@ Attack Speed for the next @NumEmpoweredAttacks@ attacks. These attacks are replaced with javelins that deal @MagicDamageCalc1@  magic damage. The 3rd attack instead targets the furthest enemy with the least items and deals @MagicDamageCalc2@  magic damage.\r\\n\r\\n<dim>Adaptor </dim><dim>: Transform into a Melee cougar Assassin that swipes enemies.</dim>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Hecarim",
+      "name": "Hecarim",
+      "cost": 3,
+      "traits": [
+        "Elderwood",
+        "Vanguard"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_centered_5.png",
+      "spell": {
+        "name": "Spirit of Dread",
+        "desc": "Gain @Resists@ Armor and Magic Resist for 3 seconds and restore @HealthCalc1@  Health over the duration. Launch spectral riders at the @NumEnemies@ nearest enemies, dealing @MagicDamageCalc1@  magic damage and Stunning them for @StunDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Ezreal",
+      "name": "Ezreal",
+      "cost": 4,
+      "traits": [
+        "Elderwood",
+        "Executioner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_centered_1.png",
+      "spell": {
+        "name": "Forest's Flurry",
+        "desc": "Blink away from the current target, deal @PhysicalDamageCalc1@  physical damage to them, and gain @AttackSpeedCalc1@  Attack Speed. \r\\n\r\\nEvery 4th cast consumes the Attack Speed granted from Forest's Flurry and fires a blast through the largest group of enemies that deals @PhysicalDamageCalc2@  physical damage, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinDamagePercent@).",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Azir",
+      "name": "Azir",
+      "cost": 3,
+      "traits": [
+        "Blackthorn",
+        "Executioner",
+        "Summoner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_centered_5.png",
+      "spell": {
+        "name": "Arise!",
+        "desc": "Gain @AttackSpeed@ Attack Speed and summon @SoldiersToSpawn@ soldiers for the next @NumAttacks@ attacks. These attacks are replaced by commands which direct each soldier to deal @MagicDamageCalc1@  magic damage per attack.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_RekSai",
+      "name": "Rek'Sai",
+      "cost": 1,
+      "traits": [
+        "Blackthorn",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_centered_17.png",
+      "spell": {
+        "name": "Uproot",
+        "desc": "<bright>Passive:</bright> Restore @HealthCalc2@  Health each second, tripled for @SpellMultiplierDuration@ seconds after casting.\r\\n\r\\n<bright>Active:</bright> Lunge out of the ground, Stunning adjacent enemies for @KnockupDuration@ second and dealing @MagicDamageCalc1@  magic damage to them.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Veigar",
+      "name": "Veigar",
+      "cost": 1,
+      "traits": [
+        "Blackthorn",
+        "Sprykin",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_centered_13.png",
+      "spell": {
+        "name": "Primordial Burst",
+        "desc": "Launch a giant blast at the target that deals @MagicDamageCalc1@  magic damage, increased to @MagicDamageCalc2@  if they're below @HPThreshold@ max Health.\r\\n\r\\nIf they die, permanently gain @APOnKill@% Ability Power.\r\\n\r\\nCurrent bonus: @Stack@% ",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Maokai",
+      "name": "Maokai",
+      "cost": 5,
+      "traits": [
+        "Old Growth",
+        "Juggernaut"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_centered_0.png",
+      "spell": {
+        "name": "Sow the Seeds",
+        "desc": "<Bright>Passive:</Bright> After every @DamageMitigatedPerSapling@ damage blocked, a sapling jumps towards a nearby enemy and deals @MagicDamageCalc1@  magic damage. On death, @SaplingsOnDeath@ saplings jump out.\r\\n\r\\n<Bright>Active:</Bright> Deal @MagicDamageCalc2@  magic damage to target and restore @HealthCalc1@  + @ActiveMissingHealthHeal@ missing Health.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Malphite",
+      "name": "Malphite",
+      "cost": 4,
+      "traits": [
+        "Blackthorn",
+        "Monolith"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_centered_27.png",
+      "spell": {
+        "name": "Petrified Bark",
+        "desc": "Gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds and become petrified. When the shield breaks, unleash a wave of dark energy, dealing @MagicDamageCalc1@  magic damage to enemies within @AoEHexRange@ hexes.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Yorick",
+      "name": "Yorick",
+      "cost": 1,
+      "traits": [
+        "Blossom",
+        "Juggernaut",
+        "Summoner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_centered_30.png",
+      "spell": {
+        "name": "Last Rites",
+        "desc": "<Bright>Passive:</Bright> On death, spawn a Spirit Walker with @HealthCalc2@  max Health which immediately taunts, forcing enemies to attack it.\r\\n\r\\n<Bright>Active:</Bright> Restore @HealthCalc1@  Health and strike the target, dealing @PhysicalDamageCalc1@  physical damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Yunara",
+      "name": "Yunara",
+      "cost": 2,
+      "traits": [
+        "Blossom",
+        "Executioner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_centered_0.png",
+      "spell": {
+        "name": "Cultivation of Spirit",
+        "desc": "Dash, then launch an orb at the current target that deals @PhysicalDamageCalc1@  physical damage and splits, dealing @PhysicalDamageCalc2@  physical damage to @NumSecondaryTargets@ nearby enemies.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Sett",
+      "name": "Sett",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_centered_38.png",
+      "spell": {
+        "name": "Haymaker",
+        "desc": "<Bright>Passive:</Bright> Upon falling below @ManaHPThreshold@ max Health the first time each combat, gain 100 mana.\r\\n\r\\n<Bright>Active:</Bright> Wind up a big punch, rapidly healing for @HealthCalc1@  before dealing @PhysicalDamageCalc1@  physical damage in a large cone.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Ahri",
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_centered_27.png",
+      "spell": {
+        "name": "Spirit Bomb",
+        "desc": "Launch a spirit bomb at the location within @AbilityCenterHexRange@ hexes that has the most surrounding enemies. It deals @MagicDamageCalc1@  magic damage to enemies in a @HexRadius@ hex radius, reduced by @HexPercentDamageFalloffTooltip@ per hex away from the epicenter.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Ashe",
+      "name": "Ashe",
+      "cost": 5,
+      "traits": [
+        "Blossom",
+        "Hunter"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_centered_76.png",
+      "spell": {
+        "name": "Spirit Rift",
+        "desc": "Fire an arrow through the most enemies in a line that deals @PhysicalDamageCalc1@  physical damage, reduced by @DamageFalloffPerEnemy@ per enemy hit (minimum @MinDamagePercent@). If no enemies are hit refund @ManaRefund@ of mana spent.\r\\n\r\\nThe arrow leaves a trail for @RiftDuration@ seconds that deals @PhysicalDamageCalc2@  + @MaxHealthDamagePerSecond@ max Health physical damage per second to enemies within and @ChillPercent@% <Keyword>Slows</Keyword> them.\r\\n\r\\n<Rules>Slow: Reduce Attack Speed</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Elise",
+      "name": "Elise",
+      "cost": 2,
+      "traits": [
+        "Coven",
+        "Vanguard"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_centered_24.png",
+      "spell": {
+        "name": "Spider Queen",
+        "desc": "Transform into a spider and gain @SpiderHealthBuff@ max Health. Attacks while in Spider Form deal @MagicDamageCalc1@  bonus magic damage and heal for @HealthCalc1@ . Subsequent casts grant @DecayingAS@ decaying Attack Speed for @ASBuffDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 2,
+      "traits": [
+        "Coven",
+        "Hunter"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_centered_30.png",
+      "spell": {
+        "name": "Headshot",
+        "desc": "<Bright>Passive:</Bright> Every third attack is replaced with a Headshot that deals @PhysicalDamageCalc1@  physical damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Cassiopeia",
+      "name": "Cassiopeia",
+      "cost": 3,
+      "traits": [
+        "Coven",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_centered_18.png",
+      "spell": {
+        "name": "Noxious Blast",
+        "desc": "Poison the target and the nearest non-poisoned enemy, dealing @MagicDamageCalc1@  magic damage over @Duration@ seconds. Poisons stack.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Morgana",
+      "name": "Morgana",
+      "cost": 4,
+      "traits": [
+        "Coven",
+        "Invoker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_centered_26.png",
+      "spell": {
+        "name": "Withering Curse",
+        "desc": "<bright>Passive:</bright> Gain @Omnivamp@ Omnivamp.\r\\n\r\\n<bright>Active:</bright> Fire a dark blast at @NumEnemiesCursed@ nearby enemies, dealing @MagicDamageCalc1@  magic damage to them and cursing them for @SpellDuration@ seconds. Then, spawn a @HexRangeAOE@ Hex withering zone for the same duration that deals @MagicDamageCalc2@  magic damage per second. Cursed enemies take @MagicDamageCalc3@  more damage per curse.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Rakan",
+      "name": "Rakan",
+      "cost": 1,
+      "traits": [
+        "Fae",
+        "Juggernaut",
+        "Vanguard"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_centered_9.png",
+      "spell": {
+        "name": "Entrancing Dance",
+        "desc": "Gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds. Then grant the ally who has dealt the most damage this combat @AttackSpeedCalc1@  decaying Attack Speed for @AttackSpeedDuration@ seconds. ",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lillia",
+      "name": "Lillia",
+      "cost": 4,
+      "traits": [
+        "Fae",
+        "Defender"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_centered_28.png",
+      "spell": {
+        "name": "Lilting Lullaby",
+        "desc": "Restore @HealthCalc1@  Health and send @NumEnemiesToFireAt@ butterflies at nearby enemies. Enemies hit take @MagicDamageCalc1@  magic damage and Sleep for @SleepDuration@ seconds. If they take @DamageNeededToAwaken@ damage, they wake up and take an additional @WakeupDamage@ max Health magic damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Kobuko",
+      "name": "Kobuko",
+      "cost": 1,
+      "traits": [
+        "Sprykin",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{7ae9d8870aed1489}.png",
+      "spell": {
+        "name": "Dance of Life",
+        "desc": "Restore @HealthCalc1@  Health over @Duration@ seconds. The next attack is replaced with a bash that deals @MagicDamageCalc1@  magic damage.",
+        "variables": {
+          "PermanentHealthPerInterest": [
+            30.0,
+            10.0,
+            12.0,
+            20.0,
+            30.0,
+            30.0,
+            30.0
+          ],
+          "Duration": [
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0,
+            2.0
+          ],
+          "Heal": [
+            60.0,
+            350.0,
+            400.0,
+            475.0,
+            100.0,
+            110.0,
+            120.0
+          ],
+          "DamageHPPercent": [
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448,
+            0.15000000596046448
+          ],
+          "HRHealthPerRound": [
+            15.0,
+            60.0,
+            80.0,
+            200.0,
+            15.0,
+            15.0,
+            15.0
+          ]
+        }
+      }
+    },
+    {
+      "apiName": "DA_18_Teemo",
+      "name": "Teemo",
+      "cost": 2,
+      "traits": [
+        "Sprykin",
+        "Invoker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{9d832f70c923aaf6}.png",
+      "spell": {
+        "name": "Fungus Among Us",
+        "desc": "Throw 2 clusters of mushrooms that deal @MagicDamageCalc1@  magic damage to the @NumEnemiesHit@ nearest enemies. Then hurl a giant mushroom that deals @MagicDamageCalc2@  magic damage to the target.\r\\n\r\\nEach cast has a @PercentChanceOfForage@ chance to forage an extra mushroom that can be collected for bonus effects.\r\\n\r\\n<bright>Red:</bright> @RedRerolls@ Reroll  <Rules>(Reds Foraged: </Rules>@Stack@<Rules>)</Rules>\r\\n<bright>Green:</bright> @GreenHealth@ Tactician Health <Rules>(Greens Foraged:</Rules> @GenericCalc1@<Rules>)</Rules>\r\\n<bright>Yellow:</bright> @YellowXP@ XP <Rules>(Yellows Foraged:</Rules> @GenericCalc2@<Rules>)</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Rammus",
+      "name": "Rammus",
+      "cost": 3,
+      "traits": [
+        "Sprykin",
+        "Defender"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_centered_26.png",
+      "spell": {
+        "name": "Defensive Ball Curl",
+        "desc": "Taunt, forcing enemies to attack this champion. For @Duration@ seconds, gain @ShieldCalc1@  Shield and @ArmorMR@ Armor and Magic Resist.\r\\n\r\\nWhen the Shield breaks, deal @PhysicalDamageCalc1@  physical damage to enemies in @DamageHexRange@ Hexes.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_GnarSmall",
+      "name": "Gnar",
+      "cost": 5,
+      "traits": [
+        "Elderwood",
+        "Sprykin",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_centered_0.png",
+      "spell": {
+        "name": "Rage Gene",
+        "desc": "<Bright>Passive:</Bright> Gain @RagePerSecond@ Rage per second and @RagePerAttack@ Rage per attack. \r\\n\r\\n<Bright>Active:</Bright> Transform into Mega Gnar and leap into the largest group of enemies within @TransformSearchRadius@ hexes. Then, deal @PhysicalDamageCalc3@  physical damage to enemies within @TransformHexRadius@ hexes, reduce their Armor and Magic Resist by @GenericCalc1@ , and Stun them for @StunDuration@ second. Mega Gnar gains @HealthCalc1@ Health, and replaces his Ability with Grab n' Throw.\r\\n\r\\n<Bright>Grab n' Throw:</Bright> Throw the target at the farthest enemy, dealing @PhysicalDamageCalc1@  physical damage to them and @PhysicalDamageCalc2@  physical damage to enemies they pass through. If there's only 1 enemy left, throw them off the battlefield instead.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Tristana",
+      "name": "Tristana",
+      "cost": 3,
+      "traits": [
+        "Fae",
+        "Sprykin",
+        "Hunter"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_centered_61.png",
+      "spell": {
+        "name": "Explosive Charge",
+        "desc": "Attach an explosive charge to the target that lasts @Duration@ seconds. While active, gain infinite range and @AttackSpeedCalc1@  Attack Speed. After the duration, the charge explodes and splits damage between all enemies within 2 hexes, dealing @PhysicalDamageCalc1@  physical damage + @PhysicalDamageCalc2@  for each attack while casting.\r\\n\r\\n<Rules>If an enemy with an explosive charge on them dies, it attaches to Tristana's new target.</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Sivir",
+      "name": "Sivir",
+      "cost": 4,
+      "traits": [
+        "Primal",
+        "Hunter"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_centered_61.png",
+      "spell": {
+        "name": "Boomerang Blade",
+        "desc": "Throw a large crossblade that deals @PhysicalDamageCalc1@  physical damage to the current target and bounces @NumBounces@ times between nearby enemies, dealing @PhysicalDamageCalc2@  physical damage each bounce. When this kills an enemy, bounce @BonusKillBounces@ additional times.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Vi18",
+      "name": "Vi",
+      "cost": 3,
+      "traits": [
+        "Primal",
+        "Juggernaut"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_centered_39.png",
+      "spell": {
+        "name": "Furious Fists",
+        "desc": "<bright>Passive:</bright> On attack, restore @HealthCalc1@  Health.\r\\n\r\\n<bright>Active:</bright> Unleash a primal roar, restoring @HealthCalc3@  Health. Then gain @SpellAS@ Attack Speed, @SpellDurability@ Durability, and is unstoppable for @SpellDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Akali_AD",
+      "name": "Akali",
+      "cost": 1,
+      "traits": [
+        "Inferno",
+        "Adaptor",
+        "Ravager"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_centered_2.png",
+      "spell": {
+        "name": "Kunai Strike",
+        "desc": "<Bright>Adaptor </Bright><Bright>:</Bright> Throw a volley of kunai at the target, dealing @PhysicalDamageCalc1@  physical damage. If the target is <keyword>Burning</keyword>, deal an additional @PhysicalDamageCalc2@  damage.\r\\n\r\\n<dim>Adaptor </dim><dim>: If the Ability kills, cast it again.</dim>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Varus",
+      "name": "Varus",
+      "cost": 1,
+      "traits": [
+        "Inferno",
+        "Rapidfire"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_centered_9.png",
+      "spell": {
+        "name": "Piercing Arrow",
+        "desc": "Wind up, then fire an arrow at the most enemies in line with the target. It deals @PhysicalDamageCalc1@  physical damage to enemies hit, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinDamagePercent@).",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Amumu18",
+      "name": "Amumu",
+      "cost": 4,
+      "traits": [
+        "Inferno",
+        "Juggernaut"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_centered_17.png",
+      "spell": {
+        "name": "Tantrum",
+        "desc": "<Bright>Passive:</Bright> Every second, restore @HealthCalc1@  Health and deal @MagicDamageCalc1@  magic damage to enemies within @PassiveHexRadius@ hex.\r\\n\r\\n<Bright>Active:</Bright> Deal @MagicDamageCalc3@  magic damage to enemies within @BigHexRadius@ hexes and Stun them for @StunDuration@ seconds, increased to @GenericCalc1@ seconds if the target is <Keyword>Burning</Keyword>.\r\\n\r\\n<Rules>Burn: Deals a percent of the target's max Health as true damage every second.</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Kennen",
+      "name": "Kennen",
+      "cost": 5,
+      "traits": [
+        "Inferno",
+        "Executioner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_centered_8.png",
+      "spell": {
+        "name": "Firestorm",
+        "desc": "Charge up, gaining @APPerBurningEnemy@ Ability Power per <Keyword>Burning</Keyword> enemy. Then, gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds and rush through a nearby group of enemies, dealing @MagicDamageCalc1@  magic damage to each. \r\\n\r\\nAfter rushing, unleash a @FirestormHexRadius@ Hex firestorm that deals a total of @MagicDamageCalc2@  magic damage split among all enemies hit over @FirestormDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Aphelios",
+      "name": "Aphelios",
+      "cost": 4,
+      "traits": [
+        "Lunar",
+        "Rapidfire"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_centered_0.png",
+      "spell": {
+        "name": "Moonlight's Onslaught",
+        "desc": "Equip Severum and swipe the target @GenericCalc1@  times over @Duration@ seconds, each dealing @PhysicalDamageCalc1@  physical damage. \r\\n\r\\nAfter the onslaught finishes, fire a blast that deals @PhysicalDamageCalc2@  physical damage split among all enemies in a 2 Hex radius.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Diana",
+      "name": "Diana",
+      "cost": 3,
+      "traits": [
+        "Lunar",
+        "Ravager",
+        "Vanguard"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_centered_0.png",
+      "spell": {
+        "name": "Pale Barrier",
+        "desc": "Gain @ShieldCalc1@ shield for @ShieldDuration@ seconds and send out @NumOrbs@ moonlight orbs spread among enemies within 2 hexes, each dealing @MagicDamageCalc1@  magic damage. ",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Alune",
+      "name": "Alune",
+      "cost": 5,
+      "traits": [
+        "Attuned",
+        "Lunar",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{8dc562676f27747d}.png",
+      "spell": {
+        "name": "Moonfall",
+        "desc": "Rain @NumMoonshards@ moonshards split among the @NumEnemies@ nearest enemies, dealing @MagicDamageCalc1@  magic damage each.\r\\n\r\\nIf the moon is full, instead crash it onto the board, dealing @MagicDamageCalc2@  magic damage split among all enemies.",
+        "variables": {
+          "MagicDamage": [
+            0.0,
+            380.0,
+            570.0,
+            900.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ShredDuration": [
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0,
+            6.0
+          ],
+          "ShredPercent": [
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0,
+            20.0
+          ],
+          "PrimaryMagicDamage": [
+            0.0,
+            160.0,
+            240.0,
+            380.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "AttackSpeed": [
+            0.4000000059604645,
+            0.20000000298023224,
+            0.25,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645
+          ],
+          "AttackSpeedDuration": [
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "apiName": "DA_18_Leona",
+      "name": "Leona",
+      "cost": 1,
+      "traits": [
+        "Solar",
+        "Defender"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_centered_10.png",
+      "spell": {
+        "name": "Shield Bash",
+        "desc": "<Bright>Passive:</Bright> Start combat with @GenericCalc1@  bonus Armor and Magic Resist that decays over @DecayDuration@ seconds.\r\\n\r\\n<Bright>Active:</Bright> Bash the current target, dealing @MagicDamageCalc1@  magic damage and Stunning them for @StunDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Kayle",
+      "name": "Kayle",
+      "cost": 2,
+      "traits": [
+        "Solar",
+        "Rapidfire"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_centered_42.png",
+      "spell": {
+        "name": "Solar Judgement",
+        "desc": "<Bright>Passive:</Bright> Kayle ascends based on her star level, granting her stacking bonuses. \r\\n\r\\n<Bright>1st Ascension:</Bright> Attacks deal @MagicDamageCalc1@  bonus magic damage.\r\\n<Bright>2nd Ascension:</Bright> Attacks @ShredLevel@% <Keyword>Shred</Keyword> enemies hit for @ShredDuration@ seconds. \r\\n<Bright>3rd Ascension:</Bright> Attacks fire waves, dealing @MagicDamageCalc2@  magic damage to all other units hit.\r\\n<Bright>4th Ascension:</Bright> Gain infinite range. Every @NumAttacksForBigWave4Star@rd wave is much larger.\r\\n\r\\n<Rules>Shred: Reduce Magic Resist</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Sejuani",
+      "name": "Sejuani",
+      "cost": 2,
+      "traits": [
+        "Solar",
+        "Juggernaut"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_centered_26.png",
+      "spell": {
+        "name": "Sun's Wrath",
+        "desc": "Gain @ShieldCalc1@  Shield for @ShieldDuration@ seconds. Then cleave in a cone, dealing @MagicDamageCalc1@  magic damage and strike in a line, dealing @MagicDamageCalc2@  magic damage to enemies hit.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_KhaZix",
+      "name": "Kha'Zix",
+      "cost": 3,
+      "traits": [
+        "Rival"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_centered_0.png",
+      "spell": {
+        "name": "Taste Their Fear",
+        "desc": "Leap to the farthest enemy within @LeapRangeHexes@ Hexes, dealing @MagicDamageCalc1@  magic damage. If they have no adjacent allies, deal @MagicDamageCalc2@  magic damage instead and gain @IsolateManaGrant@ mana.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Rengar",
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "Rival"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_centered_0.png",
+      "spell": {
+        "name": "Savagery",
+        "desc": "Jump to the lowest percent Health enemy within @JumpHexRange@ hexes and stab them, dealing @PhysicalDamageCalc1@  physical damage. Then heal for @HealthCalc1@ , increased to up to @HealthCalc2@  based on their missing Health.{Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_KogMaw18_AD",
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": [
+        "Caustic",
+        "Adaptor",
+        "Invoker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_centered_3.png",
+      "spell": {
+        "name": "Raining Artillery",
+        "desc": "<Bright>Adaptor</Bright> <Bright>:</Bright> Launch acid at the target and the other nearest enemy, dealing @PhysicalDamageCalc1@  physical damage. Enemies below @ADBonusDamageThreshold@ max Health take @PhysicalDamageCalc2@  physical damage instead.\r\\n\r\\n<dim>Adaptor</dim><dim>: Damages enemies over time.</dim>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Zyra",
+      "name": "Zyra",
+      "cost": 4,
+      "traits": [
+        "Thornmaiden",
+        "Summoner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_centered_0.png",
+      "spell": {
+        "name": "Rampant Growth",
+        "desc": "Spawn @NumPlantsToSpawn@ plants around the battlefield that attack the nearest enemy @ThornSpitterNumAttacks@ times. Each attack deals @MagicDamageCalc1@  magic damage. ",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Fiddlesticks18",
+      "name": "Fiddlesticks",
+      "cost": 3,
+      "traits": [
+        "Flora Fatalis",
+        "Defender",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_centered_46.png",
+      "spell": {
+        "name": "Harvest",
+        "desc": "Reduce the Magic Resist of the @NumTargets@ nearest enemies by @MRReduction@. Then drain life from them over @CastDuration@ seconds, healing for @HealthCalc1@  Health and dealing @MagicDamageCalc1@  magic damage to each over the duration.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Soraka",
+      "name": "Soraka",
+      "cost": 4,
+      "traits": [
+        "Flora Fatalis",
+        "Executioner"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_centered_53.png",
+      "spell": {
+        "name": "Starcall",
+        "desc": "Call down a star on the current target, dealing @MagicDamageCalc1@  magic damage. If a star has previously fallen on them, call down @NumAdditionalStars@ additional stars that each deal @MagicDamageCalc2@  magic damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Taric18",
+      "name": "Taric",
+      "cost": 5,
+      "traits": [
+        "Emerald Aspect",
+        "Vanguard"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_centered_1.png",
+      "spell": {
+        "name": "Emerald Radiance",
+        "desc": "<Bright>Passive:</Bright> The first time Taric or his paired ally drops below @PassivePercentHealthThreshold@ Health, unleash emerald energy from both of them, granting @ShieldCalc1@  Shield to allies within @PassiveHexRadius@ Hexes for @PassiveShieldDuration@ seconds.\r\\n\r\\n<Bright>Active:</Bright> Restore @HealthCalc1@  Health. Taric and his paired ally deal @MagicDamageCalc1@  bonus magic damage on their next @NumAttacks@ attacks.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Ivern",
+      "name": "Ivern",
+      "cost": 5,
+      "traits": [
+        "Greenfather"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_centered_0.png",
+      "spell": {
+        "name": "Triggerseed",
+        "desc": "<bright>Passive:</bright> Shields from this Ability can critically strike with <Keyword>Precision</Keyword>. \r\\n\r\\n<bright>Active:</bright> Grant @NumAlliesToShield@ allies @ShieldCalc1@  Shield and @DamageAmpAmount@ Damage Amp for @ShieldDuration@ seconds. Then deal @MagicDamageCalc1@  magic damage to enemies adjacent to them. After casting @CastThreshold@ times, also grant @AttackSpeed@ stacking Attack Speed to targets. ",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Lux18_Base",
+      "name": "Lux",
+      "cost": 5,
+      "traits": [
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the largest group of enemies that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Alistar",
+      "name": "Alistar",
+      "cost": 2,
+      "traits": [
+        "Elderwood",
+        "Brawler"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_centered_40.png",
+      "spell": {
+        "name": "Triumphant Roar",
+        "desc": "Roar, restoring @HealthCalc1@  Health, cleansing disables, and healing the two lowest percent Health allies for @HealthCalc2@ . Then slam the current target, dealing @MagicDamageCalc1@  magic damage and Stunning them for @StunDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Draven18",
+      "name": "Draven",
+      "cost": 5,
+      "traits": [
+        "Bounty Seeker"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_centered_5.png",
+      "spell": {
+        "name": "Whirling Death",
+        "desc": "<bright>Passive:</bright> Attacks target random enemies in range and apply a bleed that deals @PhysicalDamageCalc1@  physical damage over @BleedDuration@ seconds. Every attack has a @GenericCalc1@  chance to deal @SpinningAxeDamageRatio@ bonus physical damage and apply @SpinningAxeBleedStacks@ bleeds instead.\r\\n\r\\n<bright>Active:</bright> Throw two giant axes towards the enemy with the most bleeds. Deal @PhysicalDamageCalc3@  physical damage to enemies hit and consume their bleed, instantly dealing the remaining damage. The axes then return, dealing @GenericCalc2@  physical damage to enemies hit. If no enemies are hit refund @ManaRefund@ of mana spent.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_ElderDragon",
+      "name": "Elder Dragon",
+      "cost": 5,
+      "traits": [
+        "Apex Predator",
+        "Riftbeast"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{1ae0a111a91a05ab}.png",
+      "spell": {
+        "name": "Heat Without Equal",
+        "desc": "<Bright>Passive:</Bright> Attacks deal @AttackAoERatio@ damage to enemies adjacent to the target.\r\\n\r\\n<Bright>Active:</Bright> Become invulnerable and fly into the air. On return, stun all enemies for @StunDuration@ seconds, gain @Omnivamp@ Omnivamp, and Ignite them for @IgniteDuration@ seconds.  Ignited enemies take @IgniteMaxHealthDamage@ max Health physical damage per second. Replace this ability with Flame Breath and immediately cast it.\r\\n\r\\n<Bright>Flame Breath:</Bright>  Spew fire at the most enemies in a line through the target, dealing @PhysicalDamageCalc2@  physical damage, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinimumDamageThreshold@.) Ignite those enemies for @IgniteDuration@ seconds.\r\\n\r\\nElder Dragon Buff: Damaging an enemy below @TraitExecuteThreshold@ Health executes them.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Karma18",
+      "name": "Karma",
+      "cost": 1,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_centered_70.png",
+      "spell": {
+        "name": "Karmic Bond",
+        "desc": "Tether the current target, dealing @MagicDamageCalc1@  magic damage over @TetherDuration@ seconds. Then release a burst of power around them, dealing @MagicDamageCalc2@  magic damage to all enemies in a @AoEHexRange@ Hex radius and @SlowPercent@% <keyword>Slowing</keyword> them for @SlowDuration@ seconds.\r\\n\r\\n<Rules>Slow: Reduce Attack Speed</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_LeBlanc",
+      "name": "LeBlanc",
+      "cost": 2,
+      "traits": [
+        "Elderwood",
+        "Spellweaver"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_centered_5.png",
+      "spell": {
+        "name": "Mirror Image",
+        "desc": "<bright>Passive:</bright> After player combat, your strongest LeBlanc has a @PercentChanceToPrint@ chance to create a copy of an ally on your board, increased by @PercentChanceToPrintKillBonus@ per takedown.\r\\n\r\\n<bright>Active:</bright> Launch a mirror image at the current target, dealing @MagicDamageCalc1@  magic damage and @MagicDamageCalc2@  to adjacent enemies.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_MasterYi_AD",
+      "name": "Master Yi",
+      "cost": 3,
+      "traits": [
+        "Blossom",
+        "Adaptor"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_centered_52.png",
+      "spell": {
+        "name": "Wuju Style",
+        "desc": "<Bright>Passive:</Bright> Every third attack is a Double Strike. On takedown, gain a burst of movement speed.\r\\n\r\\n<Bright>Adaptor </Bright>: Double Strikes grant @AttackSpeedCalc1@  stacking Attack Speed.\r\\n\r\\n<dim>Adaptor </dim><dim>: Double Strikes deal bonus damage and heal.</dim>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Shen",
+      "name": "Shen",
+      "cost": 2,
+      "traits": [
+        "Inferno",
+        "Defender"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_centered_16.png",
+      "spell": {
+        "name": "Ki Barrier",
+        "desc": "Grant @ShieldCalc1@  Shield to Shen and @ShieldCalc2@  Shield to a nearby damaged ally for @MagicShieldDuration@ seconds. Both of their next @NumAttacksBuff@ attacks gain @AttackSpeedBuff@ Attack Speed and deal @MagicDamageCalc1@  bonus magic damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Warwick",
+      "name": "Warwick",
+      "cost": 2,
+      "traits": [
+        "Blackthorn",
+        "Ravager"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_centered_35.png",
+      "spell": {
+        "name": "Jaws of The Beast",
+        "desc": "Bite the current target, dealing @PhysicalDamageCalc1@  physical damage and healing for @GenericCalc1@  of the damage dealt. Gain @AttackSpeedBuff@ Attack Speed for the rest of combat.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Camille",
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "Coven",
+        "Ravager"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_centered_2.png",
+      "spell": {
+        "name": "Defensive Sweep",
+        "desc": "Slice the target for @PhysicalDamageCalc1@  physical damage and gain @AbilityShield@ Shield for @ShieldDuration@ seconds.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Lux18_Blackthorn",
+      "name": "Lux (Blackthorn)",
+      "cost": 5,
+      "traits": [
+        "Blackthorn",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Blackthorn Bonus:</bright> Stuns targets hit for @BlackthornStunDuration@ second.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_Lux18_Blossom",
+      "name": "Lux (Blossom)",
+      "cost": 5,
+      "traits": [
+        "Blossom",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Blossom Bonus:</bright> The first target hit is dealt @BlossomBonusDamageRatio@ bonus damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Coven",
+      "name": "Lux (Coven)",
+      "cost": 5,
+      "traits": [
+        "Coven",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Coven Bonus:</bright> Reduces the Armor and Magic Resist of targets hit by @CovenResistReduction@ for the rest of combat.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Elderwood",
+      "name": "Lux (Elderwood)",
+      "cost": 5,
+      "traits": [
+        "Elderwood",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Elderwood Bonus:</bright> Casts grant all allies @ElderwoodHealthIncrease@ increased max Health for the rest of combat.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Fae",
+      "name": "Lux (Fae)",
+      "cost": 5,
+      "traits": [
+        "Fae",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Fae Bonus:</bright> Heals the lowest percent Health ally for @FaeHealRatio@ of ability damage dealt.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Inferno",
+      "name": "Lux (Inferno)",
+      "cost": 5,
+      "traits": [
+        "Inferno",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Inferno Bonus:</bright> Restores @InfernoManaRestore@ mana per takedown.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Moonbeam",
+      "name": "Lux (Lunar)",
+      "cost": 5,
+      "traits": [
+        "Lunar",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Lunar Bonus:</bright> Applies @LunarVulnerablePercent@% <Keyword>Vulnerable</Keyword> to enemies hit for @LunarVulnerableDuration@ seconds.\r\\n\r\\n<Rules>Vulnerable: Increases damage taken</Rules>",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Primal",
+      "name": "Lux (Primal)",
+      "cost": 5,
+      "traits": [
+        "Primal",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Primal Bonus:</bright> Gain @PrimalAttackSpeed@ Attack Speed for @PrimalASDuration@ seconds after cast.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_18_Lux_Sunbeam",
+      "name": "Lux (Solar)",
+      "cost": 5,
+      "traits": [
+        "Solar",
+        "Avatar"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_centered_7.png",
+      "spell": {
+        "name": "Final Spark",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@  mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@  magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Solar Bonus:</bright> Deal @SolarBonusDamageRatio@ bonus damage. For each unique 3-star champion fielded, deal an additional @SolarBonusDamagePer3StarRadio@ bonus damage.",
+        "variables": {}
+      }
+    },
+    {
+      "apiName": "DA_CrimsonRaptor18",
+      "name": "Mama Beak",
+      "cost": 3,
+      "traits": [
+        "Riftbeast",
+        "Summoner",
+        "Rapidfire"
+      ],
+      "icon": "https://raw.communitydragon.org/latest/game/{e81b0dca177b4dbf}.png",
+      "spell": {
+        "name": "Flock Family",
+        "desc": "Summon 4 untargetable Tiny Beaks nearby for @GenericCalc1@  seconds. Whenever Mama Beak attacks, Tiny Beaks attack the same enemy, dealing @PhysicalDamageCalc1@  physical damage.\r\\n\r\\nOrange Buff: Dealing physical damage reduces enemy Armor by @ArmorReduc@.",
+        "variables": {}
+      }
+    }
+  ],
+  "traits": [
+    {
+      "apiName": "DA_18_Elderwood",
+      "name": "Elderwood",
+      "desc": "Gain placeable Elderwood plants. (@MinUnits@) A Stonebark Tree and a Lifebloom (@MinUnits@) A second Stonebark Tree and Stonebark Trees gain @StonebarkTreeBonusHealth@ Health (@MinUnits@) and the Deepwood Protector (@MinUnits@) Plants star up to 2-star (@MinUnits@) Plants star up to 3-star and the forest comes to life"
+    },
+    {
+      "apiName": "DA_18_LuxUniqueTrait",
+      "name": "Avatar",
+      "desc": "Having an Avatar on your bench or board transforms all other Avatars in your shop to the Trait of that Avatar. An Avatar's chosen Trait is counted twice for Trait bonuses."
+    },
+    {
+      "apiName": "DA_18_Slayer",
+      "name": "Ravager",
+      "desc": "Ravagers gain @Omnivamp*100@% Omnivamp. Additionally, Ravagers deal bonus damage, doubled against units below @EnemyHealthThreshold*100@% Health. (@MinUnits@) @BonusDamagePercentBase*100@% Bonus Damage (@MinUnits@) @BonusDamagePercentBase*100@% Bonus Damage (@MinUnits@) @BonusDamagePercentBase*100@% Bonus Damage"
+    },
+    {
+      "apiName": "DA_DravenUniqueTrait18",
+      "name": "Bounty Seeker",
+      "desc": "Choose a bounty. Your strongest Draven can progress on the bounty to earn its reward. Upon completing a bounty, choose another."
+    },
+    {
+      "apiName": "DA_18_Solar",
+      "name": "Solar",
+      "desc": "(@MinUnits@) Your champions gain a @ShieldRatio*100@% max Health shield and deal @BonusMagicDamage*100@% bonus magic damage. Gain additional bonuses for each unique 3-star champion: 1 : Increase shield and magic damage by @PercentIncreasePer3Star*100@% for each 3-star. @NumThreeStarThreshold1@ : @Threshold1AttackSpeed*100@% and @Threshold1ArmorMagicResist@ @NumThreeStarThreshold2@ : Convert @Threshold2TrueDamageConversion*100@% of the bonus magic damage to true damage. @NumThreeStarThreshold3@ : Every @Threshold3StarUpPeriod@ seconds of combat, a 3-star champion ascends to 4-star."
+    },
+    {
+      "apiName": "DA_18_Sprykin",
+      "name": "Sprykin",
+      "desc": "Gain the Big Furry Friend. Drop a Sprykin on the BFF to pick its Rider. (@MinUnits@) The Rider gains @HealthIncrease*100@% and @AttackSpeedIncrease*100@% (@MinUnits@) @HealthIncrease*100@% @AttackSpeedIncrease*100@% , and @TeamwideRatio*100@% of the BFF's Ability applies to your Sprykin champions. (@MinUnits@) @HealthIncrease*100@% @AttackSpeedIncrease*100@% , and @TeamwideRatio*100@% of the BFF's Ability applies to your Sprykin champions."
+    },
+    {
+      "apiName": "DA_18_Adaptor",
+      "name": "Adaptor",
+      "desc": "Innate: Adaptor abilities change depending on if their Attack Damage or Ability Power is higher. Adaptors gain Ability Power or Attack Damage, depending on which is higher. (@MinUnits@) @ADAPGain*100@% OR (@MinUnits@) @ADAPGain*100@% OR (@MinUnits@) @ADAPGain*100@% OR"
+    },
+    {
+      "apiName": "DA_18_Coven",
+      "name": "Coven",
+      "desc": "Gather Essence by killing champions, plus more by losing player combat. Beginning at @EssenceForRitualTooltip@ Essence, choose to convert Essence to rewards or continue gathering Essence. Each reward requires increasing amounts of Essence. (@MinUnits@) @EssencePerDeath@ Essence per kill, @EssencePerLoss@ Essence per loss (@MinUnits@) @EssencePerDeath@ per kill, @EssencePerLoss@ per loss (@MinUnits@) @EssencePerDeath@ per kill, @EssencePerLoss@ per loss (@MinUnits@) @EssencePerDeath@ per kill, @EssencePerLoss@ per loss"
+    },
+    {
+      "apiName": "DA_18_Eclipse",
+      "name": "Eclipse",
+      "desc": "After @DelaySeconds@ seconds of combat, the Eclipse kills the lowest Health enemy, repeating every @EclipseBeamPeriod@ seconds."
+    },
+    {
+      "apiName": "DA_18_Hunter",
+      "name": "Hunter",
+      "desc": "Hunters gain Attack Damage. If a Hunter hasn't swapped targets for @HunterDuration@ seconds, they gain @DamageAmp*100@% Damage Amp. (@MinUnits@) @HunterAD*100@% (@MinUnits@) @HunterAD*100@% (@MinUnits@) @HunterAD*100@% (@MinUnits@) @HunterAD*100@%"
+    },
+    {
+      "apiName": "DA_18_Maokai_UniqueTrait",
+      "name": "Old Growth",
+      "desc": "Whenever an enemy within @UniqueTraitHexRange@ hexes dies, your strongest Old Growth champion gains @UniqueTraitHealthPerStack@ permanent max Health. Current: 0"
+    },
+    {
+      "apiName": "DA_18_Battlemage",
+      "name": "Monolith",
+      "desc": "Monoliths gain @Resists@ Armor and Magic Resist for each enemy targeting them."
+    },
+    {
+      "apiName": "DA_Primal18",
+      "name": "Primal",
+      "desc": "Choose one of four Primal Blessings. (@MinUnits@) (@MinUnits@)"
+    },
+    {
+      "apiName": "DA_18_Greenfather",
+      "name": "Greenfather",
+      "desc": "Gain @SeedsPerCast@ seed when your strongest Ivern casts, plus @CombatStartSeeds@ every combat. Ivern uses @SeedsToGrowHex@ seeds to grow a hex on your board that grants a bonus to its occupant. Seeds: 0 / @SeedsToGrowHex@ Current Biome:"
+    },
+    {
+      "apiName": "DA_18_Invoker",
+      "name": "Invoker",
+      "desc": "Your team gains Mana Regen, increased for Invokers. (@MinUnits@) @TeamManaRegen@ | @InvokerManaBonus@ (@MinUnits@) @TeamManaRegen@ | @InvokerManaBonus@ (@MinUnits@) @TeamManaRegen@ | @InvokerManaBonus@ (@MinUnits@) @TeamManaRegen@ | @InvokerManaBonus@"
+    },
+    {
+      "apiName": "DA_18_Rapidfire",
+      "name": "Rapidfire",
+      "desc": "Your team gains @TeamAS*100@% Attack Speed. Rapidfire champions gain more on every attack, up to @MaxStacks@ stacks. (@MinUnits@) +@ASPerAttack*100@% per Attack (@MinUnits@) +@ASPerAttack*100@% per Attack (@MinUnits@) +@ASPerAttack*100@% per Attack (@MinUnits@) +@ASPerAttack*100@% per Attack"
+    },
+    {
+      "apiName": "DA_Juggernaut18",
+      "name": "Juggernaut",
+      "desc": "Your team gains Durability. Juggernauts gain more. (@MinUnits@) @TeamDurability*100@% or @JuggernautDurability*100@% (@MinUnits@) @TeamDurability*100@% or @JuggernautDurability*100@% (@MinUnits@) @TeamDurability*100@% or @JuggernautDurability*100@%"
+    },
+    {
+      "apiName": "DA_18_Inferno",
+      "name": "Inferno",
+      "desc": "Inferno damage Burns and Wounds enemies for @Duration@ seconds. Inferno Burns stack with other Burns. (@MinUnits@) @HPBurnPerSecond@% Burn, @WoundPercent@% Wound (@MinUnits@) After combat, @LuckySlotCount@ of your shop slots without an Inferno champion ignites, rolling a champion one tier higher (@MinUnits@) Ignite @LuckySlotCount@ shop slots, @HPBurnPerSecond@% Burn (@MinUnits@) Ignite @LuckySlotCount@ shop slots, @HPBurnPerSecond@% Burn"
+    },
+    {
+      "apiName": "DA_AluneUniqueTrait18",
+      "name": "Attuned",
+      "desc": "Your strongest Alune cycles to a new phase of the moon after each cast. While the moon is at or below half full, your team gains @Durability*100@% Durabilty. While above, your team gains @DamageAmp*100@% Damage Amp."
+    },
+    {
+      "apiName": "DA_18_Rival",
+      "name": "Rival",
+      "desc": "(@MinUnits@) Only active while fielding 1 Rival. Rivals collect takedowns, gaining 3 if they takedown another Rival. (@MinUnits@) Rivals collect takedowns, gaining 3 if they takedown another Rival. Takedowns evolve Kha'Zix, permanently granting him your choice of Executioner, Rapidfire, Ravager, or Spellweaver. Rengar grants @RengarGold@/@RengarGold_2@/@RengarGold_3@ gold every @RengarStackReq@ takedowns. After @RengarADStackReq@ takedowns, your team gains @RengarThresholdAD*100@% Attack Damage plus @RengarADPerStack*100@% per additional takedown. Kha'Zix Takedowns: 0 / 0 Rengar Takedowns: 0 Gold Earned: 0 (@MinUnits@) Rivals can be fielded together, and their abilities grant each other bonuses."
+    },
+    {
+      "apiName": "DA_18_Vanguard",
+      "name": "Vanguard",
+      "desc": "At Combat Start and after dropping below @HealthThreshold*100@% Health, Vanguards gain a max Health Shield for @ShieldDuration@ seconds. (@MinUnits@) @MaxHealthShield*100@% max Health (@MinUnits@) @MaxHealthShield*100@% max Health (@MinUnits@) @MaxHealthShield*100@% max Health. Gain @DurabilityIncrease*100@% Durability while Shielded."
+    },
+    {
+      "apiName": "DA_18_Brawler",
+      "name": "Brawler",
+      "desc": "Your team gains @BrawlerTeamHealth@ max Health. Brawlers gain more. (@MinUnits@) @BrawlerHealthPercent*100@% (@MinUnits@) @BrawlerHealthPercent*100@% (@MinUnits@) @BrawlerHealthPercent*100@%"
+    },
+    {
+      "apiName": "DA_18_Blackthorn",
+      "name": "Blackthorn",
+      "desc": "The ally on the Blackthorn hex is sacrificed before combat, granting your champions Health. Blackthorn champions gain additional stats based on the sacrifice's Role, Star Level, and Cost. (@MinUnits@) @Health@ (@MinUnits@) @Health@ ; Bonus is @StatMultiplier*100@% stronger (@MinUnits@) @Health@ ; Bonus is @StatMultiplier*100@% stronger"
+    },
+    {
+      "apiName": "DA_18_Executioner",
+      "name": "Executioner",
+      "desc": "(@MinUnits@) Executioners gain Precision and @CritChance*100@% Critical Strike Chance. (@MinUnits@) Additionally, enemies bleed for @BonusBleedPercent*100@% bonus true damage over @BleedDuration@ seconds. (@MinUnits@) Bleed damage increased to @BonusBleedPercent*100@%."
+    },
+    {
+      "apiName": "DA_18_ApexPredator",
+      "name": "Apex Predator",
+      "desc": "Elder Dragon takes up 2 team slots and grants +2 to the Riftbeast trait."
+    },
+    {
+      "apiName": "DA_Riftbeast18",
+      "name": "Riftbeast",
+      "desc": "(@MinUnits@) Use the Alpha Mark to grant a Riftbeast their unique Buff (@MinUnits@) Every @OverrunCombats@ combats, your next shop is overrun with Riftbeasts. (@MinUnits@) On combat start and every 5 seconds Riftbeasts grow gaining @CapstoneAD*100@% @CapstoneAP*100@% @CapstoneAspd*100@% +@CapstoneArmor@ +@CapstoneMR@ +@CapstoneHealth@ +@CapstoneManaRegen@ (@MinUnits@) +@TeamSize@ maximum team size"
+    },
+    {
+      "apiName": "DA_18_Caustic",
+      "name": "Caustic",
+      "desc": "Caustic damage @ShredPercent@% Shreds and Sunders enemies for @ShredDuration@ seconds. Shred: Reduce Magic Resist Sunder: Reduce Armor"
+    },
+    {
+      "apiName": "DA_18_Fae",
+      "name": "Fae",
+      "desc": "Your team's damage, healing, and shielding attracts Pixies. Each Pixie grants Fae champions Attack Damage and Ability Power, and after they fall below @HealThreshold*100@% Health, they heal for each Pixie. (@MinUnits@) @ADAP@% and @Heal@% Heal. (@MinUnits@) @ADAP@% and @Heal@% Heal. After attracting 7 Pixies, start attracting Golden Pixies instead which grant gold."
+    },
+    {
+      "apiName": "DA_18_Lunar",
+      "name": "Lunar",
+      "desc": "Lunar champions and adjacent allies gain Attack Speed and Ability Power. Lunar champions gain @LunarMultiplier*100@% more. (@MinUnits@) @AttackSpeed*100@% , @AbilityPower*100@% (@MinUnits@) @AttackSpeed*100@% , @AbilityPower*100@% (@MinUnits@) @AttackSpeed*100@% , @AbilityPower*100@% (@MinUnits@) @AttackSpeed*100@% , @AbilityPower*100@%"
+    },
+    {
+      "apiName": "DA_18_Defender",
+      "name": "Defender",
+      "desc": "Your team gains @NonDefenderDefenseGain@ Armor and Magic Resist. Defenders gain more. (@MinUnits@) @DefenderDefenseGain@ (@MinUnits@) @DefenderDefenseGain@ (@MinUnits@) @DefenderDefenseGain@"
+    },
+    {
+      "apiName": "DA_18_Spellweaver",
+      "name": "Spellweaver",
+      "desc": "Your team gains @TeamwideAP*100@% Ability Power. Spellweavers gain more, plus extra Ability Power whenever a Spellweaver casts an Ability. (@MinUnits@) @SpellweaverAP*100@% , +@APPerCast*100@% per cast (@MinUnits@) @SpellweaverAP*100@% , +@APPerCast*100@% per cast (@MinUnits@) @SpellweaverAP*100@% , +@APPerCast*100@% per cast"
+    },
+    {
+      "apiName": "DA_18_ZyraUniqueTrait",
+      "name": "Thornmaiden",
+      "desc": "Your team gains @BaseDurability*100@% Durability, increased to @IncreasedDurability*100@% if @PlantNumThreshold@ or more Zyra plants are alive."
+    },
+    {
+      "apiName": "DA_FloraFatalis18",
+      "name": "Flora Fatalis",
+      "desc": "Flora Fatalis champions harvest enemies on takedown, gaining: (@MinUnits@) @Mana@ Mana (@MinUnits@) and grant a @PercentHeal*100@% max Health heal to the lowest Health ally."
+    },
+    {
+      "apiName": "DA_18_Summoner",
+      "name": "Summoner",
+      "desc": "Summoners empower their summons in different ways. Yorick: +@HealthMult*100@% Health Azir: +@AzirDamageMult*100@% Damage Mama Beak: +@DamageMult*100@% Damage Zyra: +@NumExtraAttacks@ Plant Attacks (@MinUnits@) Empower Summons (@MinUnits@) Improve each effect by 50%"
+    },
+    {
+      "apiName": "DA_18_Blossom",
+      "name": "Blossom",
+      "desc": "After combat, your Wisps are empowered. Blossom champions gain Attack Damage, Ability Power, and @BonusHealth*100@% max Health. (@MinUnits@) Wisps are upgraded, @ADAP*100@% (@MinUnits@) Wisps are in every shop, @ADAP*100@% (@MinUnits@) Gain @GoldPerCharmPurchased@ gold after buying a Wisp, @ADAP*100@% (@MinUnits@) You can buy 2 Wisps per round, @ADAP*100@% (@MinUnits@) Wisps overflow with power, @ADAP*100@%"
+    },
+    {
+      "apiName": "DA_Emerald18",
+      "name": "Emerald Aspect",
+      "desc": "Drag an ally onto your strongest Taric to pair them, granting the ally powerful bonuses from Taric's Ability."
+    }
+  ],
+  "augments": [
+    {
+      "apiName": "DA_FocusedFire",
+      "name": "Focused Fire",
+      "desc": "Your team gains 10% Attack Damage. Every 5 seconds, they gain X% more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/marksman_i.png"
+    },
+    {
+      "apiName": "DA_Kingslayer",
+      "name": "Kingslayer",
+      "desc": "After winning player combat, gain X gold. If they had more health than you, gain X Gold instead. Gain 1 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/kingslayer_i.png"
+    },
+    {
+      "apiName": "DA_18_RiftbeastTraitAugment",
+      "name": "Omega Riftbeast",
+      "desc": "You can now choose a second Alpha Riftbeast. Alpha Riftbeasts gain 15% max Health and 12% Attack Speed. Gain a Scuttlecrab, a Cinderling, and a Pebbles.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_Min_Max",
+      "name": "Min-Max",
+      "desc": "Gain a Golden Item Remover, 4 random components, and 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/minmax_iii.png"
+    },
+    {
+      "apiName": "DA_BoosterPack",
+      "name": "Booster Pack",
+      "desc": "Gain X gold of random champions. (At least one X-cost guaranteed!)",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+    },
+    {
+      "apiName": "DA_MakeshiftArmorI",
+      "name": "Makeshift Armor I",
+      "desc": "Champions without items equipped gain X Armor and Magic Resist.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/makeshift1.png"
+    },
+    {
+      "apiName": "DA_PartialAscension",
+      "name": "Partial Ascension",
+      "desc": "After 12 seconds of combat, your units gain 20% Damage Amp.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ascension1.png"
+    },
+    {
+      "apiName": "DA_Coronation",
+      "name": "Coronation",
+      "desc": "Gain a Tactician's Crown. Tactician's Crown, Cape, and Shield grant the holder 20% Attack Speed, 25% Attack Damage, and 30% Ability Power.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/coronation_iii.png"
+    },
+    {
+      "apiName": "DA_ShoppingSpree",
+      "name": "Shopping Spree",
+      "desc": "When you level up, gain a number of Shop refreshes equal to your level +1. Gain 6 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silver-ticket-iii.png"
+    },
+    {
+      "apiName": "DA_18_ElderwoodTraitAugment",
+      "name": "Nature's Shelter",
+      "desc": "Champions that start combat adjacent to an Elderwood plant gain 15% Attack Speed and heal 2% of their maximum Health every 2 seconds. Gain an Alistar, an Ornn, and a Xayah.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_HoldTheLine",
+      "name": "Hold the Line",
+      "desc": "Champions in your back 2 rows gain X% Ability Power and X% Attack Damage for each champion that starts combat in your front row.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/holdtheline_iii.png"
+    },
+    {
+      "apiName": "DA_GroupHugI",
+      "name": "Group Hug I",
+      "desc": "Combat start: Champions grant other adjacent champions X Armor and Magic Resist. This effect stacks.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grouphug1_i.png"
+    },
+    {
+      "apiName": "DA_TradeSector",
+      "name": "Trade Sector",
+      "desc": "Gain a Shop reroll every round. Gain 2 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade2.png"
+    },
+    {
+      "apiName": "DA_WovenMagic",
+      "name": "Woven Magic",
+      "desc": "Gain a random item component. Every 2200 Mana spent by your champions, grants an additional component (max: 0/X).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/wovenmagic_iii.png"
+    },
+    {
+      "apiName": "DA_MagicRoll",
+      "name": "Magic Roll",
+      "desc": "Roll 3 dice. Gain rewards based on their total.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/a-magical-roll-ii.png"
+    },
+    {
+      "apiName": "DA_HedgeFund",
+      "name": "Hedge Fund",
+      "desc": "Gain 22 gold. Your max interest is increased to 10.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/richgetricher3.png"
+    },
+    {
+      "apiName": "DA_SpeedyDoubleKill",
+      "name": "Speedy Double Kill",
+      "desc": "Gain a Guinsoo's Rageblade. When X players are eliminated, gain 40 gold. Fates Championship, 2021",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/speedydoublekill_ii.png"
+    },
+    {
+      "apiName": "DA_BuildABud",
+      "name": "Build A Bud",
+      "desc": "Gain a random X-star 1-cost champion. Gain 6 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
+    },
+    {
+      "apiName": "DA_EarlyLearnings",
+      "name": "Early Learnings",
+      "desc": "Your team gains X% Attack Damage & Ability Power. This increases by X% after each player combat. 1-cost champions gain double.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/earlylearning_ii.png"
+    },
+    {
+      "apiName": "DA_18_CaretakersAlly",
+      "name": "Caretaker's Ally",
+      "desc": "Gain a random 2-cost champion now. Gain the same one again every time you level up. Champion: 0",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/caretaker_s-chosen-i.png"
+    },
+    {
+      "apiName": "DA_WeStickTogether",
+      "name": "We Stick Together",
+      "desc": "Gain a random Emblem and a completed item anvil. Allies that share a trait with that Emblem gain 30% Attack Speed. 0 0 Into The Arcane Tactician's Crown, 2025",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/westicktogether_iii.png"
+    },
+    {
+      "apiName": "DA_Ascension",
+      "name": "Ascension",
+      "desc": "After 12 seconds of combat, your units gain 35% Damage Amp.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ascension2.png"
+    },
+    {
+      "apiName": "DA_LevelUp",
+      "name": "Level Up!",
+      "desc": "When you buy XP, gain an additional X. Gain 6 immediately.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/levelup3.png"
+    },
+    {
+      "apiName": "DA_18_SolarTraitAugment",
+      "name": "Chosen of the Sun",
+      "desc": "Gain a Leona, a Kayle, and a Sejuani. Leona gains 70 permanent max Health each round, increased by X for each unique 3-star champion fielded.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_ChampDeliveryPlusPlus",
+      "name": "Champ Delivery++",
+      "desc": "Gain X 4-cost champions. After 6 rounds, gain X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_GoingLong",
+      "name": "Going Long",
+      "desc": "You no longer gain interest. Gain X gold now. Gain X XP after every player combat. Interest is extra gold you gain per X g saved.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/going-long-iii.png"
+    },
+    {
+      "apiName": "DA_GoldDestinyPlus",
+      "name": "Gold Destiny+",
+      "desc": "Gain a random Gold Augment and 5 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldendestiny_ii.png"
+    },
+    {
+      "apiName": "DA_ComponentBuffet",
+      "name": "Component Buffet",
+      "desc": "Whenever you would get a component, gain a component anvil instead. Gain a random component.The anvil offers 4 choices.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/the-customer-is-always-right-i.png"
+    },
+    {
+      "apiName": "DA_BuriedTreasuresIII",
+      "name": "Buried Treasures III",
+      "desc": "Gain a random item component now and at the start of the next X rounds.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/buried-treasures-iii.png"
+    },
+    {
+      "apiName": "DA_CyberneticUplink_Gold",
+      "name": "Cybernetic Uplink",
+      "desc": "Your champions holding an item gain X Health and X Mana Regen. Gain a Tear of the Goddess.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cybernetic-uplink-ii.png"
+    },
+    {
+      "apiName": "DA_SalvageBin",
+      "name": "Salvage Bin",
+      "desc": "Gain 1 random completed item now, and 1 component after 8 player combats. Selling champions breaks completed items into components (excluding Tactician's items and Emblems).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/salvage2.png"
+    },
+    {
+      "apiName": "DA_SpreadingRootsPlus",
+      "name": "Spreading Roots+",
+      "desc": "Gain X random Emblems and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png"
+    },
+    {
+      "apiName": "DA_BoosterPackPlus",
+      "name": "Booster Pack+",
+      "desc": "Gain X gold of random champions. (At least one X-cost guaranteed!)",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+    },
+    {
+      "apiName": "DA_Retribution",
+      "name": "Retribution",
+      "desc": "Gain X Hands of Justice. Allies equipped with Hand of Justice gain Precision and 25% Critical Strike Chance. Precision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/retribution_iii.png"
+    },
+    {
+      "apiName": "DA_BonusGiftPlus",
+      "name": "Bonus Gifts+",
+      "desc": "Whenever you open a loot orb, you have a 25% chance to gain a gray loot orb. Gain X gray loot orbs.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_18_LunarTraitAugmentPlus",
+      "name": "Sun and Moon+",
+      "desc": "Your Lunar champions gain 100 Health and 8% Damage Amp for each unique Solar champion fielded. Gain a Leona, a Kayle, and an Aphelios.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_SwordOverflow",
+      "name": "Sword Overflow",
+      "desc": "Gain X BF Swords. Your BF Swords grant +X% Attack Speed.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bladeoverflow_iii.png"
+    },
+    {
+      "apiName": "DA_AdvancedLoanPlus",
+      "name": "Advanced Loan+",
+      "desc": "Gain X Gold. Your next augment is one tier lower.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/advancedloan_ii.png"
+    },
+    {
+      "apiName": "DA_BronzeForLifeII",
+      "name": "Bronze For Life II",
+      "desc": "Your team gains 2.5% Damage Amp and 4 Armor and Magic Resist for each Bronze-tier trait.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bronzeforlife_iii.png"
+    },
+    {
+      "apiName": "DA_InvestmentStrategy",
+      "name": "Investment Strategy II",
+      "desc": "Your champions gain X permanent max health per interest you earn. Your max interest is increased by X. Gain 8 gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_iii.png"
+    },
+    {
+      "apiName": "DA_BeltOverflow",
+      "name": "Belt Overflow",
+      "desc": "Gain X Giant's Belts. Your Giant's Belts grant +X bonus Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/beltoverflow_iii.png"
+    },
+    {
+      "apiName": "DA_LuckyGloves",
+      "name": "Lucky Gloves",
+      "desc": "Thief's Gloves will always give your champions ideal items. Gain X Sparring Gloves and 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lucky-gloves-iii.png"
+    },
+    {
+      "apiName": "DA_TimeSkip",
+      "name": "Time Skip",
+      "desc": "Disable your Shop for the next X rounds. Then gain X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/timeskip_ii.png"
+    },
+    {
+      "apiName": "DA_EpicRolldown",
+      "name": "Epic Rolldown",
+      "desc": "When you reach Level 8, gain 20 Shop rerolls. Runeterra Reforged Championship, 2023",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epicrolldown_ii.png"
+    },
+    {
+      "apiName": "DA_UrfsGrabBag",
+      "name": "Urf's Grab Bag",
+      "desc": "Gain X Spatula, 3 random components, and 5 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/urfs-grab-bag-iii.png"
+    },
+    {
+      "apiName": "DA_18_WispRebatePlus",
+      "name": "Wisp Rebate",
+      "desc": "Each time you purchase a Wisp, gain 2 gold. Gain X gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_TeamBuilding",
+      "name": "Team Building",
+      "desc": "Gain a Lesser Champion Duplicator. Gain another after X player combats. This item allows you to copy a 3-cost or less champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/building-an-army-i.png"
+    },
+    {
+      "apiName": "DA_KnowYourEnemy",
+      "name": "Know Your Enemy",
+      "desc": "You can see who you will fight next. Your team gains X% Damage Amp, increased to X% if you and your opponent have any of the same traits active.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/know-your-enemy-ii.png"
+    },
+    {
+      "apiName": "DA_GlassCannon_Gold",
+      "name": "Glass Cannon II",
+      "desc": "Allies that start combat in the back row begin combat at X% Health but gain X% Damage Amp.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/glasscannon_ii.png"
+    },
+    {
+      "apiName": "DA_InvestedPlus",
+      "name": "Invested+",
+      "desc": "Gain 26 gold. At the start of each round, gain 1 Shop reroll for every 10 gold above 50 (max 80 gold).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/invested-iii.png"
+    },
+    {
+      "apiName": "DA_18_BigGrabBag",
+      "name": "Big Grab Bag",
+      "desc": "Gain 3 random components, 2 gold, and 1 Reforger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png"
+    },
+    {
+      "apiName": "DA_CapitalGainsII",
+      "name": "Capital Gains II",
+      "desc": "Store gold equal to the interest you earn. On 3-3, gain gold equal to X% of the stored gold. Gain X gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_UpwardMobility",
+      "name": "Upward Mobility",
+      "desc": "Buying XP costs X less. Gain X Health and X Shop rerolls whenever you level up.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/upwardmobility_iii.png"
+    },
+    {
+      "apiName": "DA_Corrosion",
+      "name": "Corrosion",
+      "desc": "Enemies in the first two rows lose 4 Armor and Magic Resist every 2 seconds.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/corrosion_i.png"
+    },
+    {
+      "apiName": "DA_LoadedDice",
+      "name": "Loaded Dice",
+      "desc": "Your dice and coins are luckier. Roll a die and gain gold equal to the number rolled. Then flip a coin and gain 1 gold if you flip heads.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_BonusGift",
+      "name": "Bonus Gifts",
+      "desc": "Whenever you open a loot orb, you have a 25% chance to gain a gray loot orb. Gain X gray loot orbs.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_SoloPlate",
+      "name": "Solo Plate",
+      "desc": "Gain a Gargoyle Stoneplate. Allies holding Gargoyle Stoneplate gain 17% max Health if they start combat alone in their row.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/soloplate_ii.png"
+    },
+    {
+      "apiName": "DA_Swordsmith",
+      "name": "Swordsmith",
+      "desc": "Gain X random completed items that build from B.F. Sword.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/swordsmith_ii.png"
+    },
+    {
+      "apiName": "DA_BlackthornTraitAugment",
+      "name": "Item Extraction",
+      "desc": "The first 3 times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain an Azir, Veigar, and a Rek'Sai.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_Pilfer",
+      "name": "Pilfer",
+      "desc": "Each round, gain a 1-star copy of the first champion you killed last combat. The first time you gain X gold worth of champions in this way, gain a Thief's Gloves.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pilfer_ii.png"
+    },
+    {
+      "apiName": "DA_18_FOURcing",
+      "name": "FOURcing",
+      "desc": "Gain a random 4-cost champion. For each item equipped to that champion, your team gains 100 health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_MissedConnections",
+      "name": "Missed Connections",
+      "desc": "Gain a copy of each 1-cost champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missed-connections-i.png"
+    },
+    {
+      "apiName": "DA_PrismaticTicket",
+      "name": "Prismatic Ticket",
+      "desc": "Each time your shop is rerolled you have a X% chance to gain a free reroll.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldenticket3.png"
+    },
+    {
+      "apiName": "DA_18_PrimalAugment_Sivir",
+      "name": "Beast Within",
+      "desc": "Primal grants an additional Blessing. Gain a Vi now and a Sivir after X rounds.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_VerticalityI",
+      "name": "Verticality I",
+      "desc": "Champions gain 1.5% Attack Damage, 1.5% Ability Power, 1.5 Armor, and 1.5 Magic Resist for each ally that shares a trait with them.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_WorththeWaitII",
+      "name": "Worth the Wait II",
+      "desc": "Gain 2 copies of a random 2-cost champion. Gain another copy of them at the start of each round for the rest of the game.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/worththewait_iii.png"
+    },
+    {
+      "apiName": "DA_RollingForDays",
+      "name": "Rolling For Days",
+      "desc": "Gain X free Shop rerolls.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/rolling-for-days-i.png"
+    },
+    {
+      "apiName": "DA_BoxingLessons",
+      "name": "Boxing Lessons",
+      "desc": "Your team gains X Health for each champion that starts combat in the front row.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boxinglessons_i.png"
+    },
+    {
+      "apiName": "DA_ElectrochargeI",
+      "name": "Electrocharge I",
+      "desc": "Every X attacks an ally takes, they deal X-X (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/electrocharge-i.png"
+    },
+    {
+      "apiName": "DA_TheTraitTreePlus",
+      "name": "The Trait Tree+",
+      "desc": "Gain X random Emblems, a Reforger, and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetraittree_iii.png"
+    },
+    {
+      "apiName": "DA_CalculatedLoss",
+      "name": "Calculated Loss",
+      "desc": "After losing your combat, gain 2 gold and a free Shop reroll.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/calculatedloss2.png"
+    },
+    {
+      "apiName": "DA_SoloLeveling",
+      "name": "Solo Leveling",
+      "desc": "For the next 5 combats, your team size is X, but the champion you field has massively increased stats. Gain 1 XP for every kill they get. Afterwards, gain 2 item components.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/sololeveling_ii.png"
+    },
+    {
+      "apiName": "DA_LatentForge",
+      "name": "Latent Forge",
+      "desc": "After X player combats, gain an Artifact anvil.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/long-time-crafting-i.png"
+    },
+    {
+      "apiName": "DA_SlightlyMagicRoll",
+      "name": "Slightly Magic Roll",
+      "desc": "Roll a die. Gain rewards based on the number rolled.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slightlymagicroll_i.png"
+    },
+    {
+      "apiName": "DA_ClearMind",
+      "name": "Clear Mind",
+      "desc": "If there are no champions on your bench at the end of player combat, gain 3 XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clearmind2.png"
+    },
+    {
+      "apiName": "DA_PandorasItemsII",
+      "name": "Pandora's Items II",
+      "desc": "Round start: items on your bench are randomized. Gain X random components and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png"
+    },
+    {
+      "apiName": "DA_Slammin",
+      "name": "Slammin'",
+      "desc": "Gain 3 gold. After each player combat, if there are no items on your bench (other than consumables), gain X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slammin_ii.png"
+    },
+    {
+      "apiName": "DA_LivingForge",
+      "name": "Living Forge",
+      "desc": "Gain an Artifact Anvil now and after every X player combats.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/living-forge-iii.png"
+    },
+    {
+      "apiName": "DA_CognitiveOverload",
+      "name": "Cognitive Overload",
+      "desc": "Gain 7 gold, X X-star 1-cost champion, X X-cost champion, X X-cost champions, X XP, and 1 Shop reroll.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitiveoverload_ii.png"
+    },
+    {
+      "apiName": "DA_TheTraitTree",
+      "name": "The Trait Tree",
+      "desc": "Gain X random Emblems and 2 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetraittree_iii.png"
+    },
+    {
+      "apiName": "DA_18_FloraFatalisAugment",
+      "name": "Consuming Flora",
+      "desc": "Gain a Flora Fatalis emblem. The champion holding the emblem gains X% increased benefits from Flora Fatalis. Gain 3 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_GoldenGamblePlus",
+      "name": "Golden Gamble+",
+      "desc": "Gain 3 gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain 2 Completed Item anvils.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+    },
+    {
+      "apiName": "DA_18_OneTwoFive",
+      "name": "One, Two, Five!",
+      "desc": "Gain 1 random component, 2 gold, and 1 random 5-cost champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png"
+    },
+    {
+      "apiName": "DA_MaliciousMonetization",
+      "name": "Malicious Monetization",
+      "desc": "Gain 4 gold. For the next 2 rounds, enemy champions drop X gold when killed.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/mirroredmonetization_ii.png"
+    },
+    {
+      "apiName": "DA_18_CovenTraitAugment",
+      "name": "Coven Acolyte",
+      "desc": "When you choose to continue gathering Coven essence, heal 2 Tactician health. Gain a Camille, an Elise, and a Caitlyn.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_HeroicGrabBagPlus",
+      "name": "Heroic Grab Bag+",
+      "desc": "Gain 2 Lesser Champion Duplicators. Gain 8 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+    },
+    {
+      "apiName": "DA_ClutteredMind",
+      "name": "Cluttered Mind",
+      "desc": "Gain 4 X-cost champions now. If your bench is full at the end of player combat, gain 3 XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/dizzy-ii.png"
+    },
+    {
+      "apiName": "DA_18_PrimalAugment_Nidalee",
+      "name": "Beast Within",
+      "desc": "Primal grants an additional Blessing. Gain a Vi now and a Nidalee after X rounds.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_JeweledLotus_I",
+      "name": "Jeweled Lotus I",
+      "desc": "Your team gains X% Critical Strike Chance and Precision. Precision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/jeweled-lotus-ii.png"
+    },
+    {
+      "apiName": "DA_18_LunarTraitAugment",
+      "name": "Sun and Moon",
+      "desc": "Your Lunar champions gain 100 Health and 8% Damage Amp for each unique Solar champion fielded. Gain a Leona, a Kayle, and a Diana.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_SweetTreats",
+      "name": "Sweet Treats",
+      "desc": "Gain an Artifact anvil. Your team gains 16 Health for each item equipped on champions.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/sweettreats_iii.png"
+    },
+    {
+      "apiName": "DA_PatientStudy",
+      "name": "Patient Study",
+      "desc": "After player combat, gain X XP if you won or X XP if you lost.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/learning-from-experience-ii.png"
+    },
+    {
+      "apiName": "DA_18_RivalsAugment",
+      "name": "Unrivaled",
+      "desc": "You can field Rengar and Kha'Zix together with no penalties, and they gain bonuses when the other casts. Gain a Rengar and a Kha'Zix.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_HeroicGrabBag",
+      "name": "Heroic Grab Bag",
+      "desc": "Gain 2 Lesser Champion Duplicators. Gain 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+    },
+    {
+      "apiName": "DA_CognitiveTaxPlus",
+      "name": "Cognitive Tax+",
+      "desc": "Gain X gold and X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitivetax_i.png"
+    },
+    {
+      "apiName": "DA_ExpectedUnexpectedness",
+      "name": "Expected Unexpectedness",
+      "desc": "Now and at the start of the next 2 stages, roll 3 dice. Gain various rewards based on their total.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/addicted-to-rolling-iii.png"
+    },
+    {
+      "apiName": "DA_BandOfThieves",
+      "name": "Band of Thieves",
+      "desc": "Gain X Thief's Gloves.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves1.png"
+    },
+    {
+      "apiName": "DA_ExtraBuckles",
+      "name": "Extra Buckles",
+      "desc": "Gain a Giant's Belt. After your champions take X damage, get X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/extrabuckles_i.png"
+    },
+    {
+      "apiName": "DA_TonsOfStatsI",
+      "name": "Tons of Stats!",
+      "desc": "Your team gains 44 Health, 4% Attack Damage, 4% Ability Power, 4 Armor, 4 Magic Resist, 4% Attack Speed, and 4 Mana.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tons-of-stats-ii.png"
+    },
+    {
+      "apiName": "DA_ExplosiveGrowthPlus",
+      "name": "Explosive Growth+",
+      "desc": "Now and at the start of the next 3 rounds, gain X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/explosivegrowth_ii.png"
+    },
+    {
+      "apiName": "DA_LateGameScaling",
+      "name": "Late Game Scaling",
+      "desc": "Gain 2 XP at the start of player combat rounds. Your 5-cost champions gain X% Health and X% Attack Speed. Cyber City Tactician's Crown, 2025",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lategamescaling_ii.png"
+    },
+    {
+      "apiName": "DA_18_PrimalAugmentPlus_Nidalee",
+      "name": "Beast Within+",
+      "desc": "Primal grants an additional Blessing. Gain a Vi and a Nidalee.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_PlotArmor",
+      "name": "Plot Armor",
+      "desc": "Your team gains X Armor and Magic Resist. After falling below X% Health, increase this to X for the rest of combat.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/plotarmor_ii.png"
+    },
+    {
+      "apiName": "DA_ShimmerscaleEssence",
+      "name": "Shimmerscale Essence",
+      "desc": "Gain a Gambler's Blade. After X player combats, gain a Mogul's Mail.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/shimmerscaleessence_iii.png"
+    },
+    {
+      "apiName": "DA_HealingOrbsI",
+      "name": "Healing Orbs I",
+      "desc": "When an enemy dies, a nearby ally is healed for X Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healing-orbs-i.png"
+    },
+    {
+      "apiName": "DA_18_DuoQueue",
+      "name": "Duo Queue",
+      "desc": "Gain 2 random 5-cost champions and 2 copies of a random component.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/duoqueue_ii.png"
+    },
+    {
+      "apiName": "DA_PortableForge",
+      "name": "Portable Forge",
+      "desc": "Choose 1 of 4 Artifacts. Artifacts are more powerful items with a unique effect.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/portableforge2.png"
+    },
+    {
+      "apiName": "DA_CallToChaos",
+      "name": "Call To Chaos",
+      "desc": "Gain a powerful and random reward.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/calltochaos_iii.png"
+    },
+    {
+      "apiName": "DA_TraitLadder",
+      "name": "Trait Ladder",
+      "desc": "Gain a random emblem. After fielding X non-unique traits in a player combat, gain a reward. Then increase the number of traits needed and the size of the reward.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_LateGameSpecialist",
+      "name": "Late Game Specialist",
+      "desc": "When you reach Level 9, gain 27 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/late-game-specialist-i.png"
+    },
+    {
+      "apiName": "DA_ChallengersGrace",
+      "name": "Challenger's Grace",
+      "desc": "At the start of combat, allies gain X% Attack Speed for 3 seconds. On takedown, allies dash to their next target and gain this bonus again.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/choiceui/precisiongrace_ii.png"
+    },
+    {
+      "apiName": "DA_18_FaeTraitAugment",
+      "name": "Embiggen",
+      "desc": "Fae pixies are now larger and grant 50% more Attack Damage and Ability Power. Fae champions gain X% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_ChampDelivery",
+      "name": "Champ Delivery",
+      "desc": "Gain X 2-cost champions. After 6 rounds, gain X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_BandOfThievesII",
+      "name": "Band of Thieves II",
+      "desc": "Gain X Thief's Gloves. After X player combats, gain another.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+    },
+    {
+      "apiName": "DA_VerticalityII",
+      "name": "Verticality II",
+      "desc": "Champions gain 2% Attack Damage, 2% Ability Power, 2 Armor, and 2 Magic Resist for each ally that shares a trait with them.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_Epoch",
+      "name": "Epoch",
+      "desc": "Now, and at the start of every stage, gain X XP and X free rerolls.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epoch_ii.png"
+    },
+    {
+      "apiName": "DA_CapitalGainsI",
+      "name": "Capital Gains I",
+      "desc": "Store gold equal to the interest you earn. On 3-3, gain gold equal to X% of the stored gold. Gain X gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_Replication",
+      "name": "Replication",
+      "desc": "Choose 1 of 3 components. For the next X rounds, gain a copy of that component.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/replication-ii.png"
+    },
+    {
+      "apiName": "DA_FeelingLucky",
+      "name": "Feeling Lucky",
+      "desc": "Gain X gold, then flip a coin. If heads, gain X more gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/feelinglucky_i.png"
+    },
+    {
+      "apiName": "DA_Hustler",
+      "name": "Hustler",
+      "desc": "You no longer gain interest but gain X gold at the start of every player combat round. Gain X gold now. Interest is extra gold you gain per X g saved.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hyperroll2.png"
+    },
+    {
+      "apiName": "DA_CryMeARiver",
+      "name": "Cry Me A River",
+      "desc": "Gain a Tear of the Goddess. Your team gains 1 Mana Regen. After X seconds in combat, increase this to 4.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/crymeariver_ii.png"
+    },
+    {
+      "apiName": "DA_AugmentedPower",
+      "name": "Augmented Power",
+      "desc": "Your next augment is one tier higher.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/powerup_i.png"
+    },
+    {
+      "apiName": "DA_CyberneticImplants_Gold",
+      "name": "Cybernetic Implants",
+      "desc": "Your champions holding an item gain X Health and X% Attack Damage. Gain a B.F. Sword.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cybernetic2.png"
+    },
+    {
+      "apiName": "DA_DoubleTrouble",
+      "name": "Double Trouble",
+      "desc": "When you field exactly 2 copies of a champion, they both gain X% Attack Damage and Ability Power and X Armor, and Magic Resist. When you 3-star, gain a 2-star copy.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/double-trouble-ii.png"
+    },
+    {
+      "apiName": "DA_ItsMeBaby",
+      "name": "It's Me, Baby",
+      "desc": "Gain a championship hex in the bottom right corner. The champion in it gains 15% Damage Amp and 15% Attack Speed, and drops 1 gold every X takedowns. Lore & Legends Tactician's Crown, 2026",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_QuickStreaks",
+      "name": "Quick Streaks",
+      "desc": "You gain twice as much progress towards win and loss streaks. Gain 2 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_NestingAnvils",
+      "name": "Nesting Anvils",
+      "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_18_BranchingOutPlus",
+      "name": "Branching Out+",
+      "desc": "Gain a random Emblem and a Reforger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
+    },
+    {
+      "apiName": "DA_GainGold",
+      "name": "Gain 21 Gold",
+      "desc": "Gain 21 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/windfall2.png"
+    },
+    {
+      "apiName": "DA_Recombobulator",
+      "name": "Recombobulator",
+      "desc": "Champions on your board permanently transform into random champions 1 cost tier higher (max 5). Gain 2 Magnetic Removers and 3 free rerolls.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/recombobulator-i.png"
+    },
+    {
+      "apiName": "DA_TonsOfStatsII",
+      "name": "TONS of Stats!",
+      "desc": "Your team gains 88 Health, 8% Attack Damage, 8% Ability Power, 8 Armor, 8 Magic Resist, 8% Attack Speed, and 8 Mana.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tons-of-stats-ii.png"
+    },
+    {
+      "apiName": "DA_18_OnesTwosThree",
+      "name": "Ones Two Three",
+      "desc": "Gain X 1-cost champions, X 2-cost champion, and X 3-cost champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_MaxBuild",
+      "name": "Max Build",
+      "desc": "Gain 10 free Shop rerolls. When you reach level 9, gain X free Shop rerolls and a Champion Duplicator. Galaxies Championship, 2020",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/maxbuild_ii.png"
+    },
+    {
+      "apiName": "DA_SlamminPlus",
+      "name": "Slammin'+",
+      "desc": "Gain X gold and X XP now. After each player combat, if there are no items on your bench (other than consumables), gain X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slammin_ii.png"
+    },
+    {
+      "apiName": "DA_SilverSpoon",
+      "name": "Silver Spoon",
+      "desc": "Gain 10 XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silver-spoon-i.png"
+    },
+    {
+      "apiName": "DA_TacticiansKitchen",
+      "name": "Tactician's Kitchen",
+      "desc": "Gain a random Emblem. After 3 rounds, gain a Tactician's Cape.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/tacticianskitchen_iii.png"
+    },
+    {
+      "apiName": "DA_DeadlierCaps",
+      "name": "Deadlier Caps",
+      "desc": "Gain a Rabadon's Deathcap. Rabadon's Deathcaps grant 1 Mana Regen and permanently gain X% Ability Power whenever their holders score a takedown.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/deadliercaps_ii.png"
+    },
+    {
+      "apiName": "DA_MoneyHungryPlus",
+      "name": "Money Hungry+",
+      "desc": "Gain X gold now, then X gold at the start of every stage. Picking up gold makes your Tactician larger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneyhungry2_ii.png"
+    },
+    {
+      "apiName": "DA_Dummify",
+      "name": "Dummify",
+      "desc": "Lose all champions on your board and bench. Gain a Training Dummy with X% of their combined health. The dummy gains X Health per stage. Gain a random non-tank 2-star 2 cost champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/dummify_i.png"
+    },
+    {
+      "apiName": "DA_NestingAnvilsPlus",
+      "name": "Nesting Anvils+",
+      "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain 8 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_PandorasItemsI",
+      "name": "Pandora's Items I",
+      "desc": "Round start: items on your bench are randomized. Gain X random component.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora1.png"
+    },
+    {
+      "apiName": "DA_GoldenGamble",
+      "name": "Golden Gamble",
+      "desc": "Gain 2 gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain 2 Completed Item anvils.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+    },
+    {
+      "apiName": "DA_YoungAndWildAndFree",
+      "name": "Young and Wild and Free",
+      "desc": "You can always move freely on Carousel rounds. Gain 5 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/young-and-wild-and-free-i.png"
+    },
+    {
+      "apiName": "DA_MoneyMonsoon",
+      "name": "Money Monsoon",
+      "desc": "Gain X gold now and every round for the rest of the game.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneymonsoon_iii.png"
+    },
+    {
+      "apiName": "DA_BacklineBlueprint",
+      "name": "Backline Blueprint",
+      "desc": "Gain a 3-cost non-Tank champion and an Emblem that matches their class.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/backlineblueprint_ii.png"
+    },
+    {
+      "apiName": "DA_BirthdayReunion",
+      "name": "Birthday Reunion",
+      "desc": "Gain a random X-star X-cost champion. At Level X, gain a random item component. At Level X, gain a random X-star X-cost champion. Inkborn Fables Tactician's Crown, 2024",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/birthdayreunion_ii.png"
+    },
+    {
+      "apiName": "DA_18_LuxAugmentII",
+      "name": "Master of All Origins",
+      "desc": "Open an armory and choose one of X traits. Gain a Lux with that trait and a Spear of Shojin. Traits on your board are more likely to appear in the armory. Lux provides +2 to her chosen trait",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_Warpath",
+      "name": "Warpath",
+      "desc": "Gain a 2-star 2-cost champion. After dealing 80 player damage, gain a chest of high cost champions and items.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/warpath_ii.png"
+    },
+    {
+      "apiName": "DA_GoldDestiny",
+      "name": "Gold Destiny",
+      "desc": "Gain a random Gold Augment and 3 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldendestiny_ii.png"
+    },
+    {
+      "apiName": "DA_LegionOfThrees",
+      "name": "Legion Of Threes",
+      "desc": "Gain a random Emblem. Your 3-cost champions and all allies equipped with an Emblem gain X Health and 12% Attack Speed. Reckoning Championship, 2021",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/legionofthrees_ii.png"
+    },
+    {
+      "apiName": "DA_MakeshiftArmorII",
+      "name": "Makeshift Armor II",
+      "desc": "Champions without items equipped gain X Armor and Magic Resist.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/makeshift2.png"
+    },
+    {
+      "apiName": "DA_SilverDestinyPlus",
+      "name": "Silver Destiny+",
+      "desc": "Gain a random Silver Augment and 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+    },
+    {
+      "apiName": "DA_PatienceIsAVirtue",
+      "name": "Patience Is A Virtue",
+      "desc": "Gain X rerolls now. Each round, gain 1 free reroll if you did not buy a champion last round.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/patienceisavirtue_i.png"
+    },
+    {
+      "apiName": "DA_HardCommit",
+      "name": "Hard Commit",
+      "desc": "Gain a random emblem. Now and at the start of each stage, gain a 1-star champion of that trait with a cost equal to the Stage (max 5) and 3 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hardcommit_iii.png"
+    },
+    {
+      "apiName": "DA_StandUnited",
+      "name": "Stand United",
+      "desc": "Your units gain X% Attack Damage and X% Ability Power for each non-unique Trait active across your team.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/standunited1.png"
+    },
+    {
+      "apiName": "DA_TheGoldenDragon",
+      "name": "The Golden Dragon",
+      "desc": "Gain a Mogul's Mail. Champions holding Mogul's Mail take up +X team slot but gain 600 Health and 15% Durability. Mogul's Mail gives gold as well as combat power. Dragonlands Championship, 2022",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thegoldendragon_ii.png"
+    },
+    {
+      "apiName": "DA_IronAssets",
+      "name": "Iron Assets",
+      "desc": "Gain a component anvil and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/iron-assets-i.png"
+    },
+    {
+      "apiName": "DA_GildedSteel",
+      "name": "Gilded Steel",
+      "desc": "Gain two 5-cost champions. If you field at least one 5-cost champion, your 1 to 4-cost champions gain 8% Durability. K.O. Coliseum Tactician's Crown, 2025",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/gildedsteel_ii.png"
+    },
+    {
+      "apiName": "DA_InvestmentStrategyI",
+      "name": "Investment Strategy I",
+      "desc": "Your champions gain X permanent max health per interest you earn. Gain 4 gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_ii.png"
+    },
+    {
+      "apiName": "DA_RadiantRelic",
+      "name": "Radiant Relics",
+      "desc": "Choose 1 of 5 Radiant Items. Gain a Magnetic Remover.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/radiantrelic-iii.png"
+    },
+    {
+      "apiName": "DA_EpochPlus",
+      "name": "Epoch+",
+      "desc": "Now, and at the start of every stage, gain X XP and X free rerolls.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/epoch_ii.png"
+    },
+    {
+      "apiName": "DA_URF",
+      "name": "U.R.F",
+      "desc": "Gain a Spatula. Champions holding Spatula or Frying Pan items gain 20% Attack Speed and 3 Mana Regen.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/ultrarapidfire_ii.png"
+    },
+    {
+      "apiName": "DA_LuxurySubscription",
+      "name": "Luxury Subscription",
+      "desc": "Gain a package containing a X-cost champion, a 2-star X-cost champion, and 3 gold. At the start of the next X stages, gain the package again.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/luxurysubscription_iii.png"
+    },
+    {
+      "apiName": "DA_PromisedProtection",
+      "name": "Promised Protection",
+      "desc": "Gain a Protector's Vow. Protector's Vow grants its holder X% additional Mana from all sources and X max Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/promisedprotection_ii.png"
+    },
+    {
+      "apiName": "DA_JeweledLotus_II",
+      "name": "Jeweled Lotus II",
+      "desc": "Your team gains X% Critical Strike Chance, X% Critical Strike Damage, and Precision . Precision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/jeweled-lotus-iii.png"
+    },
+    {
+      "apiName": "DA_TwinGuardians",
+      "name": "Twin Guardians",
+      "desc": "If you have exactly X allies in your first row, grant them 100 Health, X Armor, and X Magic Resist.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/twinguardians_i.png"
+    },
+    {
+      "apiName": "DA_ExplosiveGrowth",
+      "name": "Explosive Growth",
+      "desc": "Now and at the start of the next 3 rounds, gain 7 XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/explosivegrowth_ii.png"
+    },
+    {
+      "apiName": "DA_ForgedInStrength",
+      "name": "Forged In Strength",
+      "desc": "Gain X random Artifact. When you drop below 35 Health, gain X more random Artifact, X random completed item, and X random components. Remix Rumble Championship, 2023",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/forgedinstrength_iii.png"
+    },
+    {
+      "apiName": "DA_AdvancedLoan",
+      "name": "Advanced Loan",
+      "desc": "Gain X Gold. Your next augment is one tier lower.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/advancedloan_ii.png"
+    },
+    {
+      "apiName": "DA_ElectrochargeII",
+      "name": "Electrocharge II",
+      "desc": "Every X attacks an ally takes, they deal X-X (based on current Stage) magic damage to nearby enemies (1 second cooldown).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/electrocharge-ii.png"
+    },
+    {
+      "apiName": "DA_LuckyGlovesPlus",
+      "name": "Lucky Gloves+",
+      "desc": "Thief's Gloves will always give your champions ideal items. Gain X Sparring Gloves now, then another after X player combats.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/lucky-gloves-iii.png"
+    },
+    {
+      "apiName": "DA_TradeSectorPlus",
+      "name": "Trade Sector+",
+      "desc": "Gain a Shop reroll every round. Gain X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade2.png"
+    },
+    {
+      "apiName": "DA_ArcaneViktory",
+      "name": "Arcane Viktor-y",
+      "desc": "After X seconds of combat, stun the enemy team for 1.5 seconds. Repeat this after X seconds of combat. TFT Macao Open, 2024",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/arcaneviktory_ii.png"
+    },
+    {
+      "apiName": "DA_GlassCannon_Silver",
+      "name": "Glass Cannon I",
+      "desc": "Allies that start combat in the back row begin combat at X% Health but gain 16% Damage Amp.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/glasscannon_i.png"
+    },
+    {
+      "apiName": "DA_BackupBows",
+      "name": "Backup Bows",
+      "desc": "Gain a Recurve Bow. After your champions attack 1000 times, get X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/recurvewrecker_i.png"
+    },
+    {
+      "apiName": "DA_VerticalityIII",
+      "name": "Verticality III",
+      "desc": "Champions gain 3.5% Attack Damage, 3.5% Ability Power, 3.5 Armor, and 3.5 Magic Resist for each ally that shares a trait with them.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_18_CovenTraitAugment_LootToAP",
+      "name": "Dark Ritual",
+      "desc": "Converting Coven Essence to rewards grants Coven champions Ability Power instead of loot. Gain a Camille, an Elise, and a Caitlyn.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_CraftedCrafting",
+      "name": "Crafted Crafting",
+      "desc": "Whenever you craft a completed item, gain X rerolls.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/craftedcrafting_i.png"
+    },
+    {
+      "apiName": "DA_ChampDeliveryPlus",
+      "name": "Champ Delivery+",
+      "desc": "Gain X 3-cost champions. After 6 rounds, gain X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_SpreadingRoots",
+      "name": "Spreading Roots",
+      "desc": "Gain a random Emblems. After 3 combats, gain another.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spreadingroots_ii.png"
+    },
+    {
+      "apiName": "DA_SliceOfLife",
+      "name": "Slice of Life",
+      "desc": "Twice per stage, gain a random champion. Its cost increases by Stage. This effect ends after receiving X X-cost champion.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/slice_of_life_i.png"
+    },
+    {
+      "apiName": "DA_SilverDestiny",
+      "name": "Silver Destiny",
+      "desc": "Gain a random Silver Augment and 2 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+    },
+    {
+      "apiName": "DA_ClockworkAccelerator",
+      "name": "Clockwork Accelerator",
+      "desc": "Your team gains 10% Attack Speed every X seconds in combat.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clockworkaccelerator_ii.png"
+    },
+    {
+      "apiName": "DA_SmallGrabBag",
+      "name": "Small Grab Bag",
+      "desc": "Gain X random item components.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/smallgrabbag_i.png"
+    },
+    {
+      "apiName": "DA_BandOfThievesIIPlusPlus",
+      "name": "Band of Thieves II++",
+      "desc": "Gain X Thief's Gloves. After X player combats, gain another.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+    },
+    {
+      "apiName": "DA_18_BlossomTraitAugment",
+      "name": "Blossom's Call",
+      "desc": "When you buy a Wisp, gain a random Blossom champion based on the Wisp's cost. Gain a Yunara, a Yorick, and a Karma.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_FrontlineFoundation",
+      "name": "Frontline Foundation",
+      "desc": "Gain a 2-star 1-cost Tank champion and an Emblem that matches their class.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/frontlinefoundation_ii.png"
+    },
+    {
+      "apiName": "DA_WandOverflow",
+      "name": "Wand Overflow",
+      "desc": "Gain X Needlessly Large Rods. Your Needlessly Large Rods grant +X% Attack Speed.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/wandoverflow_iii.png"
+    },
+    {
+      "apiName": "DA_SoulAwakening",
+      "name": "Soul Awakening",
+      "desc": "Combat start: Your team gains X% Attack Damage and Ability Power per second for X seconds. At max stacks, deal 12% bonus true damage.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/awakenedsoul_iii.png"
+    },
+    {
+      "apiName": "DA_Expedition",
+      "name": "Expedition",
+      "desc": "At the start of every round, lose the champion in the rightmost bench slot. After losing 33 gold of champions in this way, gain a powerful reward. Gain a 3-cost champion now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/expedition_i.png"
+    },
+    {
+      "apiName": "DA_18_PrimalAugmentPlus_Sivir",
+      "name": "Beast Within+",
+      "desc": "Primal grants an additional Blessing. Gain a Vi and a Sivir.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_18_InfernoTraitAugment",
+      "name": "Flame On",
+      "desc": "Your 1 and 2-cost Inferno champions gain 0.2 Attack Damage and Ability Power. The one who did the most damage last combat gains double. Gain a Varus and an Akali.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_ComponentQuest",
+      "name": "Component Quest",
+      "desc": "Gain a random component and 1 gold. The next 7 times you win a player combat, gain a different random component. Afterwards, gain X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
+    },
+    {
+      "apiName": "DA_PandorasItemsIII",
+      "name": "Pandora's Items III",
+      "desc": "Round start: items on your bench are randomized. Gain X Radiant item.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora3.png"
+    },
+    {
+      "apiName": "DA_MoneyHungry_NotBroken",
+      "name": "Money Hungry",
+      "desc": "Gain 7 gold now, then 7 gold at the start of every stage. Picking up gold makes your Tactician larger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/moneyhungry1_ii.png"
+    },
+    {
+      "apiName": "DA_KickStart",
+      "name": "Kick Start",
+      "desc": "Gain a random 2-star 2-cost champion and 1 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/kickstart_i.png"
+    },
+    {
+      "apiName": "DA_CaretakersFavor",
+      "name": "Caretaker's Favor",
+      "desc": "Gain a component anvil when you reach level 5, 6, 7, and 8. Component anvils offer 4 choices.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/caretaker_s-chosen-ii.png"
+    },
+    {
+      "apiName": "DA_18_WispRebatePlusPlus",
+      "name": "Wisp Rebate+",
+      "desc": "Each time you purchase a Wisp, gain 2 gold. Gain X gold now.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_SeraphimsStaff",
+      "name": "Seraphim's Staff",
+      "desc": "Gain an Archangel's Staff. Archangel's Staff grants 2 additional Mana Regen if its holder has 90% or more Ability Power.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/seraphimsstaff_ii.png"
+    },
+    {
+      "apiName": "DA_Staffsmith",
+      "name": "Staffsmith",
+      "desc": "Gain X random completed items that build from Needlessly Large Rod.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/rodsmith_ii.png"
+    },
+    {
+      "apiName": "DA_18_ResidualMagic",
+      "name": "Residual Magic",
+      "desc": "Your team gains 60 Health. Each time you purchase a Wisp, increase this by X.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_CelestialBlessingII",
+      "name": "Celestial Blessing II",
+      "desc": "Your team gains X% Omnivamp. Excess healing is converted to a shield up to X Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing2.png"
+    },
+    {
+      "apiName": "DA_RadiantRascal",
+      "name": "Radiant Rascal",
+      "desc": "Gain a Radiant Thief's Gloves item. This equips 2 random Radiant items every round.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/roll-the-dice-iii.png"
+    },
+    {
+      "apiName": "DA_CelestialBlessingIII",
+      "name": "Celestial Blessing III",
+      "desc": "Your team gains X% Omnivamp. Excess healing is converted to a shield up to X Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing3.png"
+    },
+    {
+      "apiName": "DA_ExclusiveCustomization",
+      "name": "Exclusive Customization",
+      "desc": "Gain a Lucky Item Chest, a Magnetic Remover and 7 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/exclusivecustomization_ii.png"
+    },
+    {
+      "apiName": "DA_DeadlierBlades",
+      "name": "Deadlier Blades",
+      "desc": "Gain a Deathblade. Deathblades permanently gain 1% Attack Damage whenever their holders score a takedown.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/deadlierblades_ii.png"
+    },
+    {
+      "apiName": "DA_18_ResidualMagicPlus",
+      "name": "Residual Magic +",
+      "desc": "Your team gains 75 Health. Each time you purchase a Wisp, increase this by X.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_Flexible",
+      "name": "Flexible",
+      "desc": "Gain 1 random Emblem. At the start of every Stage, gain a random Emblem. Your team gains 30 Health for each Emblem they are holding.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/flexible_ii.png"
+    },
+    {
+      "apiName": "DA_FlowingTears",
+      "name": "Flowing Tears",
+      "desc": "Gain a Tear of the Goddess. After your champions spend X Mana, gain X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/griefofthegreatgoddess_i.png"
+    },
+    {
+      "apiName": "DA_BodyguardTraining",
+      "name": "Bodyguard Training",
+      "desc": "Allies gain 15 Armor and Magic Resist, increased by X per player level. Gizmos & Gadgets Championship, 2022",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bodyguardstraining_ii.png"
+    },
+    {
+      "apiName": "DA_CelestialBlessingI",
+      "name": "Celestial Blessing I",
+      "desc": "Your team gains X% Omnivamp. Excess healing is converted to a shield up to X Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/celestialblessing1.png"
+    },
+    {
+      "apiName": "DA_HeartOfSteel",
+      "name": "Heart of Steel",
+      "desc": "Gain a Steadfast Heart. Every X seconds of combat its holder survives, Steadfast Heart gains additional 16 permanent max Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healthygains_ii.png"
+    },
+    {
+      "apiName": "DA_SalvageBinPlus",
+      "name": "Salvage Bin+",
+      "desc": "Gain 1 random completed item now, and 1 component after X player combats. Selling champions breaks completed items into components (excluding Tactician's items and Emblems).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/salvage2.png"
+    },
+    {
+      "apiName": "DA_GoldenEgg",
+      "name": "The Golden Egg",
+      "desc": "Gain a golden egg that hatches in 11 turns for a huge amount of loot. Winning player combat speeds up the hatch timer by an extra turn.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/the-golden-egg-iii.png"
+    },
+    {
+      "apiName": "DA_ComebackStory",
+      "name": "Comeback Story",
+      "desc": "Your team gains 4 Health and X% Attack Speed per missing player Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/comebackstory_iii.png"
+    },
+    {
+      "apiName": "DA_InvestedPlusPlus",
+      "name": "Invested++",
+      "desc": "Gain 45 gold. At the start of each round, gain 1 Shop reroll for every 10 gold above 50 (max 80 gold).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/invested-iii.png"
+    },
+    {
+      "apiName": "DA_PrismaticDestiny",
+      "name": "Prismatic Destiny",
+      "desc": "Gain a random Prismatic Augment and 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
+    },
+    {
+      "apiName": "DA_CookingPot",
+      "name": "Cooking Pot",
+      "desc": "At the start of each turn, all allies holding a Frying Pan or Spatula item grant the nearest champion 60 permanent Health. Gain a Frying Pan.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cookingpot_ii.png"
+    },
+    {
+      "apiName": "DA_PandorasBench",
+      "name": "Pandora's Bench",
+      "desc": "At the start of every round, champions on the 3 rightmost bench slots transform into random champions of the same cost. Gain 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandoras-bench-ii.png"
+    },
+    {
+      "apiName": "DA_HeroicGrabBagPlusPlus",
+      "name": "Heroic Grab Bag++",
+      "desc": "Gain 2 Lesser Champion Duplicators. Gain 14 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
+    },
+    {
+      "apiName": "DA_18_WeightTheWorth",
+      "name": "Weight The Worth",
+      "desc": "The first time you 3-star a champion, gain a copy of them each round for the rest of the game. 3-starring the same champion again grants additional copies. Gain a Lesser Champion Duplicator.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_BoosterPackPlusPlus",
+      "name": "Booster Pack++",
+      "desc": "Gain X gold of random champions. (At least one X-cost guaranteed!)",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/boosterpack1_ii.png"
+    },
+    {
+      "apiName": "DA_CommerceCore",
+      "name": "Commerce Core",
+      "desc": "Gain X free Shop rerolls now and X every round for the rest of the game.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/trade3.png"
+    },
+    {
+      "apiName": "DA_CarveAPath",
+      "name": "Carve a Path",
+      "desc": "Gain a B.F. Sword. After your champions deal X physical damage, gain X more.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/carveapath_i.png"
+    },
+    {
+      "apiName": "DA_CognitiveTax",
+      "name": "Cognitive Tax",
+      "desc": "Gain 8 gold and X XP.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cognitivetax_i.png"
+    },
+    {
+      "apiName": "DA_GroupHugII",
+      "name": "Group Hug II",
+      "desc": "Combat start: Champions grant other adjacent champions X Armor and Magic Resist. This effect stacks.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grouphug2_ii.png"
+    },
+    {
+      "apiName": "DA_InfinityProtection",
+      "name": "Infinity Protection",
+      "desc": "Gain 3 gold now. On Stage 3-7, gain an Infinity Force. Infinity Force gives allies in the same row a 12% Health shield. Monsters Attack Championship, 2023",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/infinityprotection_ii.png"
+    },
+    {
+      "apiName": "DA_SilverDestinyPlusPlus",
+      "name": "Silver Destiny++",
+      "desc": "Gain a random Silver Augment and 7 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silverdestiny_i.png"
+    },
+    {
+      "apiName": "DA_OneBuffTwoBuff",
+      "name": "One Buff Two Buff",
+      "desc": "Gain a Red Buff, a Blue Buff, and a Champion Duplicator.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/onebufftwobuff_iii.png"
+    },
+    {
+      "apiName": "DA_18_BranchingOut",
+      "name": "Branching Out",
+      "desc": "Gain a random Emblem.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
+    },
+    {
+      "apiName": "DA_CalledShot",
+      "name": "Called Shot",
+      "desc": "Set your win streak to +X. Gain 4 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/calledshot_i.png"
+    },
+    {
+      "apiName": "DA_BandOfThievesIIPlus",
+      "name": "Band of Thieves II+",
+      "desc": "Gain X Thief's Gloves. After X player combats, gain another.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bandthieves3.png"
+    },
+    {
+      "apiName": "DA_TheTower",
+      "name": "The Tower",
+      "desc": "Gain a giant Training Dummy. Every X seconds, it zaps the X nearest enemies dealing X% max Health true damage.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thetower_i.png"
+    },
+    {
+      "apiName": "DA_BirthdayPresent",
+      "name": "Birthday Present",
+      "desc": "Gain a 2-star champion and 1 gold each time you level up. The champion's cost tier is your level minus X (max: X-cost).",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/golden-gifts-iii.png"
+    },
+    {
+      "apiName": "DA_FindYourCenter",
+      "name": "Find Your Center",
+      "desc": "Your champion that starts combat in the center of the front row gains 15% Damage Amp and 25% max Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/findyourcenter_i.png"
+    },
+    {
+      "apiName": "DA_18_SprykinAugment",
+      "name": "Small Furry Friend",
+      "desc": "While Sprykin is active, gain a second BFF summon that is X% as powerful. Gain a Teemo, a Veigar, and a Kobuko.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
+      "apiName": "DA_HealingOrbsII",
+      "name": "Healing Orbs II",
+      "desc": "When an enemy dies, a nearby ally is healed for X Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healing-orbs-ii.png"
+    },
+    {
+      "apiName": "DA_NoScoutNoPivot",
+      "name": "NO SCOUT NO PIVOT",
+      "desc": "Champions that fight in player combat cannot be benched or sold. Your team gains X% Health, and X% Attack Damage and Ability Power after player combat.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/noscoutnopivot_ii.png"
+    },
+    {
+      "apiName": "DA_GoldenGamblePlusPlus",
+      "name": "Golden Gamble++",
+      "desc": "Gain 6 gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain 2 Completed Item anvils.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
+    },
+    {
+      "apiName": "DA_HardBargain",
+      "name": "Hard Bargain",
+      "desc": "You cannot choose your Carousel rewards. Gain an additional 6 player health and 8 gold each carousel round. When you do not pick a Carousel Reward, you are given an unpicked champion and the item it carries.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hardbargain_ii.png"
+    },
+    {
+      "apiName": "DA_BronzeForLifeI",
+      "name": "Bronze For Life I",
+      "desc": "Your team gains 2.5% Damage Amp for each Bronze-tier trait.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bronzeforlife_ii.png"
+    },
+    {
+      "apiName": "DA_GiantAndMighty",
+      "name": "Giant and Mighty",
+      "desc": "Your team becomes large, gaining 200 Health and X% max Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/giantandmighty_iii.png"
+    },
+    {
+      "apiName": "DA_18_ResidualMagicPlusPlus",
+      "name": "Residual Magic ++",
+      "desc": "Your team gains 90 Health. Each time you purchase a Wisp, increase this by X.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_ItemGrabBag",
+      "name": "Item Grab Bag I",
+      "desc": "Gain 1 random completed item.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/itemgrabbag1.png"
+    },
+    {
+      "apiName": "DA_FutureFocused",
+      "name": "Future Focused",
+      "desc": "Your Tactician loses 20 Health, but after 5 player combats, gain 3 4-cost champions and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t1.png"
+    },
+    {
+      "apiName": "DA_BaronsLair",
+      "name": "Baron's Lair",
+      "desc": "Gain a random Tank item. After 8 seconds of combat, your team gains 4% bonus Attack Damage and Ability Power every second for the rest of combat. TFT Paris Open, 2025",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thebaronslair_iii.png"
+    },
+    {
+      "apiName": "DA_18_GoodForSomethingI",
+      "name": "Good For Something I",
+      "desc": "Champions that aren't holding items have a X% chance to drop 1 gold on death.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png"
+    },
+    {
+      "apiName": "DA_SpiritOfRedemption",
+      "name": "Spirit Of Redemption",
+      "desc": "Gain a Spirit Visage. Every X seconds, Spirit Visage heals allies within 1 hex for 7.5% of their missing Health.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spiritofredemption_ii.png"
+    },
+    {
+      "apiName": "DA_WorththeWait",
+      "name": "Worth the Wait",
+      "desc": "Gain a random 1-cost champion. Gain another copy of them at the start of each round for the rest of the game.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/worththewait_ii.png"
+    },
+    {
+      "apiName": "DA_PrismaticDestinyPlus",
+      "name": "Prismatic Destiny+",
+      "desc": "Gain a random Prismatic Augment and 7 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
+    }
+  ]
+}

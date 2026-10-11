@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A dedicated training facility for TFT players who refuse to read patch notes, traits, or champion abilities in-game.">
+  <title>Helping TFT Players Read — The Ultimate Training Facility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+  <!-- ═══════════════════ LOADING SCREEN ═══════════════════ -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader-ring"></div>
+    <p class="loader-text">Loading Reading Curriculum...</p>
+  </div>
+
+  <!-- ═══════════════════ APP CONTAINER ═══════════════════ -->
+  <div id="app" class="app hidden">
+
+    <!-- ──── HEADER ──── -->
+    <header id="app-header" class="app-header">
+      <button id="btn-home" class="btn-icon" title="Home" style="display:none;" aria-label="Back to home">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <h1 class="logo">HelpingTFTPlayers<span class="logo-accent">Read</span></h1>
+      <div id="score-display" class="score-display" style="display:none;">
+        <span id="score-current">0</span> / <span id="score-total">10</span>
+      </div>
+    </header>
+
+    <!-- ──── HOME SCREEN ──── -->
+    <main id="screen-home" class="screen screen-home">
+      <div class="hero">
+        <h2 class="hero-title">Finally Learn To <br><span class="gradient-text">Read</span></h2>
+        <p class="hero-sub">A dedicated training facility for TFT players who refuse to read patch notes, traits, or champion abilities in-game.</p>
+      </div>
+      <div class="mode-grid">
+        <button class="mode-card" data-mode="1">
+          <div class="mode-icon">⚔️</div>
+          <h3>Champion Flashcard</h3>
+          <p>See a champion image — guess cost, traits &amp; spell.</p>
+        </button>
+        <button class="mode-card" data-mode="2">
+          <div class="mode-icon">🔮</div>
+          <h3>Reverse Recall</h3>
+          <p>Read spell text — guess the champion.</p>
+        </button>
+        <button class="mode-card" data-mode="3">
+          <div class="mode-icon">✨</div>
+          <h3>Augment Identifier</h3>
+          <p>See an augment name — pick the description.</p>
+        </button>
+        <button class="mode-card" data-mode="4">
+          <div class="mode-icon">🔄</div>
+          <h3>Reverse Augment</h3>
+          <p>Read a description — guess the augment name.</p>
+        </button>
+        <button class="mode-card" data-mode="5">
+          <div class="mode-icon">🔍</div>
+          <h3>Spot the Error</h3>
+          <p>Spot the fabricated mechanic or error in champion abilities.</p>
+        </button>
+      </div>
+    </main>
+
+    <!-- ──── QUIZ SCREEN ──── -->
+    <main id="screen-quiz" class="screen screen-quiz hidden">
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar" style="width:0%"></div>
+      </div>
+      <div id="quiz-card" class="quiz-card">
+        <!-- Dynamically populated -->
+      </div>
+      <div class="quiz-actions">
+        <button id="btn-submit" class="btn btn-submit" disabled>Submit</button>
+        <button id="btn-next" class="btn btn-next hidden">Next</button>
+      </div>
+    </main>
+
+    <!-- ──── RESULTS SCREEN ──── -->
+    <main id="screen-results" class="screen screen-results hidden">
+      <div class="results-card">
+        <h2 class="results-title">Quiz Complete!</h2>
+        <div class="results-score-ring">
+          <svg viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+            <circle id="ring-progress" class="ring-fg" cx="60" cy="60" r="52"/>
+          </svg>
+          <div class="ring-label">
+            <span id="results-score">0</span>
+            <small id="results-total">/10</small>
+          </div>
+        </div>
+        <p id="results-message" class="results-message"></p>
+        <div class="results-actions">
+          <button id="btn-play-again" class="btn btn-primary">Play Again</button>
+          <button id="btn-go-home" class="btn btn-secondary">Home</button>
+        </div>
+      </div>
+    </main>
+
+  </div><!-- /app -->
+
+  <script src="app.js?v=4"></script>
+</body>
+</html>
