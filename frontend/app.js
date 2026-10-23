@@ -256,6 +256,7 @@ const QuizEngine = {
       (c) => c.spell && c.spell.desc && c.spell.desc.length > 20
     );
 
+    // ── Expanded fake-clause pool (16 entries) ──
     const fakeClauses = [
       { clause: "Also Stuns all enemies hit for 1.5 seconds.", explanation: "This ability does not Stun enemies." },
       { clause: "Executes enemies below 15% Health.", explanation: "This ability does not execute enemies." },
@@ -265,8 +266,17 @@ const QuizEngine = {
       { clause: "Cleanses all crowd control effects on cast.", explanation: "This ability does not cleanse crowd control effects." },
       { clause: "Heals the lowest Health ally for 250 Health.", explanation: "This ability does not heal allies." },
       { clause: "Shields the 2 lowest Health allies for 200 for 4 seconds.", explanation: "This ability does not shield allies." },
+      { clause: "Also Sunders enemies for 3 seconds.", explanation: "This ability does not Sunder enemies." },
+      { clause: "Heals the lowest health ally for 200.", explanation: "This ability does not heal the lowest health ally." },
+      { clause: "Grants 50% Dodge chance for 2 seconds.", explanation: "This ability does not grant Dodge chance." },
+      { clause: "Executes enemies below 10% Health.", explanation: "This ability does not execute low-health enemies." },
+      { clause: "Adjacent allies gain 20% Attack Speed.", explanation: "This ability does not buff adjacent allies' Attack Speed." },
+      { clause: "Shields the lowest health ally for 150.", explanation: "This ability does not shield the lowest health ally." },
+      { clause: "Deals 10% bonus damage to shielded targets.", explanation: "This ability does not deal bonus damage to shielded targets." },
+      { clause: "Reduces the target's Armor by 40% for 3 seconds.", explanation: "This ability does not reduce Armor." },
     ];
 
+    // ── Expanded swap rules with deeper replacement pools ──
     const swapRules = [
       {
         regex: /\bmagic damage\b/gi,
@@ -289,55 +299,85 @@ const QuizEngine = {
       {
         regex: /\bArmor\b/g,
         real: "Armor",
-        replacements: ["Magic Resist"],
+        replacements: ["Magic Resist", "Health", "Attack Speed"],
         makeExplanation: (fake) => `Stat altered to '${fake}' — the real ability affects Armor`,
       },
       {
         regex: /\bMagic Resist\b/gi,
         real: "Magic Resist",
-        replacements: ["Armor"],
+        replacements: ["Armor", "Health", "Attack Speed"],
         makeExplanation: (fake) => `Stat altered to '${fake}' — the real ability affects Magic Resist`,
       },
       {
         regex: /\bAttack Speed\b/gi,
         real: "Attack Speed",
-        replacements: ["Ability Power"],
+        replacements: ["Ability Power", "Movement Speed"],
         makeExplanation: (fake) => `Grants '${fake}' — the real ability affects Attack Speed`,
       },
       {
         regex: /\bAbility Power\b/gi,
         real: "Ability Power",
-        replacements: ["Attack Speed"],
+        replacements: ["Attack Speed", "Attack Damage"],
         makeExplanation: (fake) => `Grants '${fake}' — the real ability affects Ability Power`,
       },
       {
         regex: /\bStun(s)?\b/gi,
         real: "Stun",
-        replacements: ["Silence"],
+        replacements: ["Silence", "Disarm", "Chill"],
         makeExplanation: (fake) => `Inflicts '${fake}' — the real ability inflicts Stun`,
       },
       {
         regex: /\bStunning\b/gi,
         real: "Stunning",
-        replacements: ["Disarming"],
+        replacements: ["Silencing", "Disarming", "Chilling"],
         makeExplanation: (fake) => `Status altered to '${fake}' — the real ability is Stunning`,
       },
       {
         regex: /\bWound(s)?\b/gi,
         real: "Wound",
-        replacements: ["Burn"],
+        replacements: ["Burn", "Sunder"],
         makeExplanation: (fake) => `Applies '${fake}' — the real ability applies Wound`,
       },
       {
         regex: /\bBurn(s)?\b/gi,
         real: "Burn",
-        replacements: ["Wound"],
+        replacements: ["Wound", "Sunder"],
         makeExplanation: (fake) => `Applies '${fake}' — the real ability applies Burn`,
+      },
+      {
+        regex: /\bShield(s)?\b/gi,
+        real: "Shield",
+        replacements: ["Heal", "Omnivamp"],
+        makeExplanation: (fake) => `Changed to '${fake}' — the real ability uses Shield`,
+      },
+      {
+        regex: /\bhex(es)?\b/gi,
+        real: "Hexes",
+        replacements: ["Rows", "Columns"],
+        makeExplanation: (fake) => `Area changed to '${fake}' — the real ability targets Hexes`,
+      },
+      {
+        regex: /\bAttack Damage\b/gi,
+        real: "Attack Damage",
+        replacements: ["Ability Power", "Armor"],
+        makeExplanation: (fake) => `Stat altered to '${fake}' — the real ability affects Attack Damage`,
+      },
+      {
+        regex: /\bSilence(s|d)?\b/gi,
+        real: "Silence",
+        replacements: ["Stun", "Disarm", "Chill"],
+        makeExplanation: (fake) => `Inflicts '${fake}' — the real ability inflicts Silence`,
+      },
+      {
+        regex: /\bDisarm(s|ed)?\b/gi,
+        real: "Disarm",
+        replacements: ["Stun", "Silence", "Chill"],
+        makeExplanation: (fake) => `Inflicts '${fake}' — the real ability inflicts Disarm`,
       },
     ];
 
     const numRegex = /\b(\d+(?:\.\d+)?)\s*(seconds?|hexes?|hex|attacks?|targets?|allies|enemies)\b/gi;
-    const innocentPattern = /\b(magic damage|physical damage|true damage|Armor|Magic Resist|Attack Speed|Ability Power|Attack Damage|Health|Mana|Stuns?|Stunning|Silence|Silences|Disarms?|Wounds?|Burns?|Shields?|Heals?|\d+(?:\.\d+)?\s*(?:seconds?|hexes?|hex|attacks?|targets?|allies|enemies))\b/gi;
+    const innocentPattern = /\b(magic damage|physical damage|true damage|Armor|Magic Resist|Attack Speed|Ability Power|Attack Damage|Health|Mana|Stuns?|Stunning|Silence|Silences|Disarms?|Wounds?|Burns?|Shields?|Heals?|Omnivamp|Sunder|Chill|\d+(?:\.\d+)?\s*(?:seconds?|hexes?|hex|attacks?|targets?|allies|enemies))\b/gi;
 
     for (const champ of pool) {
       const baseText = resolveSpellText(champ.spell.desc, champ.spell.variables, 1);
@@ -381,6 +421,7 @@ const QuizEngine = {
       let errorStart = 0;
       let errorEnd = 0;
       let explanation = "";
+      let corruptionMeta = null; // Tracks corruption type for smarter distractors
 
       if (strategy === "swap") {
         const pickedSwap = matchedSwaps[Math.floor(Math.random() * matchedSwaps.length)];
@@ -390,6 +431,7 @@ const QuizEngine = {
         errorStart = pickedSwap.index;
         errorEnd = pickedSwap.index + fake.length;
         explanation = pickedSwap.rule.makeExplanation(fake);
+        corruptionMeta = { type: "swap", realKeyword: pickedSwap.rule.real, fakeKeyword: fake };
       } else if (strategy === "number") {
         const pickedNum = numMatches[Math.floor(Math.random() * numMatches.length)];
         const val = parseFloat(pickedNum.numStr);
@@ -419,15 +461,26 @@ const QuizEngine = {
         errorStart = pickedNum.index;
         errorEnd = pickedNum.index + fakeStr.length;
         explanation = `'${fakeStr}' — the real duration/value is ${realStr}`;
+        corruptionMeta = { type: "number", fakeStr, realStr };
       } else {
-        // Strategy "inject"
+        // Strategy "inject" — insert at a random sentence position
         const eligibleClauses = fakeClauses.filter((fc) => !baseText.includes(fc.clause));
         const pickedClause = eligibleClauses[Math.floor(Math.random() * eligibleClauses.length)] || fakeClauses[0];
-        const trimmed = baseText.trim();
-        fullCorruptedText = `${trimmed} ${pickedClause.clause}`;
-        errorStart = trimmed.length + 1;
-        errorEnd = errorStart + pickedClause.clause.length;
+
+        // Split into sentences, splice at random position, rejoin
+        const sentences = baseText.split('. ');
+        const insertIdx = Math.floor(Math.random() * (sentences.length + 1));
+        // Remove trailing period from injected clause to avoid double-period on rejoin
+        const cleanClause = pickedClause.clause.replace(/\.\s*$/, '');
+        sentences.splice(insertIdx, 0, cleanClause);
+        fullCorruptedText = sentences.join('. ');
+
+        // Locate the injected clause in the reassembled text to set error bounds
+        const injectedStart = fullCorruptedText.indexOf(cleanClause);
+        errorStart = injectedStart >= 0 ? injectedStart : 0;
+        errorEnd = errorStart + cleanClause.length;
         explanation = pickedClause.explanation;
+        corruptionMeta = { type: "inject", usedClause: pickedClause, allClauses: fakeClauses };
       }
 
       // Collect innocent candidate phrases in fullCorruptedText
@@ -477,10 +530,79 @@ const QuizEngine = {
         champion: champ,
         renderedHtml,
         explanation,
+        corruptionMeta,
       });
 
       if (this.questions.length >= this.totalQuestions) break;
     }
+  },
+
+  // ── Generate type-matched distractors for Spot the Error ──
+  _buildSpotErrorDistractors(corruptionMeta, count = 3) {
+    const distractors = [];
+
+    if (corruptionMeta.type === "swap") {
+      // Generate plausible "wrong keyword swap" distractors
+      const allKeywords = [
+        "magic damage", "physical damage", "true damage",
+        "Armor", "Magic Resist", "Health", "Attack Speed",
+        "Ability Power", "Attack Damage", "Movement Speed",
+        "Stun", "Silence", "Disarm", "Chill",
+        "Shield", "Heal", "Omnivamp",
+        "Wound", "Burn", "Sunder",
+        "Hexes", "Rows", "Columns",
+      ];
+      const usedReal = corruptionMeta.realKeyword.toLowerCase();
+      const usedFake = corruptionMeta.fakeKeyword.toLowerCase();
+      // Pick pairs that weren't actually swapped
+      const candidates = allKeywords.filter(
+        (k) => k.toLowerCase() !== usedReal && k.toLowerCase() !== usedFake
+      );
+      const pairs = shuffle(candidates);
+      for (let i = 0; i + 1 < pairs.length && distractors.length < count; i += 2) {
+        distractors.push(`'${pairs[i]}' was swapped — it should say '${pairs[i + 1]}'`);
+      }
+      // Fill if needed
+      while (distractors.length < count) {
+        const k = pairs[distractors.length % pairs.length];
+        distractors.push(`'${k}' was changed — this keyword is incorrect`);
+      }
+    } else if (corruptionMeta.type === "inject") {
+      // Generate distractors claiming other fake sentences were injected
+      const unused = corruptionMeta.allClauses.filter(
+        (fc) => fc.clause !== corruptionMeta.usedClause.clause
+      );
+      const picked = shuffle(unused).slice(0, count);
+      for (const fc of picked) {
+        distractors.push(fc.explanation);
+      }
+      // Fill if needed
+      while (distractors.length < count) {
+        distractors.push("A fake mechanic sentence was added to the description.");
+      }
+    } else if (corruptionMeta.type === "number") {
+      // Generate plausible "wrong number/duration" distractors
+      const fakeAlts = [];
+      const realVal = parseFloat(corruptionMeta.realStr);
+      const mults = [0.5, 1.5, 3, 0.25];
+      for (const mult of mults) {
+        const alt = realVal * mult;
+        const altStr = Number.isInteger(alt) ? String(alt) : alt.toFixed(1);
+        // Extract the unit from the real string
+        const unitMatch = corruptionMeta.realStr.match(/\d[\d.]*\s*(.*)/);
+        const unit = unitMatch ? unitMatch[1] : "seconds";
+        fakeAlts.push(`'${altStr} ${unit}' — the value was altered`);
+      }
+      const shuffled = shuffle(fakeAlts);
+      for (let i = 0; i < count && i < shuffled.length; i++) {
+        distractors.push(shuffled[i]);
+      }
+      while (distractors.length < count) {
+        distractors.push("A numeric value in the description is incorrect.");
+      }
+    }
+
+    return distractors.slice(0, count);
   },
 
   // Helper: build an array of 4 options (1 correct + 3 distractors), shuffled
