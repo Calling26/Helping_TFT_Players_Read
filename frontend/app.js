@@ -256,27 +256,7 @@ const QuizEngine = {
       (c) => c.spell && c.spell.desc && c.spell.desc.length > 20
     );
 
-    // ── Expanded fake-clause pool (16 entries) ──
-    const fakeClauses = [
-      { clause: "Also Stuns all enemies hit for 1.5 seconds.", explanation: "This sentence was fabricated — this ability does not Stun enemies." },
-      { clause: "Executes enemies below 15% Health.", explanation: "This sentence was fabricated — this ability does not execute enemies." },
-      { clause: "Grants 30 Armor and Magic Resist for 4 seconds.", explanation: "This sentence was fabricated — this ability does not grant Armor and Magic Resist." },
-      { clause: "Adjacent allies gain 25% Attack Speed for 5 seconds.", explanation: "This sentence was fabricated — this ability does not grant Attack Speed to allies." },
-      { clause: "Permanently gains 10 Ability Power on takedown.", explanation: "This sentence was fabricated — this ability does not gain Ability Power on takedown." },
-      { clause: "Cleanses all crowd control effects on cast.", explanation: "This sentence was fabricated — this ability does not cleanse crowd control." },
-      { clause: "Heals the lowest Health ally for 250 Health.", explanation: "This sentence was fabricated — this ability does not heal allies." },
-      { clause: "Shields the 2 lowest Health allies for 200 for 4 seconds.", explanation: "This sentence was fabricated — this ability does not shield allies." },
-      { clause: "Also Sunders enemies for 3 seconds.", explanation: "This sentence was fabricated — this ability does not Sunder enemies." },
-      { clause: "Heals the lowest health ally for 200.", explanation: "This sentence was fabricated — this ability does not heal the lowest health ally." },
-      { clause: "Grants 50% Dodge chance for 2 seconds.", explanation: "This sentence was fabricated — this ability does not grant Dodge chance." },
-      { clause: "Executes enemies below 10% Health.", explanation: "This sentence was fabricated — this ability does not execute low-health enemies." },
-      { clause: "Adjacent allies gain 20% Attack Speed.", explanation: "This sentence was fabricated — this ability does not buff adjacent allies." },
-      { clause: "Shields the lowest health ally for 150.", explanation: "This sentence was fabricated — this ability does not shield the lowest health ally." },
-      { clause: "Deals 10% bonus damage to shielded targets.", explanation: "This sentence was fabricated — this ability does not deal bonus damage to shielded targets." },
-      { clause: "Reduces the target's Armor by 40% for 3 seconds.", explanation: "This sentence was fabricated — this ability does not reduce Armor." },
-    ];
-
-    // ── Expanded swap rules with deeper replacement pools ──
+    // ── Keyword swap rules ──
     const swapRules = [
       {
         regex: /\bmagic damage\b/gi,
@@ -311,7 +291,7 @@ const QuizEngine = {
       {
         regex: /\bAttack Speed\b/gi,
         real: "Attack Speed",
-        replacements: ["Ability Power", "Movement Speed"],
+        replacements: ["Ability Power", "Movement Speed", "Shield"],
         makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Attack Speed'.`,
       },
       {
@@ -321,16 +301,22 @@ const QuizEngine = {
         makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Ability Power'.`,
       },
       {
+        regex: /\bAttack Damage\b/gi,
+        real: "Attack Damage",
+        replacements: ["Ability Power", "Armor"],
+        makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Attack Damage'.`,
+      },
+      {
+        regex: /\bShield(s)?\b/gi,
+        real: "Shield",
+        replacements: ["Attack Speed", "Heal", "Omnivamp"],
+        makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Shield'.`,
+      },
+      {
         regex: /\bStun(s)?\b/gi,
         real: "Stun",
         replacements: ["Silence", "Disarm", "Chill"],
         makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Stun'.`,
-      },
-      {
-        regex: /\bStunning\b/gi,
-        real: "Stunning",
-        replacements: ["Silencing", "Disarming", "Chilling"],
-        makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Stunning'.`,
       },
       {
         regex: /\bWound(s)?\b/gi,
@@ -345,22 +331,10 @@ const QuizEngine = {
         makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Burn'.`,
       },
       {
-        regex: /\bShield(s)?\b/gi,
-        real: "Shield",
-        replacements: ["Heal", "Omnivamp"],
-        makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Shield'.`,
-      },
-      {
         regex: /\bhex(es)?\b/gi,
         real: "Hexes",
         replacements: ["Rows", "Columns"],
         makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Hexes'.`,
-      },
-      {
-        regex: /\bAttack Damage\b/gi,
-        real: "Attack Damage",
-        replacements: ["Ability Power", "Armor"],
-        makeExplanation: (fake) => `This sentence was altered — '${fake}' should be 'Attack Damage'.`,
       },
       {
         regex: /\bSilence(s|d)?\b/gi,
@@ -376,22 +350,19 @@ const QuizEngine = {
       },
     ];
 
-    const numRegex = /\b(\d+(?:\.\d+)?)\s*(seconds?|hexes?|hex|attacks?|targets?|allies|enemies)?\b/gi;
-
     for (const champ of pool) {
       if (!champ.spell || !champ.spell.desc) continue;
 
-      // ── 1. Clean description & normalize line breaks ──
-      // TFT data uses <br>, <br/>, \\n, and \r\n for line breaks instead of periods.
-      // We convert all line breaks to \n so the regex splits every clause cleanly.
-      let rawDesc = champ.spell.desc
+      // ── 1. Sentence-Level Splitting ──
+      // Clean the champ.spell.desc (remove %i:...% and HTML tags)
+      let cleanDesc = (champ.spell.desc || "")
         .replace(/%i:[^%]+%/g, "")
-        .replace(/<br\s*\/?>/gi, "\n")
-        .replace(/\\n/g, "\n")
-        .replace(/\r/g, "");
+        .replace(/<br\s*\/?>/gi, ". ")
+        .replace(/\\n/g, ". ")
+        .replace(/[\r\n]+/g, ". ");
 
-      // Resolve @Var@ placeholders without collapsing newlines
-      rawDesc = rawDesc.replace(/@([^@]+)@/g, (_, raw) => {
+      // Resolve @Var@ placeholders into readable values
+      cleanDesc = cleanDesc.replace(/@([^@]+)@/g, (_, raw) => {
         if (raw.includes(".") && raw.includes("TFT")) return "";
         const parts = raw.split("*");
         const varName = parts[0].trim();
@@ -420,18 +391,18 @@ const QuizEngine = {
       });
 
       // Strip remaining HTML tags
-      rawDesc = rawDesc.replace(/<[^>]+>/g, " ");
+      cleanDesc = cleanDesc.replace(/<[^>]+>/g, " ");
 
-      // Split the entire description into an array of sentences
-      let sentences = rawDesc.match(/[^.!?\n]+[.!?\n]*/g) || [rawDesc];
-      sentences = sentences
-        .map((s) => s.replace(/\s+/g, " ").trim())
-        .filter((s) => s.length > 0 && !/^[:\-–—\s]+$/.test(s));
+      // Split the entire description by periods
+      let sentences = cleanDesc
+        .split(/\.\s+/)
+        .map((s) => s.replace(/\s+/g, " ").replace(/\.+$/, "").trim())
+        .filter((s) => s.length > 3 && !/^[:\-–—\s]+$/.test(s));
 
-      // Need at least 2 real sentences to make a fun, interactive question
+      // Need at least 2 real sentences
       if (sentences.length < 2) continue;
 
-      // ── 2. Determine available corruption strategies ──
+      // ── 2. The Corruption Logic ──
       // Check which sentences contain swappable keywords
       const swappableSentences = [];
       for (let si = 0; si < sentences.length; si++) {
@@ -443,48 +414,58 @@ const QuizEngine = {
         }
       }
 
-      // Check which sentences contain alterable numbers
-      const numberSentences = [];
-      for (let si = 0; si < sentences.length; si++) {
-        numRegex.lastIndex = 0;
-        const matches = [];
-        let nm;
-        while ((nm = numRegex.exec(sentences[si])) !== null) {
-          const val = parseFloat(nm[1]);
-          if (val >= 1 && val <= 1000) {
-            matches.push({ full: nm[0], numStr: nm[1], unit: nm[2] || "", index: nm.index });
-          }
-        }
-        if (matches.length > 0) {
-          numberSentences.push({ sentenceIdx: si, matches });
-        }
-      }
-
-      const availableStrategies = ["inject"];
-      if (swappableSentences.length > 0) availableStrategies.push("swap");
-      if (numberSentences.length > 0) availableStrategies.push("number");
-
-      const strategy = availableStrategies[Math.floor(Math.random() * availableStrategies.length)];
+      // Randomly choose to either Inject a Fake Clause OR Mutate an Existing Sentence
+      const canMutate = swappableSentences.length > 0;
+      const doInject = !canMutate || Math.random() < 0.5;
 
       let corruptedIndex = -1;
       let explanation = "";
 
-      if (strategy === "inject") {
-        // A) Fake Clause Injection: pick a fake clause and insert at a random index
-        const eligibleClauses = fakeClauses.filter(
-          (fc) => !rawDesc.toLowerCase().includes(fc.clause.toLowerCase())
+      if (doInject) {
+        // If Injecting: Pick a random authentic sentence from a different champion in DataStore.champions
+        let pickedSentence = "";
+        let fakeOriginChamp = "";
+
+        const otherPool = shuffle(
+          DataStore.champions.filter(
+            (c) => c.name !== champ.name && c.spell && c.spell.desc && c.spell.desc.length > 20
+          )
         );
-        const pickedClause =
-          eligibleClauses[Math.floor(Math.random() * eligibleClauses.length)] ||
-          fakeClauses[0];
 
-        let insertIdx = Math.floor(Math.random() * (sentences.length + 1));
-        sentences.splice(insertIdx, 0, pickedClause.clause);
+        for (const other of otherPool) {
+          let oClean = (other.spell.desc || "")
+            .replace(/%i:[^%]+%/g, "")
+            .replace(/<br\s*\/?>/gi, ". ")
+            .replace(/\\n/g, ". ")
+            .replace(/[\r\n]+/g, ". ")
+            .replace(/<[^>]+>/g, " ")
+            .replace(/@([^@]+)@/g, "X");
+
+          const otherSentences = oClean
+            .split(/\.\s+/)
+            .map((s) => s.replace(/\s+/g, " ").replace(/\.+$/, "").trim())
+            .filter((s) => s.length > 15 && !s.toLowerCase().includes(other.name.toLowerCase()));
+
+          if (otherSentences.length > 0) {
+            pickedSentence = otherSentences[Math.floor(Math.random() * otherSentences.length)];
+            fakeOriginChamp = other.name;
+            break;
+          }
+        }
+
+        if (!pickedSentence) {
+          pickedSentence = "Also Stuns all enemies hit for 1.5 seconds";
+        }
+
+        const insertIdx = Math.floor(Math.random() * (sentences.length + 1));
+        sentences.splice(insertIdx, 0, pickedSentence);
         corruptedIndex = insertIdx;
-        explanation = pickedClause.explanation;
+        explanation = fakeOriginChamp
+          ? `This sentence belongs to ${fakeOriginChamp} — ${champ.name}'s ability does not contain this effect.`
+          : `This sentence was fabricated — ${champ.name}'s ability does not contain this effect.`;
 
-      } else if (strategy === "swap") {
-        // B) Keyword Swap: pick a random sentence with swappable keyword
+      } else {
+        // If Mutating: Pick a random sentence already in the array and swap a keyword inside it
         const pick = swappableSentences[Math.floor(Math.random() * swappableSentences.length)];
         const rule = pick.rule;
         const fake = rule.replacements[Math.floor(Math.random() * rule.replacements.length)];
@@ -493,48 +474,16 @@ const QuizEngine = {
         sentences[pick.sentenceIdx] = sentences[pick.sentenceIdx].replace(rule.regex, fake);
         corruptedIndex = pick.sentenceIdx;
         explanation = rule.makeExplanation(fake);
-
-      } else if (strategy === "number") {
-        // C) Number Alteration: pick a random sentence with a number
-        const pick = numberSentences[Math.floor(Math.random() * numberSentences.length)];
-        const pickedNum = pick.matches[Math.floor(Math.random() * pick.matches.length)];
-
-        const val = parseFloat(pickedNum.numStr);
-        let fakeVal;
-        if (val === 1) fakeVal = 3;
-        else if (val === 1.5) fakeVal = 3;
-        else if (val === 2) fakeVal = 4;
-        else if (val === 3) fakeVal = 5;
-        else if (val <= 10) fakeVal = val + 2;
-        else fakeVal = Math.round(val * 1.5);
-
-        let fakeUnit = pickedNum.unit;
-        if (fakeVal > 1 && fakeUnit) {
-          const u = fakeUnit.toLowerCase();
-          if (u === "second") fakeUnit = "seconds";
-          else if (u === "hex") fakeUnit = "hexes";
-          else if (u === "attack") fakeUnit = "attacks";
-          else if (u === "target") fakeUnit = "targets";
-          else if (u === "ally") fakeUnit = "allies";
-          else if (u === "enemy") fakeUnit = "enemies";
-        }
-
-        const fakeValStr = Number.isInteger(fakeVal) ? String(fakeVal) : fakeVal.toFixed(1);
-        const fakeStr = fakeUnit ? `${fakeValStr} ${fakeUnit}` : fakeValStr;
-        const realStr = pickedNum.full.trim();
-
-        sentences[pick.sentenceIdx] = sentences[pick.sentenceIdx].replace(realStr, fakeStr);
-        corruptedIndex = pick.sentenceIdx;
-        explanation = `This sentence was altered — '${fakeStr}' should be '${realStr}'.`;
       }
 
       // Safety check
       if (corruptedIndex < 0 || corruptedIndex >= sentences.length) continue;
 
-      // ── 3. Wrap Every Sentence in a Span ──
+      // ── 3. Wrap Full Sentences ONLY ──
       let htmlDesc = sentences.map((s, i) => {
         let isError = (i === corruptedIndex);
-        return `<span class="spot-phrase" data-id="${i}" data-is-error="${isError}">${escapeHtml(s)}</span>`;
+        let cleanS = s.replace(/\.+$/, "");
+        return `<span class="spot-phrase" data-id="${i}" data-is-error="${isError}">${escapeHtml(cleanS)}.</span>`;
       }).join(" ");
 
       this.questions.push({
