@@ -1,0 +1,7625 @@
+[
+  {
+    "id": "TFTTutorial_Zed",
+    "name": "Zed",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Ninja",
+      "Assassin"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_zed_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Ahri",
+    "name": "Ahri",
+    "set": 1,
+    "cost": 2,
+    "range": 3,
+    "traits": [
+      "Wild",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_ahri_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Garen",
+    "name": "Garen",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Exemplar",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_garen_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Akali",
+    "name": "Akali",
+    "set": 1,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ninja",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_akali_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Warwick",
+    "name": "Warwick",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Wild",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_warwick_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Ashe",
+    "name": "Ashe",
+    "set": 1,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Glacial",
+      "Ranger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_ashe_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Blitzcrank",
+    "name": "Blitzcrank",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Robot",
+      "Brawler"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_blitzcrank_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Vi",
+    "name": "Vi",
+    "set": 1,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Hextech",
+      "Brawler"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_vi_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Lulu",
+    "name": "Lulu",
+    "set": 1,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Yordle",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_lulu_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Pyke",
+    "name": "Pyke",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Pirate",
+      "Assassin"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_pyke_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Lucian",
+    "name": "Lucian",
+    "set": 1,
+    "cost": 2,
+    "range": 3,
+    "traits": [
+      "Exemplar",
+      "Gunslinger"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_lucian_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Khazix",
+    "name": "Khazix",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Assassin"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_khazix_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Lissandra",
+    "name": "Lissandra",
+    "set": 1,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Glacial",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_lissandra_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Braum",
+    "name": "Braum",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Glacial",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_braum_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Camille",
+    "name": "Camille",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Hextech",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_camille_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Darius",
+    "name": "Darius",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Imperial",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_darius_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Veigar",
+    "name": "Veigar",
+    "set": 1,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Yordle",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_veigar_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Elise",
+    "name": "Elise",
+    "set": 1,
+    "cost": 1,
+    "range": 2,
+    "traits": [
+      "Demon",
+      "Shapeshifter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_elise_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Fiora",
+    "name": "Fiora",
+    "set": 1,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Exemplar",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_fiora_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Evelynn",
+    "name": "Evelynn",
+    "set": 1,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Demon",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_evelyn_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Gangplank",
+    "name": "Gangplank",
+    "set": 1,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Pirate",
+      "Gunslinger",
+      "Blademaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_gangplank_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Vayne",
+    "name": "Vayne",
+    "set": 1,
+    "cost": 1,
+    "range": 3,
+    "traits": [
+      "Exemplar",
+      "Ranger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_vayne_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Varus",
+    "name": "Varus",
+    "set": 1,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Demon",
+      "Ranger"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_varus_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Graves",
+    "name": "Graves",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Pirate",
+      "Gunslinger"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_graves_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Jayce",
+    "name": "Jayce",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Hextech",
+      "Shapeshifter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_jayce_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Jinx",
+    "name": "Jinx",
+    "set": 1,
+    "cost": 4,
+    "range": 3,
+    "traits": [
+      "Hextech",
+      "Gunslinger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_jinx_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_TwistedFate",
+    "name": "TwistedFate",
+    "set": 1,
+    "cost": 2,
+    "range": 3,
+    "traits": [
+      "Pirate",
+      "Sorcerer"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_twistedfate_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Tristana",
+    "name": "Tristana",
+    "set": 1,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Yordle",
+      "Gunslinger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_tristana_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Kassadin",
+    "name": "Kassadin",
+    "set": 1,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_kassadin_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Katarina",
+    "name": "Katarina",
+    "set": 1,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Imperial",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_katarina_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Kayle",
+    "name": "Kayle",
+    "set": 1,
+    "cost": 5,
+    "range": 3,
+    "traits": [
+      "Exemplar",
+      "Guardian"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_kayle_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Shen",
+    "name": "Shen",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Ninja",
+      "Blademaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_shen_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Nidalee",
+    "name": "Nidalee",
+    "set": 1,
+    "cost": 1,
+    "range": 3,
+    "traits": [
+      "Wild",
+      "Shapeshifter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_nidalee_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_RekSai",
+    "name": "RekSai",
+    "set": 1,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Brawler"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_reksai_mobile.png"
+  },
+  {
+    "id": "TFTTutorial_Leona",
+    "name": "Leona",
+    "set": 1,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Exemplar",
+      "Guardian"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/set_1_splash_mobile/tft_leona_mobile.png"
+  },
+  {
+    "id": "TFT3_Ziggs",
+    "name": "Ziggs",
+    "set": 3,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Rebel",
+      "Demolitionist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_ziggs_mobile.png"
+  },
+  {
+    "id": "TFT3_Jinx",
+    "name": "Jinx",
+    "set": 3,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Rebel",
+      "Blaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_jinx_mobile.png"
+  },
+  {
+    "id": "TFT3_Teemo",
+    "name": "Teemo",
+    "set": 3,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Astro",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_teemo_mobile.png"
+  },
+  {
+    "id": "TFT3_Yasuo",
+    "name": "Yasuo",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Blademaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_yasuo_mobile.png"
+  },
+  {
+    "id": "TFT3_Malphite",
+    "name": "Malphite",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_malphite_mobile.png"
+  },
+  {
+    "id": "TFT3_MasterYi",
+    "name": "Master Yi",
+    "set": 3,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Blademaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_masteryi_mobile.png"
+  },
+  {
+    "id": "TFT3_AurelionSol",
+    "name": "Aurelion Sol",
+    "set": 3,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Starship"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_aurelionsol_mobile.png"
+  },
+  {
+    "id": "TFT3_Viktor",
+    "name": "Viktor",
+    "set": 3,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Battlecast",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_viktor_mobile.png"
+  },
+  {
+    "id": "TFT3_KogMaw",
+    "name": "Kog'Maw",
+    "set": 3,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Battlecast",
+      "Blaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_kogmaw_mobile.png"
+  },
+  {
+    "id": "TFT3_Urgot",
+    "name": "Urgot",
+    "set": 3,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Battlecast",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_urgot_mobile.png"
+  },
+  {
+    "id": "TFT3_Ekko",
+    "name": "Ekko",
+    "set": 3,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Cybernetic",
+      "Infiltrator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_ekko_mobile.png"
+  },
+  {
+    "id": "TFT3_Fiora",
+    "name": "Fiora",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Cybernetic",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_fiora_mobile.png"
+  },
+  {
+    "id": "TFT3_Vi",
+    "name": "Vi",
+    "set": 3,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Cybernetic",
+      "Brawler"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_vi_mobile.png"
+  },
+  {
+    "id": "TFT3_Irelia",
+    "name": "Irelia",
+    "set": 3,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Cybernetic",
+      "Mana-Reaver",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_irelia_mobile.png"
+  },
+  {
+    "id": "TFT3_Poppy",
+    "name": "Poppy",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Star Guardian",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_poppy_mobile.png"
+  },
+  {
+    "id": "TFT3_Soraka",
+    "name": "Soraka",
+    "set": 3,
+    "cost": 4,
+    "range": 3,
+    "traits": [
+      "Star Guardian",
+      "Mystic"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_soraka_mobile.png"
+  },
+  {
+    "id": "TFT3_Ahri",
+    "name": "Ahri",
+    "set": 3,
+    "cost": 2,
+    "range": 3,
+    "traits": [
+      "Star Guardian",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_ahri_mobile.png"
+  },
+  {
+    "id": "TFT3_Syndra",
+    "name": "Syndra",
+    "set": 3,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_syndra_mobile.png"
+  },
+  {
+    "id": "TFT3_Neeko",
+    "name": "Neeko",
+    "set": 3,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "Star Guardian",
+      "Protector"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_neeko_mobile.png"
+  },
+  {
+    "id": "TFT3_Gangplank",
+    "name": "Gangplank",
+    "set": 3,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Space Pirate",
+      "Mercenary",
+      "Demolitionist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_gangplank_mobile.png"
+  },
+  {
+    "id": "TFT3_Darius",
+    "name": "Darius",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Space Pirate",
+      "Mana-Reaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_darius_mobile.png"
+  },
+  {
+    "id": "TFT3_Jayce",
+    "name": "Jayce",
+    "set": 3,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Space Pirate",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_jayce_mobile.png"
+  },
+  {
+    "id": "TFT3_Annie",
+    "name": "Annie",
+    "set": 3,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Mech-Pilot",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_annie_mobile.png"
+  },
+  {
+    "id": "TFT3_Fizz",
+    "name": "Fizz",
+    "set": 3,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Mech-Pilot",
+      "Infiltrator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_fizz_mobile.png"
+  },
+  {
+    "id": "TFT3_Rumble",
+    "name": "Rumble",
+    "set": 3,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Mech-Pilot",
+      "Demolitionist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_rumble_mobile.png"
+  },
+  {
+    "id": "TFT3_Ezreal",
+    "name": "Ezreal",
+    "set": 3,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Chrono",
+      "Blaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_ezreal_mobile.png"
+  },
+  {
+    "id": "TFT3_Shen",
+    "name": "Shen",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Chrono",
+      "Blademaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_shen_mobile.png"
+  },
+  {
+    "id": "TFT3_WuKong",
+    "name": "Wukong",
+    "set": 3,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Chrono",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_wukong_mobile.png"
+  },
+  {
+    "id": "TFT3_Thresh",
+    "name": "Thresh",
+    "set": 3,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Chrono",
+      "Mana-Reaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_thresh_mobile.png"
+  },
+  {
+    "id": "TFT3_Caitlyn",
+    "name": "Caitlyn",
+    "set": 3,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Chrono",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_caitlyn_mobile.png"
+  },
+  {
+    "id": "TFT3_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 3,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Chrono",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_twistedfate_mobile.png"
+  },
+  {
+    "id": "TFT3_XinZhao",
+    "name": "Xin Zhao",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Celestial",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_xinzhao_mobile.png"
+  },
+  {
+    "id": "TFT3_Lulu",
+    "name": "Lulu",
+    "set": 3,
+    "cost": 5,
+    "range": 3,
+    "traits": [
+      "Celestial",
+      "Mystic"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_lulu_mobile.png"
+  },
+  {
+    "id": "TFT3_Xayah",
+    "name": "Xayah",
+    "set": 3,
+    "cost": 1,
+    "range": 3,
+    "traits": [
+      "Celestial",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_xayah_mobile.png"
+  },
+  {
+    "id": "TFT3_Rakan",
+    "name": "Rakan",
+    "set": 3,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Celestial",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_rakan_mobile.png"
+  },
+  {
+    "id": "TFT3_Ashe",
+    "name": "Ashe",
+    "set": 3,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Celestial",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_ashe_mobile.png"
+  },
+  {
+    "id": "TFT3_Mordekaiser",
+    "name": "Mordekaiser",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Dark Star",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_mordekaiser_mobile.png"
+  },
+  {
+    "id": "TFT3_Shaco",
+    "name": "Shaco",
+    "set": 3,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Dark Star",
+      "Infiltrator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_shaco_mobile.png"
+  },
+  {
+    "id": "TFT3_JarvanIV",
+    "name": "Jarvan IV",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Dark Star",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_jarvan_mobile.png"
+  },
+  {
+    "id": "TFT3_Karma",
+    "name": "Karma",
+    "set": 3,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Dark Star",
+      "Mystic"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_karma_mobile.png"
+  },
+  {
+    "id": "TFT3_Jhin",
+    "name": "Jhin",
+    "set": 3,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Dark Star",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_jhin_mobile.png"
+  },
+  {
+    "id": "TFT3_Zoe",
+    "name": "Zoe",
+    "set": 3,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_zoey_mobile.png"
+  },
+  {
+    "id": "TFT3_Blitzcrank",
+    "name": "Blitzcrank",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Chrono",
+      "Brawler"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_blitzcrank_mobile.png"
+  },
+  {
+    "id": "TFT3_Leona",
+    "name": "Leona",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Cybernetic",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_leona_mobile.png"
+  },
+  {
+    "id": "TFT3_Lucian",
+    "name": "Lucian",
+    "set": 3,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Cybernetic",
+      "Blaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_lucian_mobile.png"
+  },
+  {
+    "id": "TFT3_Graves",
+    "name": "Graves",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Space Pirate",
+      "Blaster"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_graves_mobile.png"
+  },
+  {
+    "id": "TFT3_Xerath",
+    "name": "Xerath",
+    "set": 3,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Dark Star",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_xerath_mobile.png"
+  },
+  {
+    "id": "TFT3_Gnar",
+    "name": "Gnar",
+    "set": 3,
+    "cost": 4,
+    "range": 2,
+    "traits": [
+      "Astro",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_gnar_mobile.png"
+  },
+  {
+    "id": "TFT3_Nautilus",
+    "name": "Nautilus",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Astro",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_nautilus_mobile.png"
+  },
+  {
+    "id": "TFT3_Illaoi",
+    "name": "Illaoi",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Battlecast",
+      "Brawler"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_illaoi_mobile.png"
+  },
+  {
+    "id": "TFT3_Nocturne",
+    "name": "Nocturne",
+    "set": 3,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Battlecast",
+      "Infiltrator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_nocturne_mobile.png"
+  },
+  {
+    "id": "TFT3_Cassiopeia",
+    "name": "Cassiopeia",
+    "set": 3,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "Battlecast",
+      "Mystic"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_cassiopeia_mobile.png"
+  },
+  {
+    "id": "TFT3_Vayne",
+    "name": "Vayne",
+    "set": 3,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Cybernetic",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_vayne_mobile.png"
+  },
+  {
+    "id": "TFT3_Janna",
+    "name": "Janna",
+    "set": 3,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Paragon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_janna_mobile.png"
+  },
+  {
+    "id": "TFT3_Riven",
+    "name": "Riven",
+    "set": 3,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Chrono",
+      "Blademaster"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_riven_mobile.png"
+  },
+  {
+    "id": "TFT3_Bard",
+    "name": "Bard",
+    "set": 3,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Astro",
+      "Mystic"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_bard_mobile.png"
+  },
+  {
+    "id": "TFT3_Zed",
+    "name": "Zed",
+    "set": 3,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Infiltrator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft3_zed_mobile.png"
+  },
+  {
+    "id": "TFT7_Vladimir",
+    "name": "Vladimir",
+    "set": 7,
+    "cost": 1,
+    "range": 2,
+    "traits": [
+      "Astral",
+      "Mage"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_vladimir_mobile.png"
+  },
+  {
+    "id": "TFT7_Nidalee",
+    "name": "Nidalee",
+    "set": 7,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Astral",
+      "Shapeshifter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_nidalee_mobile.png"
+  },
+  {
+    "id": "TFT7_Senna",
+    "name": "Senna",
+    "set": 7,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Ragewing",
+      "Cannoneer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_senna_mobile.png"
+  },
+  {
+    "id": "TFT7_Sett",
+    "name": "Sett",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Ragewing",
+      "Dragonmancer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_sett_mobile.png"
+  },
+  {
+    "id": "TFT7_Gnar",
+    "name": "Gnar",
+    "set": 7,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Jade",
+      "Shapeshifter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_gnar_mobile.png"
+  },
+  {
+    "id": "TFT7_Sejuani",
+    "name": "Sejuani",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Guild",
+      "Cavalier"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_sejuani_mobile.png"
+  },
+  {
+    "id": "TFT7_Ezreal",
+    "name": "Ezreal",
+    "set": 7,
+    "cost": 1,
+    "range": 3,
+    "traits": [
+      "Tempest",
+      "Swiftshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_ezreal_mobile.png"
+  },
+  {
+    "id": "TFT7_Skarner",
+    "name": "Skarner",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Astral",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_skarner_mobile.png"
+  },
+  {
+    "id": "TFT7_Yone",
+    "name": "Yone",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Mirage",
+      "Warrior"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_yone_mobile.png"
+  },
+  {
+    "id": "TFT7_Varus",
+    "name": "Varus",
+    "set": 7,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Astral",
+      "Swiftshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_varus_mobile.png"
+  },
+  {
+    "id": "TFT7_LeeSin",
+    "name": "Lee Sin",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Tempest",
+      "Dragonmancer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_leesin_mobile.png"
+  },
+  {
+    "id": "TFT7_Shyvana",
+    "name": "Shyvana",
+    "set": 7,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Ragewing",
+      "Shapeshifter",
+      "Dragon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_shyvana_mobile.png"
+  },
+  {
+    "id": "TFT7_Hecarim",
+    "name": "Hecarim",
+    "set": 7,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ragewing",
+      "Cavalier"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_hecarim_mobile.png"
+  },
+  {
+    "id": "TFT7_Soraka",
+    "name": "Soraka",
+    "set": 7,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Jade",
+      "Starcaller"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_soraka_mobile.png"
+  },
+  {
+    "id": "TFT7_Karma",
+    "name": "Karma",
+    "set": 7,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Jade",
+      "Dragonmancer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_karma_mobile.png"
+  },
+  {
+    "id": "TFT7_Zoe",
+    "name": "Zoe",
+    "set": 7,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Shimmerscale",
+      "Spell Thief",
+      "Mage"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_zoe_mobile.png"
+  },
+  {
+    "id": "TFT7_Yasuo",
+    "name": "Yasuo",
+    "set": 7,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Mirage",
+      "Dragonmancer",
+      "Warrior"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_yasuo_mobile.png"
+  },
+  {
+    "id": "TFT7_Nunu",
+    "name": "Nunu & Willump",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Mirage",
+      "Cavalier"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_nunu_mobile.png"
+  },
+  {
+    "id": "TFT7_Bard",
+    "name": "Bard",
+    "set": 7,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Guild",
+      "Mystic",
+      "Bard"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_bard_mobile.png"
+  },
+  {
+    "id": "TFT7_Xayah",
+    "name": "Xayah",
+    "set": 7,
+    "cost": 4,
+    "range": 3,
+    "traits": [
+      "Ragewing",
+      "Swiftshot"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_xayah_mobile.png"
+  },
+  {
+    "id": "TFT7_Qiyana",
+    "name": "Qiyana",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Tempest",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_qiyana_mobile.png"
+  },
+  {
+    "id": "TFT7_Sylas",
+    "name": "Sylas",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Whispers",
+      "Mage",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_sylas_mobile.png"
+  },
+  {
+    "id": "TFT7_Leona",
+    "name": "Leona",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Mirage",
+      "Guardian"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_leona_mobile.png"
+  },
+  {
+    "id": "TFT7_Twitch",
+    "name": "Twitch",
+    "set": 7,
+    "cost": 2,
+    "range": 3,
+    "traits": [
+      "Guild",
+      "Swiftshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_twitch_mobile.png"
+  },
+  {
+    "id": "TFT7_AoShin",
+    "name": "Ao Shin",
+    "set": 7,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Tempest",
+      "Dragon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_aoshin_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonPurple",
+    "name": "Sy'fen",
+    "set": 7,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Whispers",
+      "Bruiser",
+      "Dragon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_whispersdragon_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonGreen",
+    "name": "Shi Oh Yu",
+    "set": 7,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Jade",
+      "Mystic",
+      "Dragon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_dragongreen_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonGold",
+    "name": "Idas",
+    "set": 7,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Shimmerscale",
+      "Dragon",
+      "Guardian"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_shimmerscaledragon_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonBlue",
+    "name": "Daeja",
+    "set": 7,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Mirage",
+      "Dragon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_miragedragon_mobile.png"
+  },
+  {
+    "id": "TFT7_AurelionSol",
+    "name": "Aurelion Sol",
+    "set": 7,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Astral",
+      "Evoker",
+      "Dragon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_aurelionsol_mobile.png"
+  },
+  {
+    "id": "TFT7_AquaticDragon",
+    "name": "Sohm",
+    "set": 7,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Lagoon",
+      "Mage",
+      "Dragon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_sohm_mobile.png"
+  },
+  {
+    "id": "TFT7_Taliyah",
+    "name": "Taliyah",
+    "set": 7,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Lagoon",
+      "Mage"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_taliyah_mobile.png"
+  },
+  {
+    "id": "TFT7_Malphite",
+    "name": "Malphite",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Lagoon",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_malphite_mobile.png"
+  },
+  {
+    "id": "TFT7_Zac",
+    "name": "Zac",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Lagoon",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_zac_mobile.png"
+  },
+  {
+    "id": "TFT7_Aphelios",
+    "name": "Aphelios",
+    "set": 7,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Darkflight",
+      "Cannoneer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_aphelios_mobile.png"
+  },
+  {
+    "id": "TFT7_Rell",
+    "name": "Rell",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Darkflight",
+      "Cavalier"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_rell_mobile.png"
+  },
+  {
+    "id": "TFT7_Zyra",
+    "name": "Zyra",
+    "set": 7,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Whispers",
+      "Evoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_zyra_mobile.png"
+  },
+  {
+    "id": "TFT7_Kaisa",
+    "name": "Kai'Sa",
+    "set": 7,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Lagoon",
+      "Dragonmancer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_kaisa_mobile.png"
+  },
+  {
+    "id": "TFT7_Seraphine",
+    "name": "Seraphine",
+    "set": 7,
+    "cost": 3,
+    "range": 3,
+    "traits": [
+      "Lagoon",
+      "Evoker",
+      "Mystic"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_seraphine_mobile.png"
+  },
+  {
+    "id": "TFT7_Rengar",
+    "name": "Rengar",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Darkflight",
+      "Assassin"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_rengar_mobile.png"
+  },
+  {
+    "id": "TFT7_Zeri",
+    "name": "Zeri",
+    "set": 7,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Lagoon",
+      "Cannoneer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_zeri_mobile.png"
+  },
+  {
+    "id": "TFT7_Rakan",
+    "name": "Rakan",
+    "set": 7,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "Ragewing",
+      "Guardian",
+      "Mystic"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_rakan_mobile.png"
+  },
+  {
+    "id": "TFT7_Graves",
+    "name": "Graves",
+    "set": 7,
+    "cost": 4,
+    "range": 3,
+    "traits": [
+      "Tempest",
+      "Cannoneer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_graves_mobile.png"
+  },
+  {
+    "id": "TFT7_Jayce",
+    "name": "Jayce",
+    "set": 7,
+    "cost": 4,
+    "range": 3,
+    "traits": [
+      "Guild",
+      "Shapeshifter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_jayce_mobile.png"
+  },
+  {
+    "id": "TFT7_Pantheon",
+    "name": "Pantheon",
+    "set": 7,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Whispers",
+      "Warrior"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_pantheon_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonEarth",
+    "name": "Terra",
+    "set": 7,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Monolith",
+      "Dragon"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_dragonearth_mobile.png"
+  },
+  {
+    "id": "TFT7_Nilah",
+    "name": "Nilah",
+    "set": 7,
+    "cost": 4,
+    "range": 2,
+    "traits": [
+      "Lagoon",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_nilah_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonSwain",
+    "name": "Tyrant Swain",
+    "set": 7,
+    "cost": 4,
+    "range": 2,
+    "traits": [
+      "Darkflight",
+      "Dragon"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_dragonswain_mobile.png"
+  },
+  {
+    "id": "TFT7_Nomsy",
+    "name": "Nomsy",
+    "set": 7,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Prodigy",
+      "Dragon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_nomsy_mobile.png"
+  },
+  {
+    "id": "TFT7b_Volibear",
+    "name": "Volibear",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Shimmerscale",
+      "Dragonmancer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7b_volibear_mobile.png"
+  },
+  {
+    "id": "TFT7b_Heimerdinger",
+    "name": "Heimerdinger",
+    "set": 7,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Mage"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7b_heimerdinger_mobile.png"
+  },
+  {
+    "id": "TFT7b_Lulu",
+    "name": "Lulu",
+    "set": 7,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Evoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7b_lulu_mobile.png"
+  },
+  {
+    "id": "TFT7b_Tristana",
+    "name": "Tristana",
+    "set": 7,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Cannoneer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7b_tristana_mobile.png"
+  },
+  {
+    "id": "TFT7_Wukong",
+    "name": "Wukong",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Jade",
+      "Warrior"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_wukong_mobile.png"
+  },
+  {
+    "id": "TFT7_Nasus",
+    "name": "Nasus",
+    "set": 7,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Shimmerscale",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_nasus_mobile.png"
+  },
+  {
+    "id": "TFT7_Jax",
+    "name": "Jax",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Jade",
+      "Shimmerscale",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_jax_mobile.png"
+  },
+  {
+    "id": "TFT7_Lux",
+    "name": "Lux",
+    "set": 7,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Astral",
+      "Mage"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_lux_mobile.png"
+  },
+  {
+    "id": "TFT7_DragonGuild",
+    "name": "Zippy",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Guild",
+      "Dragon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_zippy_mobile.png"
+  },
+  {
+    "id": "TFT7_Braum",
+    "name": "Braum",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Scalescorn",
+      "Guardian"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_braum_mobile.png"
+  },
+  {
+    "id": "TFT7_Olaf",
+    "name": "Olaf",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Scalescorn",
+      "Bruiser",
+      "Warrior"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_olaf_mobile.png"
+  },
+  {
+    "id": "TFT7_Lillia",
+    "name": "Lillia",
+    "set": 7,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Scalescorn",
+      "Cavalier",
+      "Mage"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_lillia_mobile.png"
+  },
+  {
+    "id": "TFT7_Diana",
+    "name": "Diana",
+    "set": 7,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Scalescorn",
+      "Assassin"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft7_diana_mobile.png"
+  },
+  {
+    "id": "TFT13_Singed",
+    "name": "Singed",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Chem-Baron",
+      "Sentinel"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_singed/skins/base/images/tft13_singed_mobile.png"
+  },
+  {
+    "id": "TFT13_RenataGlasc",
+    "name": "Renata Glasc",
+    "set": 13,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Chem-Baron",
+      "Visionary"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_renataglasc/skins/base/images/tft13_renataglasc_mobile.png"
+  },
+  {
+    "id": "TFT13_Silco",
+    "name": "Silco",
+    "set": 13,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Chem-Baron",
+      "Dominator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_silco/skins/base/images/tft13_silco_mobile.png"
+  },
+  {
+    "id": "TFT13_Camille",
+    "name": "Camille",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Enforcer",
+      "Ambusher"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_camille/skins/base/images/tft13_camille_mobile.png"
+  },
+  {
+    "id": "TFT13_Blitzcrank",
+    "name": "Blitzcrank",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Automata",
+      "Dominator"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_blitzcrank/skins/base/images/tft13_blitzcrank_mobile.png"
+  },
+  {
+    "id": "TFT13_Vi",
+    "name": "Vi",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Enforcer",
+      "Pit Fighter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_vi/skins/base/images/tft13_vi_mobile.png"
+  },
+  {
+    "id": "TFT13_Caitlyn",
+    "name": "Caitlyn",
+    "set": 13,
+    "cost": 5,
+    "range": 13,
+    "traits": [
+      "Enforcer",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_caitlyn/skins/base/images/tft13_caitlyn_mobile.png"
+  },
+  {
+    "id": "TFT13_Ekko",
+    "name": "Ekko",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Firelight",
+      "Scrap",
+      "Ambusher"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_ekko/skins/base/images/tft13_ekko_mobile.png"
+  },
+  {
+    "id": "TFT13_Amumu",
+    "name": "Amumu",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Automata",
+      "Watcher"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_amumu/skins/base/images/tft13_amumu_mobile.png"
+  },
+  {
+    "id": "TFT13_Malzahar",
+    "name": "Malzahar",
+    "set": 13,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Automata",
+      "Visionary"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_malzahar/skins/base/images/tft13_malzahar_mobile.png"
+  },
+  {
+    "id": "TFT13_DrMundo",
+    "name": "Dr. Mundo",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Experiment",
+      "Dominator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_drmundo/skins/base/images/tft13_drmundo_mobile.png"
+  },
+  {
+    "id": "TFT13_Twitch",
+    "name": "Twitch",
+    "set": 13,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Experiment",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_twitch/skins/base/images/tft13_twitch__mobile.png"
+  },
+  {
+    "id": "TFT13_Akali",
+    "name": "Akali",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Quickstriker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_akali/skins/base/images/tft13_akali_mobile.png"
+  },
+  {
+    "id": "TFT13_Sett",
+    "name": "Sett",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Bruiser",
+      "Pit Fighter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_sett/skins/base/images/tft13_sett_mobile.png"
+  },
+  {
+    "id": "TFT13_Ezreal",
+    "name": "Ezreal",
+    "set": 13,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Academy",
+      "Rebel",
+      "Artillerist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_ezreal/skins/base/images/tft13_ezreal_mobile.png"
+  },
+  {
+    "id": "TFT13_Illaoi",
+    "name": "Illaoi",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Sentinel"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_illaoi/skins/base/images/tft13_illaoi_mobile.png"
+  },
+  {
+    "id": "TFT13_Draven",
+    "name": "Draven",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Conqueror",
+      "Pit Fighter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_draven/skins/base/images/tft13_draven_mobile.png"
+  },
+  {
+    "id": "TFT13_Rell",
+    "name": "Rell",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Conqueror",
+      "Sentinel",
+      "Visionary"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_rell/skins/base/images/tft13_rell_mobile.png"
+  },
+  {
+    "id": "TFT13_Cassiopeia",
+    "name": "Cassiopeia",
+    "set": 13,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Black Rose",
+      "Dominator"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_cassiopeia/skins/base/images/tft13_cassiopeia_mobile.png"
+  },
+  {
+    "id": "TFT13_Vladimir",
+    "name": "Vladimir",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Black Rose",
+      "Watcher",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_vladimir/skins/base/images/tft13_vladimir_mobile.png"
+  },
+  {
+    "id": "TFT13_Elise",
+    "name": "Elise",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Black Rose",
+      "Form Swapper",
+      "Bruiser"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_elise/skins/base/images/tft13_elise_mobile.png"
+  },
+  {
+    "id": "TFT13_LeBlanc",
+    "name": "LeBlanc",
+    "set": 13,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Black Rose",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_leblanc/skins/base/images/tft13_leblanc_mobile.png"
+  },
+  {
+    "id": "TFT13_Heimerdinger",
+    "name": "Heimerdinger",
+    "set": 13,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Academy",
+      "Visionary"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_heimerdinger/skins/base/images/tft13_heimerdinger_mobile.png"
+  },
+  {
+    "id": "TFT13_Jayce",
+    "name": "Jayce",
+    "set": 13,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Academy",
+      "Form Swapper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_jayce/skins/base/images/tft13_jayce_mobile.png"
+  },
+  {
+    "id": "TFT13_Trundle",
+    "name": "Trundle",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Scrap",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_trundle/skins/base/images/tft13_trundle_mobile.png"
+  },
+  {
+    "id": "TFT13_Ziggs",
+    "name": "Ziggs",
+    "set": 13,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Scrap",
+      "Dominator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_ziggs/skins/base/images/tft13_ziggs_mobile.png"
+  },
+  {
+    "id": "TFT13_Rumble",
+    "name": "Rumble",
+    "set": 13,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Junker King",
+      "Scrap",
+      "Sentinel"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_rumble/skins/base/images/tft13_rumble_mobile.png"
+  },
+  {
+    "id": "TFT13_Gremlin",
+    "name": "Smeech",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Chem-Baron",
+      "Ambusher"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_gremlin/skins/base/images/tft13_gremlin_mobile.png"
+  },
+  {
+    "id": "TFT13_Lieutenant",
+    "name": "Sevika",
+    "set": 13,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "High Roller",
+      "Chem-Baron",
+      "Pit Fighter"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_lieutenant/skins/base/images/tft13_lieutenant_mobile.png"
+  },
+  {
+    "id": "TFT13_Chainsaw",
+    "name": "Renni",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Chem-Baron",
+      "Bruiser"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_chainsaw/skins/base/images/tft13_chainsaw_mobile.png"
+  },
+  {
+    "id": "TFT13_Beardy",
+    "name": "Loris",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Enforcer",
+      "Sentinel"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_beardy/skins/base/images/tft13_beardy_mobile.png"
+  },
+  {
+    "id": "TFT13_Fish",
+    "name": "Steb",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Enforcer",
+      "Bruiser"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_fish/skins/base/images/tft13_fish_mobile.png"
+  },
+  {
+    "id": "TFT13_Shooter",
+    "name": "Maddie",
+    "set": 13,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Enforcer",
+      "Sniper"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_shooter/skins/base/images/tft13_shooter_mobile.png"
+  },
+  {
+    "id": "TFT13_Blue",
+    "name": "Powder",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Family",
+      "Scrap",
+      "Ambusher"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_blue/skins/base/images/tft13_blue_mobile.png"
+  },
+  {
+    "id": "TFT13_Prime",
+    "name": "Vander",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Family",
+      "Watcher"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_prime/skins/base/images/tft13_prime_mobile.png"
+  },
+  {
+    "id": "TFT13_FlyGuy",
+    "name": "Scar",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Firelight",
+      "Watcher"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_flyguy/skins/base/images/tft13_flyguy_mobile.png"
+  },
+  {
+    "id": "TFT13_NunuWillump",
+    "name": "Nunu & Willump",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Experiment",
+      "Bruiser",
+      "Visionary"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_nunuwillump/skins/base/images/tft13_nunuwillump_mobile.png"
+  },
+  {
+    "id": "TFT13_Jinx",
+    "name": "Jinx",
+    "set": 13,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Rebel",
+      "Ambusher"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_jinx/skins/base/images/tft13_jinx_mobile.png"
+  },
+  {
+    "id": "TFT13_Zeri",
+    "name": "Zeri",
+    "set": 13,
+    "cost": 2,
+    "range": 6,
+    "traits": [
+      "Firelight",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_zeri/skins/base/images/tft13_zeri_mobile.png"
+  },
+  {
+    "id": "TFT13_Red",
+    "name": "Violet",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Family",
+      "Pit Fighter"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_red/skins/base/images/tft13_red_mobile.png"
+  },
+  {
+    "id": "TFT13_Nami",
+    "name": "Nami",
+    "set": 13,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Emissary",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_nami/skins/base/images/tft13_nami_mobile.png"
+  },
+  {
+    "id": "TFT13_Corki",
+    "name": "Corki",
+    "set": 13,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Scrap",
+      "Artillerist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_corki/skins/base/images/tft13_corki_mobile.png"
+  },
+  {
+    "id": "TFT13_Garen",
+    "name": "Garen",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Emissary",
+      "Watcher"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_garen/skins/base/images/tft13_garen_mobile.png"
+  },
+  {
+    "id": "TFT13_Vex",
+    "name": "Vex",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Rebel",
+      "Visionary"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_vex/skins/base/images/tft13_vex_mobile.png"
+  },
+  {
+    "id": "TFT13_Nocturne",
+    "name": "Nocturne",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Automata",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_nocturne/skins/base/images/tft13_nocturne_mobile.png"
+  },
+  {
+    "id": "TFT13_Darius",
+    "name": "Darius",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Conqueror",
+      "Watcher"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_darius/skins/base/images/tft13_darius_mobile.png"
+  },
+  {
+    "id": "TFT13_Irelia",
+    "name": "Irelia",
+    "set": 13,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Rebel",
+      "Sentinel"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_irelia/skins/base/images/tft13_irelia_mobile.png"
+  },
+  {
+    "id": "TFT13_Ambessa",
+    "name": "Ambessa",
+    "set": 13,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Emissary",
+      "Conqueror",
+      "Quickstriker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_ambessa/skins/base/images/tft13_ambessa_mobile.png"
+  },
+  {
+    "id": "TFT13_Zyra",
+    "name": "Zyra",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Experiment",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_zyra/skins/base/images/tft13_zyra_mobile.png"
+  },
+  {
+    "id": "TFT13_Gangplank",
+    "name": "Gangplank",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Scrap",
+      "Form Swapper",
+      "Pit Fighter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_gangplank/skins/base/images/tft13_gangplank_mobile.png"
+  },
+  {
+    "id": "TFT13_Leona",
+    "name": "Leona",
+    "set": 13,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Academy",
+      "Sentinel"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_leona/skins/base/images/tft13_leona_mobile.png"
+  },
+  {
+    "id": "TFT13_KogMaw",
+    "name": "Kog'Maw",
+    "set": 13,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Automata",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_kogmaw/skins/base/images/tft13_kogmaw_mobile.png"
+  },
+  {
+    "id": "TFT13_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 13,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Enforcer",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_twistedfate/skins/base/images/tft13_twistedfate_mobile.png"
+  },
+  {
+    "id": "TFT13_Lux",
+    "name": "Lux",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Academy",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_lux/skins/base/images/tft13_lux_mobile.png"
+  },
+  {
+    "id": "TFT13_Mordekaiser",
+    "name": "Mordekaiser",
+    "set": 13,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Conqueror",
+      "Dominator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_mordekaiser/skins/base/images/tft13_mordekaiser_mobile.png"
+  },
+  {
+    "id": "TFT13_Morgana",
+    "name": "Morgana",
+    "set": 13,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Black Rose",
+      "Visionary"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_morgana/skins/base/images/tft13_morgana_mobile.png"
+  },
+  {
+    "id": "TFT13_Tristana",
+    "name": "Tristana",
+    "set": 13,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Emissary",
+      "Artillerist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_tristana/skins/base/images/tft13_tristana_mobile.png"
+  },
+  {
+    "id": "TFT13_Swain",
+    "name": "Swain",
+    "set": 13,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Conqueror",
+      "Form Swapper",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_swain/skins/base/images/tft13_swain_mobile.png"
+  },
+  {
+    "id": "TFT13_Urgot",
+    "name": "Urgot",
+    "set": 13,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Experiment",
+      "Pit Fighter",
+      "Artillerist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_urgot/skins/base/images/tft13_urgot_mobile.png"
+  },
+  {
+    "id": "TFT13_Zoe",
+    "name": "Zoe",
+    "set": 13,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Rebel",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_zoe/skins/base/images/tft13_zoe_mobile.png"
+  },
+  {
+    "id": "TFT13_Viktor",
+    "name": "Viktor",
+    "set": 13,
+    "cost": 6,
+    "range": 4,
+    "traits": [
+      "Machine Herald"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_viktor/skins/base/images/tft13_viktor_mobile.png"
+  },
+  {
+    "id": "TFT13_MissMage",
+    "name": "Mel",
+    "set": 13,
+    "cost": 6,
+    "range": 3,
+    "traits": [
+      "Banished Mage"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_missmage/skins/base/images/tft13_missmage_mobile.png"
+  },
+  {
+    "id": "TFT13_Warwick",
+    "name": "Warwick",
+    "set": 13,
+    "cost": 6,
+    "range": 1,
+    "traits": [
+      "Experiment",
+      "Blood Hunter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft13_warwick/skins/base/images/tft13_warwick_mobile.png"
+  },
+  {
+    "id": "TFT14_Brand",
+    "name": "Brand",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Street Demon",
+      "Techie"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_brand/skins/base/images/tft14_brand_mobile.png"
+  },
+  {
+    "id": "TFT14_Darius",
+    "name": "Darius",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Syndicate",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_darius/skins/base/images/tft14_darius_mobile.png"
+  },
+  {
+    "id": "TFT14_DrMundo",
+    "name": "Dr. Mundo",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Street Demon",
+      "Bruiser",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_drmundo/skins/base/images/tft14_drmundo_mobile.png"
+  },
+  {
+    "id": "TFT14_Elise",
+    "name": "Elise",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Nitro",
+      "Dynamo"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_elise/skins/base/images/tft14_elise_mobile.png"
+  },
+  {
+    "id": "TFT14_Fiddlesticks",
+    "name": "Fiddlesticks",
+    "set": 14,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "BoomBot",
+      "Techie"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_fiddlesticks/skins/base/images/tft14_fiddlesticks_mobile.png"
+  },
+  {
+    "id": "TFT14_Galio",
+    "name": "Galio",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Cypher",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_galio/skins/base/images/tft14_galio_mobile.png"
+  },
+  {
+    "id": "TFT14_Garen",
+    "name": "Garen",
+    "set": 14,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "God of the Net"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_garen/skins/base/images/tft14_garen_mobile.png"
+  },
+  {
+    "id": "TFT14_LeBlanc",
+    "name": "LeBlanc",
+    "set": 14,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Cypher",
+      "Strategist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_leblanc/skins/base/images/tft14_leblanc_mobile.png"
+  },
+  {
+    "id": "TFT14_MissFortune",
+    "name": "Miss Fortune",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Syndicate",
+      "Dynamo"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_missfortune/skins/base/images/tft14_missfortune_mobile.png"
+  },
+  {
+    "id": "TFT14_Morgana",
+    "name": "Morgana",
+    "set": 14,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Divinicorp",
+      "Dynamo"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_morgana/skins/base/images/tft14_morgana_mobile.png"
+  },
+  {
+    "id": "TFT14_Neeko",
+    "name": "Neeko",
+    "set": 14,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Street Demon",
+      "Strategist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_neeko/skins/base/images/tft14_neeko_mobile.png"
+  },
+  {
+    "id": "TFT14_Renekton",
+    "name": "Renekton",
+    "set": 14,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Overlord",
+      "Divinicorp",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_renekton/skins/base/images/tft14_renekton_mobile.png"
+  },
+  {
+    "id": "TFT14_Rengar",
+    "name": "Rengar",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Street Demon",
+      "Executioner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_rengar/skins/base/images/tft14_rengar_mobile.png"
+  },
+  {
+    "id": "TFT14_Samira",
+    "name": "Samira",
+    "set": 14,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Street Demon",
+      "A.M.P."
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_samira/skins/base/images/tft14_samira_mobile.png"
+  },
+  {
+    "id": "TFT14_Senna",
+    "name": "Senna",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Divinicorp",
+      "Slayer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_senna/skins/base/images/tft14_senna_mobile.png"
+  },
+  {
+    "id": "TFT14_Shaco",
+    "name": "Shaco",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Syndicate",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_shaco/skins/base/images/tft14_shaco_mobile.png"
+  },
+  {
+    "id": "TFT14_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 14,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Syndicate",
+      "Rapidfire"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_twistedfate/skins/base/images/tft14_twistedfate_mobile.png"
+  },
+  {
+    "id": "TFT14_Varus",
+    "name": "Varus",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Exotech",
+      "Executioner",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_varus/skins/base/images/tft14_varus_mobile.png"
+  },
+  {
+    "id": "TFT14_Veigar",
+    "name": "Veigar",
+    "set": 14,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Cyberboss",
+      "Techie"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_veigar/skins/base/images/tft14_veigar_mobile.png"
+  },
+  {
+    "id": "TFT14_Vex",
+    "name": "Vex",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Divinicorp",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_vex/skins/base/images/tft14_vex_mobile.png"
+  },
+  {
+    "id": "TFT14_Zed",
+    "name": "Zed",
+    "set": 14,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Cypher",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_zed/skins/base/images/tft14_zed_mobile.png"
+  },
+  {
+    "id": "TFT14_Zeri",
+    "name": "Zeri",
+    "set": 14,
+    "cost": 4,
+    "range": 7,
+    "traits": [
+      "Exotech",
+      "Rapidfire"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_zeri/skins/base/images/tft14_zeri_mobile.png"
+  },
+  {
+    "id": "TFT14_Zyra",
+    "name": "Zyra",
+    "set": 14,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Street Demon",
+      "Techie"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_zyra/skins/base/images/tft14_zyra_mobile.png"
+  },
+  {
+    "id": "TFT14_Braum",
+    "name": "Braum",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Syndicate",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_braum/skins/base/images/tft14_braum_mobile.png"
+  },
+  {
+    "id": "TFT14_NidaleeCougar",
+    "name": "Nidalee",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Nitro",
+      "A.M.P."
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_nidaleecougar/skins/base/images/tft14_nidaleecougar_mobile.png"
+  },
+  {
+    "id": "TFT14_Shyvana",
+    "name": "Shyvana",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Nitro",
+      "Bastion",
+      "Techie"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_shyvana/skins/base/images/tft14_shyvana_mobile.png"
+  },
+  {
+    "id": "TFT14_Kindred",
+    "name": "Kindred",
+    "set": 14,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Nitro",
+      "Rapidfire",
+      "Marksman"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_kindred/skins/base/images/tft14_kindred_mobile.png"
+  },
+  {
+    "id": "TFT14_Yuumi",
+    "name": "Yuumi",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Anima Squad",
+      "A.M.P.",
+      "Strategist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_yuumi/skins/base/images/tft14_yuumi_mobile.png"
+  },
+  {
+    "id": "TFT14_Illaoi",
+    "name": "Illaoi",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Anima Squad",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_illaoi/skins/base/images/tft14_illaoi_mobile.png"
+  },
+  {
+    "id": "TFT14_Seraphine",
+    "name": "Seraphine",
+    "set": 14,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Anima Squad",
+      "Techie"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_seraphine/skins/base/images/tft14_seraphine_mobile.png"
+  },
+  {
+    "id": "TFT14_Xayah",
+    "name": "Xayah",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Anima Squad",
+      "Marksman"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_xayah/skins/base/images/tft14xayah_mobile.png"
+  },
+  {
+    "id": "TFT14_Jhin",
+    "name": "Jhin",
+    "set": 14,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Exotech",
+      "Marksman",
+      "Dynamo"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_jhin/skins/base/images/tft14_jhin_mobile.png"
+  },
+  {
+    "id": "TFT14_Naafiri",
+    "name": "Naafiri",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Exotech",
+      "A.M.P."
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_naafiri/skins/base/images/tft14_naafiri_mobile.png"
+  },
+  {
+    "id": "TFT14_Gragas",
+    "name": "Gragas",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Divinicorp",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_gragas/skins/base/images/tft14_gragas_mobile.png"
+  },
+  {
+    "id": "TFT14_KogMaw",
+    "name": "Kog'Maw",
+    "set": 14,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "BoomBot",
+      "Rapidfire"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_kogmaw/skins/base/images/tft14_kogmaw_mobile.png"
+  },
+  {
+    "id": "TFT14_Skarner",
+    "name": "Skarner",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "BoomBot",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_skarner/skins/base/images/tft14_skarner_mobile.png"
+  },
+  {
+    "id": "TFT14_Jax",
+    "name": "Jax",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Exotech",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_jax/skins/base/images/tft14_jax_mobile.png"
+  },
+  {
+    "id": "TFT14_Kobuko",
+    "name": "Kobuko",
+    "set": 14,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Cyberboss",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_kobuko/skins/base/images/tft14_kobuko_mobile.png"
+  },
+  {
+    "id": "TFT14_Sejuani",
+    "name": "Sejuani",
+    "set": 14,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Exotech",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_sejuani/skins/base/images/tft14_sejuani_mobile.png"
+  },
+  {
+    "id": "TFT14_Poppy",
+    "name": "Poppy",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Cyberboss",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_poppy/skins/base/images/tft14_poppy_mobile.png"
+  },
+  {
+    "id": "TFT14_Ziggs",
+    "name": "Ziggs",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Cyberboss",
+      "Strategist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_ziggs/skins/base/images/tft14_ziggs_mobile.png"
+  },
+  {
+    "id": "TFT14_Chogath",
+    "name": "Cho'Gath",
+    "set": 14,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "BoomBot",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_chogath/skins/base/images/tft14_chogath_mobile.png"
+  },
+  {
+    "id": "TFT14_Urgot",
+    "name": "Urgot",
+    "set": 14,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "BoomBot",
+      "Executioner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_urgot/skins/base/images/tft14_urgot_mobile.png"
+  },
+  {
+    "id": "TFT14_Sylas",
+    "name": "Sylas",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Anima Squad",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_sylas/skins/base/images/tft14_sylas_mobile.png"
+  },
+  {
+    "id": "TFT14_Aurora",
+    "name": "Aurora",
+    "set": 14,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Anima Squad",
+      "Dynamo"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_aurora/skins/base/images/tft14_aurora_mobile.png"
+  },
+  {
+    "id": "TFT14_Vayne",
+    "name": "Vayne",
+    "set": 14,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Anima Squad",
+      "Slayer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_vayne/skins/base/images/tft14_vayne_mobile.png"
+  },
+  {
+    "id": "TFT14_Leona",
+    "name": "Leona",
+    "set": 14,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Anima Squad",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_leona/skins/base/images/tft14_leona_mobile.png"
+  },
+  {
+    "id": "TFT14_Vi",
+    "name": "Vi",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Cypher",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_vi/skins/base/images/tft14_vi_mobile.png"
+  },
+  {
+    "id": "TFT14_Mordekaiser",
+    "name": "Mordekaiser",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Exotech",
+      "Bruiser",
+      "Techie"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_mordekaiser/skins/base/images/tft14_mordekaiser_mobile.png"
+  },
+  {
+    "id": "TFT14_Alistar",
+    "name": "Alistar",
+    "set": 14,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Golden Ox",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_alistar/skins/base/images/tft14_alistar_mobile.png"
+  },
+  {
+    "id": "TFT14_Viego",
+    "name": "Viego",
+    "set": 14,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Soul Killer",
+      "Golden Ox",
+      "Techie"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_viego/skins/base/images/tft14_viego_mobile.png"
+  },
+  {
+    "id": "TFT14_Jarvan",
+    "name": "Jarvan IV",
+    "set": 14,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Golden Ox",
+      "Vanguard",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_jarvan/skins/base/images/tft14_jarvan_mobile.png"
+  },
+  {
+    "id": "TFT14_Graves",
+    "name": "Graves",
+    "set": 14,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Golden Ox",
+      "Executioner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_graves/skins/base/images/tft14_graves_mobile.png"
+  },
+  {
+    "id": "TFT14_Annie",
+    "name": "Annie",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Golden Ox",
+      "A.M.P."
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_annie/skins/base/images/tft14_annie_mobile.png"
+  },
+  {
+    "id": "TFT14_Rhaast",
+    "name": "Rhaast",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Divinicorp",
+      "Vanguard"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_rhaast/skins/base/images/tft14_rhaast_mobile.png"
+  },
+  {
+    "id": "TFT14_Draven",
+    "name": "Draven",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Cypher",
+      "Rapidfire"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_draven/skins/base/images/tft14_draven_mobile.png"
+  },
+  {
+    "id": "TFT14_Zac",
+    "name": "Zac",
+    "set": 14,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Virus"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_zac/skins/base/images/tft14_zac_mobile.png"
+  },
+  {
+    "id": "TFT14_Jinx",
+    "name": "Jinx",
+    "set": 14,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Street Demon",
+      "Marksman"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_jinx/skins/base/images/tft14_jinx_mobile.png"
+  },
+  {
+    "id": "TFT14_Ekko",
+    "name": "Ekko",
+    "set": 14,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Street Demon",
+      "Strategist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_ekko/skins/base/images/tft14_ekko_mobile.png"
+  },
+  {
+    "id": "TFT14_Aphelios",
+    "name": "Aphelios",
+    "set": 14,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Golden Ox",
+      "Marksman"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_aphelios/skins/base/images/tft14_aphelios_mobile.png"
+  },
+  {
+    "id": "TFT15_Aatrox",
+    "name": "Aatrox",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Mighty Mech",
+      "Juggernaut",
+      "Heavyweight"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_aatrox/skins/base/images/tft15_aatrox_mobile.png"
+  },
+  {
+    "id": "TFT15_Ahri",
+    "name": "Ahri",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ahri/skins/base/images/tft15_ahri_mobile.png"
+  },
+  {
+    "id": "TFT15_Akali",
+    "name": "Akali",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Supreme Cells",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_akali/skins/base/images/tft15_akali_mobile.png"
+  },
+  {
+    "id": "TFT15_Ashe",
+    "name": "Ashe",
+    "set": 15,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Crystal Gambit",
+      "Duelist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ashe/skins/base/images/tft15_ashe_mobile.png"
+  },
+  {
+    "id": "TFT15_Braum",
+    "name": "Braum",
+    "set": 15,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "The Champ",
+      "Luchador",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_braum/skins/base/images/tft15_braum_mobile.png"
+  },
+  {
+    "id": "TFT15_Caitlyn",
+    "name": "Caitlyn",
+    "set": 15,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Battle Academia",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_caitlyn/skins/base/images/tft15_caitlyn_mobile.png"
+  },
+  {
+    "id": "TFT15_Darius",
+    "name": "Darius",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Supreme Cells",
+      "Heavyweight"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_darius/skins/base/images/tft15_darius_mobile.png"
+  },
+  {
+    "id": "TFT15_Ezreal",
+    "name": "Ezreal",
+    "set": 15,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Battle Academia",
+      "Prodigy"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ezreal/skins/base/images/tft15_ezreal_mobile.png"
+  },
+  {
+    "id": "TFT15_Garen",
+    "name": "Garen",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Battle Academia",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_garen/skins/base/images/tft15_garen_mobile.png"
+  },
+  {
+    "id": "TFT15_Gwen",
+    "name": "Gwen",
+    "set": 15,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Soul Fighter",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_gwen/skins/base/images/tft15_gwen_mobile.png"
+  },
+  {
+    "id": "TFT15_Janna",
+    "name": "Janna",
+    "set": 15,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Crystal Gambit",
+      "Protector",
+      "Strategist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_janna/skins/base/images/tft15_janna_mobile.png"
+  },
+  {
+    "id": "TFT15_JarvanIV",
+    "name": "Jarvan IV",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Mighty Mech",
+      "Strategist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_jarvaniv/skins/base/images/tft15_jarvaniv_mobile.png"
+  },
+  {
+    "id": "TFT15_Jayce",
+    "name": "Jayce",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Battle Academia",
+      "Heavyweight"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_jayce/skins/base/images/tft15_jayce_mobile.png"
+  },
+  {
+    "id": "TFT15_Jhin",
+    "name": "Jhin",
+    "set": 15,
+    "cost": 2,
+    "range": 6,
+    "traits": [
+      "Wraith",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_jhin/skins/base/images/tft15_jhin_mobile.png"
+  },
+  {
+    "id": "TFT15_Jinx",
+    "name": "Jinx",
+    "set": 15,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Star Guardian",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_jinx/skins/base/images/tft15_jinx_mobile.png"
+  },
+  {
+    "id": "TFT15_KSante",
+    "name": "K'Sante",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Wraith",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ksante/skins/base/images/tft15_ksante_mobile.png"
+  },
+  {
+    "id": "TFT15_KaiSa",
+    "name": "Kai'Sa",
+    "set": 15,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Supreme Cells",
+      "Duelist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kaisa/skins/base/images/tft15_kaisa_mobile.png"
+  },
+  {
+    "id": "TFT15_Kalista",
+    "name": "Kalista",
+    "set": 15,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Soul Fighter",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kalista/skins/base/images/tft15_kalista_mobile.png"
+  },
+  {
+    "id": "TFT15_Katarina",
+    "name": "Katarina",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Battle Academia",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_katarina/skins/base/images/tft15_katarina_mobile.png"
+  },
+  {
+    "id": "TFT15_Kayle",
+    "name": "Kayle",
+    "set": 15,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Wraith",
+      "Duelist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kayle/skins/base/images/tft15_kayle_mobile.png"
+  },
+  {
+    "id": "TFT15_Kennen",
+    "name": "Kennen",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Supreme Cells",
+      "Protector",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kennen/skins/base/images/tft15_kennen_mobile.png"
+  },
+  {
+    "id": "TFT15_Kobuko",
+    "name": "Kobuko",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Mentor",
+      "Heavyweight"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kobuko/skins/base/images/tft15_kobuko_mobile.png"
+  },
+  {
+    "id": "TFT15_LeeSin",
+    "name": "Lee Sin",
+    "set": 15,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Stance Master"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_leesin/skins/base/images/tft15_leesin_mobile.png"
+  },
+  {
+    "id": "TFT15_Leona",
+    "name": "Leona",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Battle Academia",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_leona/skins/base/images/tft15_leona_mobile.png"
+  },
+  {
+    "id": "TFT15_Lulu",
+    "name": "Lulu",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Monster Trainer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_lulu/skins/base/images/tft15_lulu_mobile.png"
+  },
+  {
+    "id": "TFT15_Lux",
+    "name": "Lux",
+    "set": 15,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Soul Fighter",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_lux/skins/base/images/tft15_lux_mobile.png"
+  },
+  {
+    "id": "TFT15_Malphite",
+    "name": "Malphite",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "The Crew",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_malphite/skins/base/images/tft15_malphite_mobile.png"
+  },
+  {
+    "id": "TFT15_Malzahar",
+    "name": "Malzahar",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Wraith",
+      "Prodigy"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_malzahar/skins/base/images/tft15_malzahar_mobile.png"
+  },
+  {
+    "id": "TFT15_Naafiri",
+    "name": "Naafiri",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Soul Fighter",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_naafiri/skins/base/images/tft15_naafiri_mobile.png"
+  },
+  {
+    "id": "TFT15_Poppy",
+    "name": "Poppy",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Star Guardian",
+      "Heavyweight"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_poppy/skins/base/images/tft15_poppy_mobile.png"
+  },
+  {
+    "id": "TFT15_Rakan",
+    "name": "Rakan",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Battle Academia",
+      "Protector"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_rakan/skins/base/images/tft15_rakan_mobile.png"
+  },
+  {
+    "id": "TFT15_Rell",
+    "name": "Rell",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Star Guardian",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_rell/skins/base/images/tft15_rell_mobile.png"
+  },
+  {
+    "id": "TFT15_Ryze",
+    "name": "Ryze",
+    "set": 15,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Mentor",
+      "Executioner",
+      "Strategist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ryze/skins/base/images/tft15_ryze_mobile.png"
+  },
+  {
+    "id": "TFT15_Samira",
+    "name": "Samira",
+    "set": 15,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Soul Fighter",
+      "Edgelord"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_samira/skins/base/images/tft15_samira_mobile.png"
+  },
+  {
+    "id": "TFT15_Seraphine",
+    "name": "Seraphine",
+    "set": 15,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Prodigy"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_seraphine/skins/base/images/tft15_seraphine_mobile.png"
+  },
+  {
+    "id": "TFT15_Sett",
+    "name": "Sett",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Soul Fighter",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_sett/skins/base/images/tft15_sett_mobile.png"
+  },
+  {
+    "id": "TFT15_Swain",
+    "name": "Swain",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Crystal Gambit",
+      "Bastion",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_swain/skins/base/images/tft15_swain_mobile.png"
+  },
+  {
+    "id": "TFT15_Syndra",
+    "name": "Syndra",
+    "set": 15,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Crystal Gambit",
+      "Star Guardian",
+      "Prodigy"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_syndra/skins/base/images/tft15_syndra_mobile.png"
+  },
+  {
+    "id": "TFT15_Udyr",
+    "name": "Udyr",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Mentor",
+      "Juggernaut",
+      "Duelist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_udyr/skins/base/images/tft15_udyr_mobile.png"
+  },
+  {
+    "id": "TFT15_Varus",
+    "name": "Varus",
+    "set": 15,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Wraith",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_varus/skins/base/images/tft15_varus_mobile.png"
+  },
+  {
+    "id": "TFT15_Viego",
+    "name": "Viego",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Soul Fighter",
+      "Duelist",
+      "Edgelord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_viego/skins/base/images/tft15_viego_mobile.png"
+  },
+  {
+    "id": "TFT15_Xayah",
+    "name": "Xayah",
+    "set": 15,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Star Guardian",
+      "Edgelord"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_xayah/skins/base/images/tft15_xayah_mobile.png"
+  },
+  {
+    "id": "TFT15_XinZhao",
+    "name": "Xin Zhao",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Soul Fighter",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_xinzhao/skins/base/images/tft15_xinzhao_mobile.png"
+  },
+  {
+    "id": "TFT15_Yasuo",
+    "name": "Yasuo",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Mentor",
+      "Edgelord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_yasuo/skins/base/images/tft15_yasuo_mobile.png"
+  },
+  {
+    "id": "TFT15_Yone",
+    "name": "Yone",
+    "set": 15,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Mighty Mech",
+      "Edgelord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_yone/skins/base/images/tft15_yone_mobile.png"
+  },
+  {
+    "id": "TFT15_Yuumi",
+    "name": "Yuumi",
+    "set": 15,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Battle Academia",
+      "Prodigy"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_yuumi/skins/base/images/tft15_yuumi_mobile.png"
+  },
+  {
+    "id": "TFT15_Zac",
+    "name": "Zac",
+    "set": 15,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Wraith",
+      "Heavyweight"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_zac/skins/base/images/tft15_zac_mobile.png"
+  },
+  {
+    "id": "TFT15_Ziggs",
+    "name": "Ziggs",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "The Crew",
+      "Strategist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_ziggs/skins/base/images/tft15_ziggs_mobile.png"
+  },
+  {
+    "id": "TFT15_Volibear",
+    "name": "Volibear",
+    "set": 15,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Luchador",
+      "Edgelord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_volibear/skins/base/images/tft15_volibear_mobile.png"
+  },
+  {
+    "id": "TFT15_KogMaw",
+    "name": "Kog'Maw",
+    "set": 15,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Monster Trainer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_kogmaw/skins/base/images/tft15_kogmaw_mobile.png"
+  },
+  {
+    "id": "TFT15_Smolder",
+    "name": "Smolder",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Monster Trainer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_smolder/skins/base/images/tft15_smolder_mobile.png"
+  },
+  {
+    "id": "TFT15_Senna",
+    "name": "Senna",
+    "set": 15,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Mighty Mech",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_senna/skins/base/images/tft15_senna_mobile.png"
+  },
+  {
+    "id": "TFT15_Lucian",
+    "name": "Lucian",
+    "set": 15,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Mighty Mech",
+      "Sorcerer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_lucian/skins/base/images/tft15_lucian_mobile.png"
+  },
+  {
+    "id": "TFT15_Gangplank",
+    "name": "Gangplank",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Mighty Mech",
+      "Duelist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_gangplank/skins/base/images/tft15_gangplank_mobile.png"
+  },
+  {
+    "id": "TFT15_DrMundo",
+    "name": "Dr. Mundo",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Luchador",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_drmundo/skins/base/images/tft15_drmundo_mobile.png"
+  },
+  {
+    "id": "TFT15_Gnar",
+    "name": "Gnar",
+    "set": 15,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Luchador",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_gnar/skins/base/images/tft15_gnar_mobile.png"
+  },
+  {
+    "id": "TFT15_Karma",
+    "name": "Karma",
+    "set": 15,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Mighty Mech",
+      "Sorcerer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_karma/skins/base/images/tft15_karma_mobile.png"
+  },
+  {
+    "id": "TFT15_Vi",
+    "name": "Vi",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Crystal Gambit",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_vi/skins/base/images/tft15_vi_mobile.png"
+  },
+  {
+    "id": "TFT15_Sivir",
+    "name": "Sivir",
+    "set": 15,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "The Crew",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_sivir/skins/base/images/tft15_sivir_mobile.png"
+  },
+  {
+    "id": "TFT15_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 15,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Rogue Captain",
+      "The Crew"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_twistedfate/skins/base/images/tft15_twistedfate_mobile.png"
+  },
+  {
+    "id": "TFT15_Shen",
+    "name": "Shen",
+    "set": 15,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "The Crew",
+      "Bastion",
+      "Edgelord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_shen/skins/base/images/tft15_shen_mobile.png"
+  },
+  {
+    "id": "TFT15_Rammus",
+    "name": "Rammus",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Monster Trainer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_rammus/skins/base/images/tft15_rammus_mobile.png"
+  },
+  {
+    "id": "TFT15_Zyra",
+    "name": "Zyra",
+    "set": 15,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Crystal Gambit",
+      "Rosemother"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_zyra/skins/base/images/tft15_zyra_mobile.png"
+  },
+  {
+    "id": "TFT15_Neeko",
+    "name": "Neeko",
+    "set": 15,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Star Guardian",
+      "Protector"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_neeko/skins/base/images/tft15_neeko_mobile.png"
+  },
+  {
+    "id": "TFT15_LeeSin_TraitClone",
+    "name": "Lee Sin",
+    "set": 15,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Executioner",
+      "Duelist",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft15_leesin/skins/base/images/tft15_leesin_mobile.png"
+  },
+  {
+    "id": "TFT16_Tristana",
+    "name": "Tristana",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Yordle",
+      "Gunslinger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tristana/skins/base/images/tft16_tristana_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Lulu",
+    "name": "Lulu",
+    "set": 16,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Yordle",
+      "Arcanist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lulu/skins/base/images/tft16_lulu_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Teemo",
+    "name": "Teemo",
+    "set": 16,
+    "cost": 2,
+    "range": 6,
+    "traits": [
+      "Yordle",
+      "Longshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_teemo/skins/base/images/tft16_teemo_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Rumble",
+    "name": "Rumble",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Yordle",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_rumble/skins/base/images/tft16_rumble_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Nautilus",
+    "name": "Nautilus",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Bilgewater",
+      "Juggernaut",
+      "Warden"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nautilus/skins/base/images/tft16_nautilus_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Bilgewater",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_twistedfate/skins/base/images/tft16_twistedfate_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Gangplank",
+    "name": "Gangplank",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Bilgewater",
+      "Slayer",
+      "Vanquisher"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_gangplank/skins/base/images/tft16_gangplank_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Illaoi",
+    "name": "Illaoi",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Bilgewater",
+      "Bruiser"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_illaoi/skins/base/images/tft16_illaoi_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_MissFortune",
+    "name": "Miss Fortune",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Bilgewater",
+      "Gunslinger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_missfortune/skins/base/images/tft16_missfortune_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Sion",
+    "name": "Sion",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Noxus",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sion/skins/base/images/tft16_sion_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Briar",
+    "name": "Briar",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Noxus",
+      "Slayer",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_briar/skins/base/images/tft16_briar_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Draven",
+    "name": "Draven",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Noxus",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_draven/skins/base/images/tft16_draven_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ambessa",
+    "name": "Ambessa",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Noxus",
+      "Vanquisher"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ambessa/skins/base/images/tft16_ambessa_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Zoe",
+    "name": "Zoe",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Targon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zoe/skins/base/images/tft16_zoe_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Leona",
+    "name": "Leona",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Targon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_leona/skins/base/images/tft16_leona_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Aphelios",
+    "name": "Aphelios",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Targon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aphelios/skins/base/images/tft16_aphelios_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Taric",
+    "name": "Taric",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Targon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_taric/skins/base/images/tft16_taric_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_JarvanIV",
+    "name": "Jarvan IV",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Demacia",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jarvaniv/skins/base/images/tft16_jarvaniv_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Sona",
+    "name": "Sona",
+    "set": 16,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Demacia",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sona/skins/base/images/tft16_sona_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Garen",
+    "name": "Garen",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Demacia",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_garen/skins/base/images/tft16_garen_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Lux",
+    "name": "Lux",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Demacia",
+      "Arcanist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lux/skins/base/images/tft16_lux_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Anivia",
+    "name": "Anivia",
+    "set": 16,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Freljord",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_anivia/skins/base/images/tft16_anivia_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ashe",
+    "name": "Ashe",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Freljord",
+      "Quickstriker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ashe/skins/base/images/tft16_ashe_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Braum",
+    "name": "Braum",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Freljord",
+      "Warden"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_braum/skins/base/images/tft16_braum_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Lissandra",
+    "name": "Lissandra",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Freljord",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lissandra/skins/base/images/tft16_lissandra_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Milio",
+    "name": "Milio",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Ixtal",
+      "Invoker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_milio/skins/base/images/tft16_milio_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Neeko",
+    "name": "Neeko",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Ixtal",
+      "Arcanist",
+      "Defender"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_neeko/skins/base/images/tft16_neeko_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Jinx",
+    "name": "Jinx",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Zaun",
+      "Gunslinger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jinx/skins/base/images/tft16_jinx_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Caitlyn",
+    "name": "Caitlyn",
+    "set": 16,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Piltover",
+      "Longshot"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_caitlyn/skins/base/images/tft16_caitlyn_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Vi",
+    "name": "Vi",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Piltover",
+      "Zaun",
+      "Defender"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_vi/skins/base/images/tft16_vi_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Seraphine",
+    "name": "Seraphine",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Piltover",
+      "Disruptor"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_seraphine/skins/base/images/tft16_seraphine_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Yasuo",
+    "name": "Yasuo",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yasuo/skins/base/images/tft16_yasuo_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ahri",
+    "name": "Ahri",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Ionia",
+      "Arcanist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ahri/skins/base/images/tft16_ahri_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Wukong",
+    "name": "Wukong",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_wukong/skins/base/images/tft16_wukong_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Shen",
+    "name": "Shen",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_shen/skins/base/images/tft16_shen_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Malzahar",
+    "name": "Malzahar",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Void",
+      "Disruptor"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_malzahar/skins/base/images/tft16_malzahar_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_RekSai",
+    "name": "Rek'Sai",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Vanquisher"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_reksai/skins/base/images/tft16_reksai_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_ChoGath",
+    "name": "Cho'Gath",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_chogath/skins/base/images/tft16_chogath_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_KogMaw",
+    "name": "Kog'Maw",
+    "set": 16,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Void",
+      "Arcanist",
+      "Longshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kogmaw/skins/base/images/tft16_kogmaw_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Annie",
+    "name": "Annie",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Dark Child",
+      "Arcanist"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_annie/skins/base/images/tft16_annie_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ornn",
+    "name": "Ornn",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Blacksmith",
+      "Warden",
+      "Freljord"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ornn/skins/base/images/tft16_ornn_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Kindred",
+    "name": "Kindred",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Eternal",
+      "Quickstriker"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kindred/skins/base/images/tft16_kindred_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Azir",
+    "name": "Azir",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Shurima",
+      "Emperor",
+      "Disruptor"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_azir/skins/base/images/tft16_azir_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Zilean",
+    "name": "Zilean",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Chronokeeper",
+      "Invoker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zilean/skins/base/images/tft16_zilean_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Fiddlesticks",
+    "name": "Fiddlesticks",
+    "set": 16,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Harvester",
+      "Vanquisher"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_fiddlesticks/skins/base/images/tft16_fiddlesticks_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Shyvana",
+    "name": "Shyvana",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Dragonborn",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_shyvana/skins/base/images/tft16_shyvana_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Galio",
+    "name": "Galio",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Demacia",
+      "Heroic"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_galio/skins/base/images/tft16_galio_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_TahmKench",
+    "name": "Tahm Kench",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Bilgewater",
+      "Glutton",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tahmkench/skins/base/images/tft16_tahmkench_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Sejuani",
+    "name": "Sejuani",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Freljord",
+      "Defender"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sejuani/skins/base/images/tft16_sejuani_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Sett",
+    "name": "Sett",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "The Boss"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sett/skins/base/images/tft16_sett_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Brock",
+    "name": "Brock",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Ixtal"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_brock/skins/base/images/tft16_brock_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_THex",
+    "name": "T-Hex",
+    "set": 16,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "HexMech",
+      "Piltover",
+      "Gunslinger"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_thex/hud/tft16_thex_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_BelVeth",
+    "name": "Bel'Veth",
+    "set": 16,
+    "cost": 4,
+    "range": 2,
+    "traits": [
+      "Void",
+      "Slayer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_belveth/skins/base/images/tft16_belveth_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Singed",
+    "name": "Singed",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Zaun",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_singed/skins/base/images/tft16_singed_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_AurelionSol",
+    "name": "Aurelion Sol",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Star Forger",
+      "Targon"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aurelionsol/skins/base/images/tft16_aurelionsol_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Veigar",
+    "name": "Veigar",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Yordle",
+      "Arcanist"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_veigar/skins/base/images/tft16_veigar_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_BaronNashor",
+    "name": "Baron Nashor",
+    "set": 16,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Void",
+      "Riftscourge"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_baronnashor/skins/base/images/tft16_baronnashor_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Darius",
+    "name": "Darius",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Noxus",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_darius/skins/base/images/tft16_darius_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Yone",
+    "name": "Yone",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yone/skins/base/images/tft16_yone_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Warwick",
+    "name": "Warwick",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Zaun",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_warwick/skins/base/images/tft16_warwick_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Fizz",
+    "name": "Fizz",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Bilgewater",
+      "Yordle"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_fizz/skins/base/images/tft16_fizz_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Poppy",
+    "name": "Poppy",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Demacia",
+      "Yordle",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_poppy/skins/base/images/tft16_poppy_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Kennen",
+    "name": "Kennen",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Ionia",
+      "Yordle",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kennen/skins/base/images/tft16_kennen_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ziggs",
+    "name": "Ziggs",
+    "set": 16,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Zaun",
+      "Yordle",
+      "Longshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ziggs/skins/base/images/tft16_ziggs_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Aatrox",
+    "name": "Aatrox",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Darkin",
+      "World Ender",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aatrox/skins/base/images/tft16_aatrox_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Volibear",
+    "name": "Volibear",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Freljord",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_volibear/skins/base/images/tft16_volibear_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Jhin",
+    "name": "Jhin",
+    "set": 16,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Ionia",
+      "Gunslinger",
+      "Longshot"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jhin/skins/base/images/tft16_jhin_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Sylas",
+    "name": "Sylas",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Chainbreaker",
+      "Arcanist",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sylas/skins/base/images/tft16_sylas_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ryze",
+    "name": "Ryze",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Rune Mage"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ryze/skins/base/images/tft16_ryze_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Nidalee",
+    "name": "Nidalee",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ixtal",
+      "Huntress"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nidalee/skins/base/images/tft16_nidalee_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Tryndamere",
+    "name": "Tryndamere",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Freljord",
+      "Slayer"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tryndamere/skins/base/images/tft16_tryndamere_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_RiftHerald",
+    "name": "Rift Herald",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Void",
+      "Bruiser"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_riftherald/skins/base/images/tft16_riftherald_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Mel",
+    "name": "Mel",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Noxus",
+      "Disruptor"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_mel/skins/base/images/tft16_mel_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Graves",
+    "name": "Graves",
+    "set": 16,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Bilgewater",
+      "Gunslinger"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_graves/skins/base/images/tft16_graves_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Skarner",
+    "name": "Skarner",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Ixtal"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_skarner/skins/base/images/tft16_skarner_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Diana",
+    "name": "Diana",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Targon"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_diana/skins/base/images/tft16_diana_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Kaisa",
+    "name": "Kai'Sa",
+    "set": 16,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Assimilator",
+      "Void",
+      "Longshot"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kaisa/skins/base/images/tft16_kaisa_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Renekton",
+    "name": "Renekton",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Shurima"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_renekton/skins/base/images/tft16_renekton_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Nasus",
+    "name": "Nasus",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Shurima"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nasus/skins/base/images/tft16_nasus_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Xerath",
+    "name": "Xerath",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Shurima",
+      "Ascendant"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_xerath/skins/base/images/tft16_xerath_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Thresh",
+    "name": "Thresh",
+    "set": 16,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Shadow Isles",
+      "Warden"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_thresh/skins/base/images/tft16_thresh_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Gwen",
+    "name": "Gwen",
+    "set": 16,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "Shadow Isles",
+      "Disruptor"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_gwen/skins/base/images/tft16_gwen_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Kalista",
+    "name": "Kalista",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Shadow Isles",
+      "Vanquisher"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kalista/skins/base/images/tft16_kalista_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Leblanc",
+    "name": "LeBlanc",
+    "set": 16,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Noxus",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_leblanc/skins/base/images/tft16_leblanc_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Viego",
+    "name": "Viego",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Shadow Isles",
+      "Quickstriker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_viego/skins/base/images/tft16_viego_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Ekko",
+    "name": "Ekko",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Zaun",
+      "Disruptor"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ekko/skins/base/images/tft16_ekko_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Bard",
+    "name": "Bard",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Caretaker"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_bard/skins/base/images/tft16_bard_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Vayne",
+    "name": "Vayne",
+    "set": 16,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Demacia",
+      "Longshot"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_vayne/skins/base/images/tft16_vayne_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Yunara",
+    "name": "Yunara",
+    "set": 16,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Ionia",
+      "Quickstriker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yunara/skins/base/images/tft16_yunara_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Swain",
+    "name": "Swain",
+    "set": 16,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Noxus",
+      "Arcanist",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_swain/skins/base/images/tft16_swain_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_XinZhao",
+    "name": "Xin Zhao",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Demacia",
+      "Ionia",
+      "Warden"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_xinzhao/skins/base/images/tft16_xinzhao_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Yorick",
+    "name": "Yorick",
+    "set": 16,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Shadow Isles",
+      "Warden"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yorick/skins/base/images/tft16_yorick_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Orianna",
+    "name": "Orianna",
+    "set": 16,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Piltover",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_orianna/skins/base/images/tft16_orianna_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Qiyana",
+    "name": "Qiyana",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Ixtal",
+      "Slayer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_qiyana/skins/base/images/tft16_qiyana_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Loris",
+    "name": "Loris",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Piltover",
+      "Warden"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_loris/skins/base/images/tft16_loris_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Blitzcrank",
+    "name": "Blitzcrank",
+    "set": 16,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Zaun",
+      "Juggernaut"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_blitzcrank/skins/base/images/tft16_blitzcrank_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_DrMundo",
+    "name": "Dr. Mundo",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Zaun",
+      "Bruiser"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_drmundo/skins/base/images/tft16_drmundo_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Zaahen",
+    "name": "Zaahen",
+    "set": 16,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Darkin",
+      "Immortal"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zaahen/skins/base/images/tft16_zaahen_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_AnnieTibbers",
+    "name": "Tibbers",
+    "set": 16,
+    "cost": 11,
+    "range": 1,
+    "traits": [
+      "Arcanist"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_annietibbers/hud/tft16_annietibbers_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Lucian",
+    "name": "Lucian & Senna",
+    "set": 16,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Soulbound",
+      "Gunslinger"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lucian/skins/base/images/tft16_lucian_splash_tile_0.png"
+  },
+  {
+    "id": "TFT16_Kobuko",
+    "name": "Kobuko & Yuumi",
+    "set": 16,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Yordle",
+      "Bruiser",
+      "Invoker"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kobuko/skins/base/images/tft16_kobuko_splash_tile_0.png"
+  },
+  {
+    "id": "TFT17_Briar",
+    "name": "Briar",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Anima",
+      "Primordian",
+      "Rogue"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_briar/skins/base/images/tft17_briar_splash_tile_10.png"
+  },
+  {
+    "id": "TFT17_Belveth",
+    "name": "Bel'Veth",
+    "set": 17,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Primordian",
+      "Challenger",
+      "Marauder"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_belveth/skins/base/images/tft17_belveth_splash_tile_19.png"
+  },
+  {
+    "id": "TFT17_MissFortune",
+    "name": "Miss Fortune",
+    "set": 17,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Gun Goddess",
+      "Choose Trait"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_missfortune/skins/base/images/tft17_missfortune_splash_tile_16.png"
+  },
+  {
+    "id": "TFT17_Akali",
+    "name": "Akali",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "N.O.V.A.",
+      "Marauder"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_akali/skins/base/images/tft17_akali_splash_tile_68.png"
+  },
+  {
+    "id": "TFT17_Bard",
+    "name": "Bard",
+    "set": 17,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Meeple",
+      "Conduit"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_bard/skins/base/images/tft17_bard_splash_tile_8.png"
+  },
+  {
+    "id": "TFT17_Jinx",
+    "name": "Jinx",
+    "set": 17,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Anima",
+      "Challenger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_jinx/skins/base/images/tft17_jinx_splash_tile_38.png"
+  },
+  {
+    "id": "TFT17_Illaoi",
+    "name": "Illaoi",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Anima",
+      "Vanguard",
+      "Shepherd"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_illaoi/skins/base/images/tft17_illaoi_splash_tile_27.png"
+  },
+  {
+    "id": "TFT17_Aurora",
+    "name": "Aurora",
+    "set": 17,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Anima",
+      "Voyager"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_aurora/skins/base/images/tft17_aurora_splash_tile_1.png"
+  },
+  {
+    "id": "TFT17_Fiora",
+    "name": "Fiora",
+    "set": 17,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Divine Duelist",
+      "Anima",
+      "Marauder"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_fiora/skins/base/images/tft17_fiora_splash_tile_51.png"
+  },
+  {
+    "id": "TFT17_Gnar",
+    "name": "Gnar",
+    "set": 17,
+    "cost": 2,
+    "range": 6,
+    "traits": [
+      "Meeple",
+      "Brawler",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_gnar/skins/base/images/tft17_gnar_splash_tile_15.png"
+  },
+  {
+    "id": "TFT17_Fizz",
+    "name": "Fizz",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Meeple",
+      "Rogue"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_fizz/skins/base/images/tft17_fizz_splash_tile_26.png"
+  },
+  {
+    "id": "TFT17_Rammus",
+    "name": "Rammus",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Meeple",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_rammus/skins/base/images/tft17_rammus_splash_tile_17.png"
+  },
+  {
+    "id": "TFT17_Poppy",
+    "name": "Poppy",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Meeple",
+      "Bastion"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_poppy/skins/base/images/tft17_poppy_splash_tile_16.png"
+  },
+  {
+    "id": "TFT17_Corki",
+    "name": "Corki",
+    "set": 17,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Meeple",
+      "Fateweaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_corki/skins/base/images/tft17_corki_splash_tile_26.png"
+  },
+  {
+    "id": "TFT17_Veigar",
+    "name": "Veigar",
+    "set": 17,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Meeple",
+      "Replicator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_veigar/skins/base/images/tft17_veigar_splash_tile_32.png"
+  },
+  {
+    "id": "TFT17_Aatrox",
+    "name": "Aatrox",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "N.O.V.A.",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_aatrox/skins/base/images/tft17_aatrox_splash_tile_30.png"
+  },
+  {
+    "id": "TFT17_Caitlyn",
+    "name": "Caitlyn",
+    "set": 17,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "N.O.V.A.",
+      "Fateweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_caitlyn/skins/base/images/tft17_caitlyn_splash_tile_48.png"
+  },
+  {
+    "id": "TFT17_Maokai",
+    "name": "Maokai",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "N.O.V.A.",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_maokai/skins/base/images/tft17_maokai_splash_tile_33.png"
+  },
+  {
+    "id": "TFT17_Kindred",
+    "name": "Kindred",
+    "set": 17,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "N.O.V.A.",
+      "Challenger"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_kindred/skins/base/images/tft17_kindred_splash_tile_23.png"
+  },
+  {
+    "id": "TFT17_Kaisa",
+    "name": "Kai'Sa",
+    "set": 17,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Dark Star",
+      "Rogue"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_kaisa/skins/base/images/tft17_kaisa_splash_tile_69.png"
+  },
+  {
+    "id": "TFT17_Karma",
+    "name": "Karma",
+    "set": 17,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Dark Star",
+      "Voyager"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_karma/skins/base/images/tft17_karma_splash_tile_8.png"
+  },
+  {
+    "id": "TFT17_Jhin",
+    "name": "Jhin",
+    "set": 17,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Dark Star",
+      "Eradicator",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_jhin/skins/base/images/tft17_jhin_splash_tile_37.png"
+  },
+  {
+    "id": "TFT17_Urgot",
+    "name": "Urgot",
+    "set": 17,
+    "cost": 3,
+    "range": 2,
+    "traits": [
+      "Mecha",
+      "Brawler",
+      "Marauder"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_urgot/skins/base/images/tft17_urgot_splash_tile_32.png"
+  },
+  {
+    "id": "TFT17_AurelionSol",
+    "name": "Aurelion Sol",
+    "set": 17,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Mecha",
+      "Conduit"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_aurelionsol/skins/base/images/tft17_aurelionsol_splash_tile_2.png"
+  },
+  {
+    "id": "TFT17_Galio",
+    "name": "The Mighty Mech",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Mecha",
+      "Voyager"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_galio/skins/base/images/tft17_galio_mobile.png"
+  },
+  {
+    "id": "TFT17_Viktor",
+    "name": "Viktor",
+    "set": 17,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Psionic",
+      "Conduit"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_viktor/skins/base/images/tft17_viktor_splash_tile_5.png"
+  },
+  {
+    "id": "TFT17_Pyke",
+    "name": "Pyke",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Psionic",
+      "Voyager"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_pyke/skins/base/images/tft17_pyke_splash_tile_25.png"
+  },
+  {
+    "id": "TFT17_MasterYi",
+    "name": "Master Yi",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Psionic",
+      "Marauder"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_masteryi/skins/base/images/tft17_masteryi_splash_tile_33.png"
+  },
+  {
+    "id": "TFT17_Gragas",
+    "name": "Gragas",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Psionic",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_gragas/skins/base/images/tft17_gragas_splash_tile_10.png"
+  },
+  {
+    "id": "TFT17_Teemo",
+    "name": "Teemo",
+    "set": 17,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Space Groove",
+      "Shepherd"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_teemo/skins/base/images/tft17_teemo_splash_tile_47.png"
+  },
+  {
+    "id": "TFT17_Nasus",
+    "name": "Nasus",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Space Groove",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_nasus/skins/base/images/tft17_nasus_splash_tile_25.png"
+  },
+  {
+    "id": "TFT17_Gwen",
+    "name": "Gwen",
+    "set": 17,
+    "cost": 2,
+    "range": 2,
+    "traits": [
+      "Space Groove",
+      "Rogue"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_gwen/skins/base/images/tft17_gwen_splash_tile_1.png"
+  },
+  {
+    "id": "TFT17_Samira",
+    "name": "Samira",
+    "set": 17,
+    "cost": 3,
+    "range": 6,
+    "traits": [
+      "Space Groove",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_samira/skins/base/images/tft17_samira_splash_tile_10.png"
+  },
+  {
+    "id": "TFT17_Ornn",
+    "name": "Ornn",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Space Groove",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_ornn/skins/base/images/tft17_ornn_splash_tile_11.png"
+  },
+  {
+    "id": "TFT17_Nami",
+    "name": "Nami",
+    "set": 17,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Space Groove",
+      "Replicator"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_nami/skins/base/images/tft17_nami_splash_tile_41.png"
+  },
+  {
+    "id": "TFT17_Blitzcrank",
+    "name": "Blitzcrank",
+    "set": 17,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Party Animal",
+      "Space Groove",
+      "Vanguard"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_blitzcrank/skins/base/images/tft17_blitzcrank_splash_tile_65.png"
+  },
+  {
+    "id": "TFT17_Sona",
+    "name": "Sona",
+    "set": 17,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Commander",
+      "Psionic",
+      "Shepherd"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_sona/skins/base/images/tft17_sona_splash_tile_17.png"
+  },
+  {
+    "id": "TFT17_TwistedFate",
+    "name": "Twisted Fate",
+    "set": 17,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Stargazer",
+      "Fateweaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_twistedfate/skins/base/images/tft17_twistedfate_splash_tile_45.png"
+  },
+  {
+    "id": "TFT17_Talon",
+    "name": "Talon",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Stargazer",
+      "Rogue"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_talon/skins/base/images/tft17_talon_splash_tile_39.png"
+  },
+  {
+    "id": "TFT17_Jax",
+    "name": "Jax",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Stargazer",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_jax/skins/base/images/tft17_jax_mobile.png"
+  },
+  {
+    "id": "TFT17_Lulu",
+    "name": "Lulu",
+    "set": 17,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Stargazer",
+      "Replicator"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_lulu/skins/base/images/tft17_lulu_splash_tile_14.png"
+  },
+  {
+    "id": "TFT17_Nunu",
+    "name": "Nunu & Willump",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Stargazer",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_nunu/skins/base/images/tft17_nunu_splash_tile_35.png"
+  },
+  {
+    "id": "TFT17_Vex",
+    "name": "Vex",
+    "set": 17,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Doomer",
+      "Stargazer"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_vex/skins/base/images/tft17_vex_splash_tile_10.png"
+  },
+  {
+    "id": "TFT17_Riven",
+    "name": "Riven",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Timebreaker",
+      "Rogue"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_riven/skins/base/images/tft17_riven_splash_tile_18.png"
+  },
+  {
+    "id": "TFT17_Shen",
+    "name": "Shen",
+    "set": 17,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Bulwark",
+      "Timebreaker",
+      "Bastion"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_shen/skins/base/images/tft17_shen_splash_tile_49.png"
+  },
+  {
+    "id": "TFT17_Milio",
+    "name": "Milio",
+    "set": 17,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Timebreaker",
+      "Fateweaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_milio/skins/base/images/tft17_milio_splash_tile_0.png"
+  },
+  {
+    "id": "TFT17_Ezreal",
+    "name": "Ezreal",
+    "set": 17,
+    "cost": 1,
+    "range": 6,
+    "traits": [
+      "Timebreaker",
+      "Sniper"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_ezreal/skins/base/images/tft17_ezreal_splash_tile_5.png"
+  },
+  {
+    "id": "TFT17_Leona",
+    "name": "Leona",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Arbiter",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_leona/skins/base/images/tft17_leona_splash_tile_64.png"
+  },
+  {
+    "id": "TFT17_Zoe",
+    "name": "Zoe",
+    "set": 17,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Arbiter",
+      "Conduit"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_zoe/skins/base/images/tft17_zoe_splash_tile_43.png"
+  },
+  {
+    "id": "TFT17_Diana",
+    "name": "Diana",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Arbiter",
+      "Challenger"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_diana/skins/base/images/tft17_dianasplash_mobile.png"
+  },
+  {
+    "id": "TFT17_Leblanc",
+    "name": "LeBlanc",
+    "set": 17,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Arbiter",
+      "Shepherd"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_leblanc/skins/base/images/tft17_leblanc_splash_tile_29.png"
+  },
+  {
+    "id": "TFT17_Chogath",
+    "name": "Cho'Gath",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Dark Star",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_chogath/skins/base/images/tft17_chogath_splash_tile_7.png"
+  },
+  {
+    "id": "TFT17_Lissandra",
+    "name": "Lissandra",
+    "set": 17,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Dark Star",
+      "Shepherd",
+      "Replicator"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_lissandra/skins/base/images/tft17_lissandra_splash_tile_12.png"
+  },
+  {
+    "id": "TFT17_Zed",
+    "name": "Zed",
+    "set": 17,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Galaxy Hunter"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_zed/skins/base/images/tft17_zed_splash_tile_68.png"
+  },
+  {
+    "id": "TFT17_IvernMinion",
+    "name": "Meepsie",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Meeple",
+      "Shepherd",
+      "Voyager"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_ivernminion/skins/base/images/tft17_ivernminion_splash_tile_27.png"
+  },
+  {
+    "id": "TFT17_MissFortune_TraitClone",
+    "name": "Miss Fortune",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Conduit",
+      "Challenger",
+      "Replicator"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_missfortune/skins/base/images/tft17_missfortune_splash_tile_16.png"
+  },
+  {
+    "id": "TFT17_Mordekaiser",
+    "name": "Mordekaiser",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Dark Star",
+      "Conduit",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_mordekaiser/skins/base/images/tft17_mordekaiser_splash_tile_6.png"
+  },
+  {
+    "id": "TFT17_Xayah",
+    "name": "Xayah",
+    "set": 17,
+    "cost": 4,
+    "range": 6,
+    "traits": [
+      "Stargazer",
+      "Sniper"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_xayah/skins/base/images/tft17_xayah_splash_tile_1.png"
+  },
+  {
+    "id": "TFT17_Graves",
+    "name": "Graves",
+    "set": 17,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Factory New"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_graves/skins/base/images/tft17_graves_splash_tile_18.png"
+  },
+  {
+    "id": "TFT17_TahmKench",
+    "name": "Tahm Kench",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Oracle",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_tahmkench/skins/base/images/tft17_tahmkench_splash_tile_11.png"
+  },
+  {
+    "id": "TFT17_Rhaast",
+    "name": "Rhaast",
+    "set": 17,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Redeemer"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_rhaast/skins/base/images/tft17_kaynsplash_tile.png"
+  },
+  {
+    "id": "TFT17_RekSai",
+    "name": "Rek'Sai",
+    "set": 17,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Primordian",
+      "Brawler"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_reksai/skins/base/images/tft17_reksai_splash_tile_26.png"
+  },
+  {
+    "id": "TFT17_Pantheon",
+    "name": "Pantheon",
+    "set": 17,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Timebreaker",
+      "Brawler",
+      "Replicator"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_pantheon/skins/base/images/tft17_pantheon_splash_tile_16.png"
+  },
+  {
+    "id": "TFT17_Morgana",
+    "name": "Morgana",
+    "set": 17,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Dark Lady",
+      "Conduit"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft17_morgana/skins/base/images/tft17_morgana_splash_tile_50.png"
+  },
+  {
+    "id": "DA_Gromp18_AP",
+    "name": "Gromp",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Riftbeast",
+      "Adaptor"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gromp/skins/base/images/t_18_gromp_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Murkwolf18",
+    "name": "Murkwolf",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Riftbeast",
+      "Ravager"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_murkwolf/skins/base/images/t_18_murkwolf_teamplannersplash.png"
+  },
+  {
+    "id": "DA_18_Sentry",
+    "name": "Pebbles",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Riftbeast",
+      "Invoker"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentry/skins/base/images/t_18_sentry_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Cinderling18",
+    "name": "Cinderling",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Riftbeast",
+      "Hunter"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cinderling/skins/base/images/t_18_cinderling_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Scuttlecrab18",
+    "name": "Scuttlecrab",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Riftbeast",
+      "Juggernaut"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_scuttlecrab/skins/base/images/t_18_scuttlecrab_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Krug18",
+    "name": "Krug",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Riftbeast",
+      "Brawler"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_krug/skins/base/images/t_18_krug_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Sentinel18",
+    "name": "Sentinel",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Riftbeast",
+      "Vanguard",
+      "Invoker"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sentinel/skins/base/images/t_18_sentinel_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Brambleback18",
+    "name": "Brambleback",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Riftbeast",
+      "Ravager"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_brambleback/skins/base/images/t_18_brambleback_teamplannersplash.png"
+  },
+  {
+    "id": "DA_18_Xayah",
+    "name": "Xayah",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Elderwood",
+      "Fae",
+      "Rapidfire"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_xayah/skins/base/images/tft18_xayah_splash_tile_8.png"
+  },
+  {
+    "id": "DA_18_Ornn",
+    "name": "Ornn",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Elderwood",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ornn/skins/base/images/tft18_ornn_splash_tile_2.png"
+  },
+  {
+    "id": "DA_Nidalee18_AP",
+    "name": "Nidalee",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Primal",
+      "Adaptor"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_nidalee/skins/base/images/tft18_nidalee_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Hecarim",
+    "name": "Hecarim",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Elderwood",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_hecarim/skins/base/images/tft18_hecarim_splash_tile_5.png"
+  },
+  {
+    "id": "DA_18_Ezreal",
+    "name": "Ezreal",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Elderwood",
+      "Executioner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ezreal/skins/base/images/tft18_ezreal_splash_tile_1.png"
+  },
+  {
+    "id": "DA_18_Azir",
+    "name": "Azir",
+    "set": 18,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Blackthorn",
+      "Executioner",
+      "Summoner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_azir/skins/base/images/tft18_azir_splash_tile_5.png"
+  },
+  {
+    "id": "DA_18_RekSai",
+    "name": "Rek'Sai",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Blackthorn",
+      "Brawler"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_reksai/skins/base/images/tft18_reksai_splash_tile_17.png"
+  },
+  {
+    "id": "DA_18_Veigar",
+    "name": "Veigar",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Blackthorn",
+      "Sprykin",
+      "Spellweaver"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_veigar/skins/base/images/tft18_veigar_splash_tile_13.png"
+  },
+  {
+    "id": "DA_18_Maokai",
+    "name": "Maokai",
+    "set": 18,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Old Growth",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_maokai/skins/base/images/tft18_maokai_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Malphite",
+    "name": "Malphite",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Blackthorn",
+      "Monolith"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_malphite/skins/base/images/tft18_malphite_splash_tile_27.png"
+  },
+  {
+    "id": "DA_18_Yorick",
+    "name": "Yorick",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Blossom",
+      "Juggernaut",
+      "Summoner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yorick/skins/base/images/tft18_yorick_splash_tile_30.png"
+  },
+  {
+    "id": "DA_18_Yunara",
+    "name": "Yunara",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Blossom",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_yunara/skins/base/images/tft18_yunara_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Sett",
+    "name": "Sett",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Blossom",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sett/skins/base/images/tft18_sett_splash_tile_38.png"
+  },
+  {
+    "id": "DA_18_Ahri",
+    "name": "Ahri",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Blossom",
+      "Spellweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ahri/skins/base/images/tft18_ahri_splash_tile_27.png"
+  },
+  {
+    "id": "DA_18_Ashe",
+    "name": "Ashe",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Blossom",
+      "Hunter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ashe/skins/base/images/tft18_ashe_splash_tile_76.png"
+  },
+  {
+    "id": "DA_18_Elise",
+    "name": "Elise",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Coven",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elise/skins/base/images/tft18_elise_splash_tile_24.png"
+  },
+  {
+    "id": "DA_18_Caitlyn",
+    "name": "Caitlyn",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Coven",
+      "Hunter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_caitlyn/skins/base/images/tft18_caitlyn_splash_tile_30.png"
+  },
+  {
+    "id": "DA_18_Cassiopeia",
+    "name": "Cassiopeia",
+    "set": 18,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Coven",
+      "Spellweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_cassiopeia/skins/base/images/tft18_cassiopeia_splash_tile_18.png"
+  },
+  {
+    "id": "DA_18_Morgana",
+    "name": "Morgana",
+    "set": 18,
+    "cost": 4,
+    "range": 2,
+    "traits": [
+      "Coven",
+      "Invoker"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_morgana/skins/base/images/tft18_morgana_splash_tile_26.png"
+  },
+  {
+    "id": "DA_18_Rakan",
+    "name": "Rakan",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Fae",
+      "Juggernaut",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rakan/skins/base/images/tft18_rakan_splash_tile_9.png"
+  },
+  {
+    "id": "DA_18_Lillia",
+    "name": "Lillia",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Fae",
+      "Defender"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lillia/skins/base/images/tft18_lillia_splash_tile_28.png"
+  },
+  {
+    "id": "DA_18_Kobuko",
+    "name": "Kobuko",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Sprykin",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kobuko/skins/base/images/tft18_kobuko_splash_tile_2.png"
+  },
+  {
+    "id": "DA_18_Teemo",
+    "name": "Teemo",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Sprykin",
+      "Invoker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_teemo/skins/base/images/tft18_teemo_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Rammus",
+    "name": "Rammus",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Sprykin",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rammus/skins/base/images/tft18_rammus_splash_tile_26.png"
+  },
+  {
+    "id": "DA_18_GnarSmall",
+    "name": "Gnar",
+    "set": 18,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Elderwood",
+      "Sprykin",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_gnar/skins/base/images/tft18_gnar_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Tristana",
+    "name": "Tristana",
+    "set": 18,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Fae",
+      "Sprykin",
+      "Hunter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_tristana/skins/base/images/tft18_tristana_splash_tile_61.png"
+  },
+  {
+    "id": "DA_18_Sivir",
+    "name": "Sivir",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Primal",
+      "Hunter"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sivir/skins/base/images/tft18_sivir_splash_tile_61.png"
+  },
+  {
+    "id": "DA_Vi18",
+    "name": "Vi",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Primal",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_vi/skins/base/images/tft18_vi_splash_tile_39.png"
+  },
+  {
+    "id": "DA_18_Akali_AD",
+    "name": "Akali",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Inferno",
+      "Adaptor",
+      "Ravager"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_akali/skins/base/images/tft18_akali_splash_tile_2.png"
+  },
+  {
+    "id": "DA_18_Varus",
+    "name": "Varus",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Inferno",
+      "Rapidfire"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_varus/skins/base/images/tft18_varus_splash_tile_9.png"
+  },
+  {
+    "id": "DA_Amumu18",
+    "name": "Amumu",
+    "set": 18,
+    "cost": 4,
+    "range": 1,
+    "traits": [
+      "Inferno",
+      "Juggernaut"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_amumu/skins/base/images/tft18_amumu_splash_tile_17.png"
+  },
+  {
+    "id": "DA_18_Kennen",
+    "name": "Kennen",
+    "set": 18,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Inferno",
+      "Executioner"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kennen/skins/base/images/tft18_kennen_splash_tile_8.png"
+  },
+  {
+    "id": "DA_18_Aphelios",
+    "name": "Aphelios",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Lunar",
+      "Rapidfire"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_aphelios/skins/base/images/tft18_aphelios_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Diana",
+    "name": "Diana",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Lunar",
+      "Ravager",
+      "Vanguard"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_diana/skins/base/images/tft18_diana_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Alune",
+    "name": "Alune",
+    "set": 18,
+    "cost": 5,
+    "range": 4,
+    "traits": [
+      "Attuned",
+      "Lunar",
+      "Spellweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alune/skins/base/images/tft18_alune_splash_tile_15.png"
+  },
+  {
+    "id": "DA_18_Leona",
+    "name": "Leona",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Solar",
+      "Defender"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leona/skins/base/images/tft18_leona_splash_tile_10.png"
+  },
+  {
+    "id": "DA_18_Kayle",
+    "name": "Kayle",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Solar",
+      "Rapidfire"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kayle/skins/base/images/tft18_kayle_splash_tile_42.png"
+  },
+  {
+    "id": "DA_18_Sejuani",
+    "name": "Sejuani",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Solar",
+      "Juggernaut"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_sejuani/skins/base/images/tft18_sejuani_splash_tile_26.png"
+  },
+  {
+    "id": "DA_18_KhaZix",
+    "name": "Kha'Zix",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Rival"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_khazix/skins/base/images/tft18_khazix_splash_tile_0.png"
+  },
+  {
+    "id": "DA_18_Rengar",
+    "name": "Rengar",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Rival"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_rengar/skins/base/images/tft18_rengar_splash_tile_0.png"
+  },
+  {
+    "id": "DA_KogMaw18_AD",
+    "name": "Kog'Maw",
+    "set": 18,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Caustic",
+      "Adaptor",
+      "Invoker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_kogmaw/skins/base/images/tft18_kogmaw_splash_tile_3.png"
+  },
+  {
+    "id": "DA_18_Zyra",
+    "name": "Zyra",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Thornmaiden",
+      "Summoner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_zyra/skins/base/images/tft18_zyra_splash_tile_0.png"
+  },
+  {
+    "id": "DA_Fiddlesticks18",
+    "name": "Fiddlesticks",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Flora Fatalis",
+      "Defender",
+      "Spellweaver"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_fiddlesticks/skins/base/images/tft18_fiddlesticks_splash_tile_46.png"
+  },
+  {
+    "id": "DA_18_Soraka",
+    "name": "Soraka",
+    "set": 18,
+    "cost": 4,
+    "range": 4,
+    "traits": [
+      "Flora Fatalis",
+      "Executioner"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_soraka/skins/base/images/tft18_soraka_splash_tile_53.png"
+  },
+  {
+    "id": "DA_Taric18",
+    "name": "Taric",
+    "set": 18,
+    "cost": 5,
+    "range": 1,
+    "traits": [
+      "Emerald Aspect",
+      "Vanguard"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_taric/skins/base/images/tft18_taric_splash_tile_1.png"
+  },
+  {
+    "id": "DA_18_Ivern",
+    "name": "Ivern",
+    "set": 18,
+    "cost": 5,
+    "range": 3,
+    "traits": [
+      "Greenfather"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_ivern/skins/base/images/tft18_ivern_splash_tile_0.png"
+  },
+  {
+    "id": "DA_Lux18_Base",
+    "name": "Lux",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Avatar"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/skins/base/images/tft18_lux_splash_tile_7.png"
+  },
+  {
+    "id": "DA_18_Alistar",
+    "name": "Alistar",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Elderwood",
+      "Brawler"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_alistar/skins/base/images/tft18_alistar_splash_tile_40.png"
+  },
+  {
+    "id": "DA_Draven18",
+    "name": "Draven",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Bounty Seeker"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_draven/skins/base/images/tft18_draven_splash_tile_5.png"
+  },
+  {
+    "id": "DA_18_ElderDragon",
+    "name": "Elder Dragon",
+    "set": 18,
+    "cost": 5,
+    "range": 2,
+    "traits": [
+      "Apex Predator",
+      "Riftbeast"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_elderdragon/skins/base/images/t_18_elderdragon_teamplannersplash.png"
+  },
+  {
+    "id": "DA_Karma18",
+    "name": "Karma",
+    "set": 18,
+    "cost": 1,
+    "range": 4,
+    "traits": [
+      "Blossom",
+      "Spellweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_karma/skins/base/images/tft18_karma_splash_tile_70.png"
+  },
+  {
+    "id": "DA_18_LeBlanc",
+    "name": "LeBlanc",
+    "set": 18,
+    "cost": 2,
+    "range": 4,
+    "traits": [
+      "Elderwood",
+      "Spellweaver"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_leblanc/skins/base/images/tft18_leblanc_splash_tile_5.png"
+  },
+  {
+    "id": "DA_18_MasterYi_AD",
+    "name": "Master Yi",
+    "set": 18,
+    "cost": 3,
+    "range": 1,
+    "traits": [
+      "Blossom",
+      "Adaptor"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_masteryi/skins/base/images/tft18_masteryi_splash_tile_52.png"
+  },
+  {
+    "id": "DA_18_Shen",
+    "name": "Shen",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Inferno",
+      "Defender"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_shen/skins/base/images/tft18_shen_splash_tile_16.png"
+  },
+  {
+    "id": "DA_18_Warwick",
+    "name": "Warwick",
+    "set": 18,
+    "cost": 2,
+    "range": 1,
+    "traits": [
+      "Blackthorn",
+      "Ravager"
+    ],
+    "gender": "Male",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_warwick/skins/base/images/tft18_warwick_splash_tile_35.png"
+  },
+  {
+    "id": "DA_18_Camille",
+    "name": "Camille",
+    "set": 18,
+    "cost": 1,
+    "range": 1,
+    "traits": [
+      "Coven",
+      "Ravager"
+    ],
+    "gender": "Female",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_camille/skins/base/images/tft18_camille_splash_tile_2.png"
+  },
+  {
+    "id": "DA_Lux18_Blackthorn",
+    "name": "Lux (Blackthorn)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Blackthorn",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blackthorn_teamplanner.png"
+  },
+  {
+    "id": "DA_Lux18_Blossom",
+    "name": "Lux (Blossom)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Blossom",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_blossom_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Coven",
+    "name": "Lux (Coven)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Coven",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_coven_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Elderwood",
+    "name": "Lux (Elderwood)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Elderwood",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_elderwood_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Fae",
+    "name": "Lux (Fae)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Fae",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_fae_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Inferno",
+    "name": "Lux (Inferno)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Inferno",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_inferno_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Moonbeam",
+    "name": "Lux (Lunar)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Lunar",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_moonbeam_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Primal",
+    "name": "Lux (Primal)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Primal",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_primal_teamplanner.png"
+  },
+  {
+    "id": "DA_18_Lux_Sunbeam",
+    "name": "Lux (Solar)",
+    "set": 18,
+    "cost": 5,
+    "range": 6,
+    "traits": [
+      "Solar",
+      "Avatar"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_lux/hud/splashes/t_18_lux_sunbeam_teamplanner.png"
+  },
+  {
+    "id": "DA_CrimsonRaptor18",
+    "name": "Mama Beak",
+    "set": 18,
+    "cost": 3,
+    "range": 4,
+    "traits": [
+      "Riftbeast",
+      "Summoner",
+      "Rapidfire"
+    ],
+    "gender": "Other",
+    "image": "https://raw.communitydragon.org/latest/game/assets/characters/tft18_raptor/skins/base/images/t_18_crimsonraptor_teamplannersplash.png"
+  }
+]
