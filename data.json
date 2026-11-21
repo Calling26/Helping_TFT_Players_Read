@@ -1419,7 +1419,7 @@
     {
       "apiName": "DA_18_RiftbeastTraitAugment",
       "name": "Omega Riftbeast",
-      "desc": "You can now choose a second Alpha Riftbeast. Alpha Riftbeasts gain 15% max Health and 12% Attack Speed. Gain a Scuttlecrab, a Cinderling, and a Pebbles.",
+      "desc": "You can now choose a second Alpha Riftbeast. Alpha Riftbeasts gain 8% max Health and 8% Attack Speed. Gain a Scuttlecrab, a Cinderling, and a Pebbles.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
     },
     {
@@ -1455,7 +1455,7 @@
     {
       "apiName": "DA_ShoppingSpree",
       "name": "Shopping Spree",
-      "desc": "When you level up, gain a number of Shop refreshes equal to your level +1. Gain 6 gold.",
+      "desc": "When you level up, gain a number of Shop refreshes equal to your level +1. Gain 7 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/silver-ticket-iii.png"
     },
     {
@@ -1509,7 +1509,7 @@
     {
       "apiName": "DA_BuildABud",
       "name": "Build A Bud",
-      "desc": "Gain a random X-star 1-cost champion. Gain 6 gold.",
+      "desc": "Gain a random X-star 1-cost champion. Gain 9 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
     },
     {
@@ -1527,7 +1527,7 @@
     {
       "apiName": "DA_WeStickTogether",
       "name": "We Stick Together",
-      "desc": "Gain a random Emblem and a completed item anvil. Allies that share a trait with that Emblem gain 30% Attack Speed. 0 0 Into The Arcane Tactician's Crown, 2025",
+      "desc": "Gain an Emblem of a random trait and a completed item anvil. Allies with that trait gain 30% Attack Speed. 0 0 Into The Arcane Tactician's Crown, 2025",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/westicktogether_iii.png"
     },
     {
@@ -1539,7 +1539,7 @@
     {
       "apiName": "DA_LevelUp",
       "name": "Level Up!",
-      "desc": "When you buy XP, gain an additional X. Gain 6 immediately.",
+      "desc": "When you buy XP, gain an additional X. Gain 10 immediately.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/levelup3.png"
     },
     {
@@ -1591,6 +1591,12 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/salvage2.png"
     },
     {
+      "apiName": "DA_ConstructACompanion",
+      "name": "Construct a Companion",
+      "desc": "The next 1-cost champion you buy is X-star. Gain 2 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
+    },
+    {
       "apiName": "DA_SpreadingRootsPlus",
       "name": "Spreading Roots+",
       "desc": "Gain X random Emblems and X gold.",
@@ -1605,7 +1611,7 @@
     {
       "apiName": "DA_Retribution",
       "name": "Retribution",
-      "desc": "Gain X Hands of Justice. Allies equipped with Hand of Justice gain Precision and 25% Critical Strike Chance. Precision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
+      "desc": "Gain X Hands of Justice. Allies equipped with Hand of Justice gain Precision and 15% Critical Strike Chance. Precision: Ability damage can critically strike. Additional Precision grants 10% Critical Strike Damage.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/retribution_iii.png"
     },
     {
@@ -1635,13 +1641,19 @@
     {
       "apiName": "DA_BronzeForLifeII",
       "name": "Bronze For Life II",
-      "desc": "Your team gains 2.5% Damage Amp and 4 Armor and Magic Resist for each Bronze-tier trait.",
+      "desc": "Your team gains 2.5% Damage Amp and 2.5 Armor and Magic Resist for each Bronze-tier trait.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/bronzeforlife_iii.png"
+    },
+    {
+      "apiName": "DA_BranchingOut",
+      "name": "Branching Out",
+      "desc": "Gain a random Emblem.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
     },
     {
       "apiName": "DA_InvestmentStrategy",
       "name": "Investment Strategy II",
-      "desc": "Your champions gain X permanent max health per interest you earn. Your max interest is increased by X. Gain 8 gold now.",
+      "desc": "Your champions gain X permanent max health per interest you earn. Your max interest is increased by X. Gain 6 gold now.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_iii.png"
     },
     {
@@ -1705,12 +1717,6 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/invested-iii.png"
     },
     {
-      "apiName": "DA_18_BigGrabBag",
-      "name": "Big Grab Bag",
-      "desc": "Gain 3 random components, 2 gold, and 1 Reforger.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png"
-    },
-    {
       "apiName": "DA_CapitalGainsII",
       "name": "Capital Gains II",
       "desc": "Store gold equal to the interest you earn. On 3-3, gain gold equal to X% of the stored gold. Gain X gold now.",
@@ -1755,7 +1761,7 @@
     {
       "apiName": "DA_BlackthornTraitAugment",
       "name": "Item Extraction",
-      "desc": "The first 3 times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain an Azir, Veigar, and a Rek'Sai.",
+      "desc": "The first 3 times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain an Azir and a Rek'Sai.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
     },
     {
@@ -1819,6 +1825,12 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/electrocharge-i.png"
     },
     {
+      "apiName": "DA_PandorasItemsIIPlusPlus",
+      "name": "Pandora's Items II++",
+      "desc": "Round start: items on your bench are randomized. Gain X random components and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
       "apiName": "DA_TheTraitTreePlus",
       "name": "The Trait Tree+",
       "desc": "Gain X random Emblems, a Reforger, and X gold.",
@@ -1853,12 +1865,6 @@
       "name": "Clear Mind",
       "desc": "If there are no champions on your bench at the end of player combat, gain 3 XP.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clearmind2.png"
-    },
-    {
-      "apiName": "DA_PandorasItemsII",
-      "name": "Pandora's Items II",
-      "desc": "Round start: items on your bench are randomized. Gain X random components and X gold.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png"
     },
     {
       "apiName": "DA_Slammin",
@@ -1897,15 +1903,9 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/goldengamble_iii.png"
     },
     {
-      "apiName": "DA_18_OneTwoFive",
-      "name": "One, Two, Five!",
-      "desc": "Gain 1 random component, 2 gold, and 1 random 5-cost champion.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png"
-    },
-    {
       "apiName": "DA_MaliciousMonetization",
       "name": "Malicious Monetization",
-      "desc": "Gain 4 gold. For the next 2 rounds, enemy champions drop X gold when killed.",
+      "desc": "Gain 6 gold. For the next 2 rounds, enemy champions drop X gold when killed.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/mirroredmonetization_ii.png"
     },
     {
@@ -1945,6 +1945,12 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
     },
     {
+      "apiName": "DA_ForgeAFriend",
+      "name": "Forge A Friend",
+      "desc": "The next 1-cost champion you buy is X-star. Gain 5 gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/constructacompanion_iii.png"
+    },
+    {
       "apiName": "DA_SweetTreats",
       "name": "Sweet Treats",
       "desc": "Gain an Artifact anvil. Your team gains 16 Health for each item equipped on champions.",
@@ -1965,7 +1971,7 @@
     {
       "apiName": "DA_HeroicGrabBag",
       "name": "Heroic Grab Bag",
-      "desc": "Gain 2 Lesser Champion Duplicators. Gain 4 gold.",
+      "desc": "Gain 2 Lesser Champion Duplicators. Gain 6 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/heroic-grab-bag-ii.png"
     },
     {
@@ -2023,6 +2029,12 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/plotarmor_ii.png"
     },
     {
+      "apiName": "DA_GoodForSomethingI",
+      "name": "Good For Something I",
+      "desc": "Champions that aren't holding items have a X% chance to drop 1 gold on death.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png"
+    },
+    {
       "apiName": "DA_ShimmerscaleEssence",
       "name": "Shimmerscale Essence",
       "desc": "Gain a Gambler's Blade. After X player combats, gain a Mogul's Mail.",
@@ -2067,13 +2079,19 @@
     {
       "apiName": "DA_ChallengersGrace",
       "name": "Challenger's Grace",
-      "desc": "At the start of combat, allies gain X% Attack Speed for 3 seconds. On takedown, allies dash to their next target and gain this bonus again.",
+      "desc": "At the start of combat, allies gain X% Attack Speed for 4 seconds. On takedown, allies dash to their next target and gain this bonus again.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/choiceui/precisiongrace_ii.png"
+    },
+    {
+      "apiName": "DA_OneTwoFive",
+      "name": "One, Two, Five!",
+      "desc": "Gain 1 random component, 2 gold, and 1 random 5-cost champion",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/one-two-five-i.png"
     },
     {
       "apiName": "DA_18_FaeTraitAugment",
       "name": "Embiggen",
-      "desc": "Fae pixies are now larger and grant 50% more Attack Damage and Ability Power. Fae champions gain X% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
+      "desc": "Fae pixies are now larger and grant 35% more Attack Damage and Ability Power. Fae champions gain X% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
     },
     {
@@ -2091,7 +2109,7 @@
     {
       "apiName": "DA_VerticalityII",
       "name": "Verticality II",
-      "desc": "Champions gain 2% Attack Damage, 2% Ability Power, 2 Armor, and 2 Magic Resist for each ally that shares a trait with them.",
+      "desc": "Champions gain 2.5% Attack Damage, 2.5% Ability Power, 2 Armor, and 2 Magic Resist for each ally that shares a trait with them.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
     },
     {
@@ -2127,7 +2145,7 @@
     {
       "apiName": "DA_CryMeARiver",
       "name": "Cry Me A River",
-      "desc": "Gain a Tear of the Goddess. Your team gains 1 Mana Regen. After X seconds in combat, increase this to 4.",
+      "desc": "Gain a Tear of the Goddess. Your team gains 1 Mana Regen. After X seconds in combat, increase this to 3.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/crymeariver_ii.png"
     },
     {
@@ -2141,12 +2159,6 @@
       "name": "Cybernetic Implants",
       "desc": "Your champions holding an item gain X Health and X% Attack Damage. Gain a B.F. Sword.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cybernetic2.png"
-    },
-    {
-      "apiName": "DA_DoubleTrouble",
-      "name": "Double Trouble",
-      "desc": "When you field exactly 2 copies of a champion, they both gain X% Attack Damage and Ability Power and X Armor, and Magic Resist. When you 3-star, gain a 2-star copy.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/double-trouble-ii.png"
     },
     {
       "apiName": "DA_ItsMeBaby",
@@ -2163,14 +2175,14 @@
     {
       "apiName": "DA_NestingAnvils",
       "name": "Nesting Anvils",
-      "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain 4 gold.",
+      "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain 6 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
     },
     {
-      "apiName": "DA_18_BranchingOutPlus",
-      "name": "Branching Out+",
-      "desc": "Gain a random Emblem and a Reforger.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
+      "apiName": "DA_BigGrabBag",
+      "name": "Big Grab Bag",
+      "desc": "Gain 3 random components, 2 gold, and 1 Reforger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/grab-bag-ii.png"
     },
     {
       "apiName": "DA_GainGold",
@@ -2355,7 +2367,7 @@
     {
       "apiName": "DA_InvestmentStrategyI",
       "name": "Investment Strategy I",
-      "desc": "Your champions gain X permanent max health per interest you earn. Gain 4 gold now.",
+      "desc": "Your champions gain X permanent max health per interest you earn. Gain 3 gold now.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/investmentstrategy_ii.png"
     },
     {
@@ -2379,7 +2391,7 @@
     {
       "apiName": "DA_LuxurySubscription",
       "name": "Luxury Subscription",
-      "desc": "Gain a package containing a X-cost champion, a 2-star X-cost champion, and 3 gold. At the start of the next X stages, gain the package again.",
+      "desc": "Gain a package containing a X-cost champion, a 2-star X-cost champion, and 5 gold. At the start of the next X stages, gain the package again.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/luxurysubscription_iii.png"
     },
     {
@@ -2457,7 +2469,7 @@
     {
       "apiName": "DA_VerticalityIII",
       "name": "Verticality III",
-      "desc": "Champions gain 3.5% Attack Damage, 3.5% Ability Power, 3.5 Armor, and 3.5 Magic Resist for each ally that shares a trait with them.",
+      "desc": "Champions gain 4% Attack Damage, 4% Ability Power, 3.5 Armor, and 3.5 Magic Resist for each ally that shares a trait with them.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t3.png"
     },
     {
@@ -2499,7 +2511,7 @@
     {
       "apiName": "DA_ClockworkAccelerator",
       "name": "Clockwork Accelerator",
-      "desc": "Your team gains 10% Attack Speed every X seconds in combat.",
+      "desc": "Your team gains 12% Attack Speed every X seconds in combat.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/clockworkaccelerator_ii.png"
     },
     {
@@ -2537,6 +2549,12 @@
       "name": "Soul Awakening",
       "desc": "Combat start: Your team gains X% Attack Damage and Ability Power per second for X seconds. At max stacks, deal 12% bonus true damage.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/awakenedsoul_iii.png"
+    },
+    {
+      "apiName": "DA_BranchingOutPlus",
+      "name": "Branching Out+",
+      "desc": "Gain a random Emblem and a Reforger.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
     },
     {
       "apiName": "DA_Expedition",
@@ -2595,7 +2613,7 @@
     {
       "apiName": "DA_SeraphimsStaff",
       "name": "Seraphim's Staff",
-      "desc": "Gain an Archangel's Staff. Archangel's Staff grants 2 additional Mana Regen if its holder has 90% or more Ability Power.",
+      "desc": "Gain an Archangel's Staff. Archangel's Staff grants 2 additional Mana Regen if its holder has 110% or more Ability Power.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/seraphimsstaff_ii.png"
     },
     {
@@ -2603,6 +2621,12 @@
       "name": "Staffsmith",
       "desc": "Gain X random completed items that build from Needlessly Large Rod.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/rodsmith_ii.png"
+    },
+    {
+      "apiName": "DA_PandorasItemsIIMinus",
+      "name": "Pandora's Items II",
+      "desc": "Round start: items on your bench are randomized. Gain X random components and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandora2.png"
     },
     {
       "apiName": "DA_18_ResidualMagic",
@@ -2673,7 +2697,7 @@
     {
       "apiName": "DA_HeartOfSteel",
       "name": "Heart of Steel",
-      "desc": "Gain a Steadfast Heart. Every X seconds of combat its holder survives, Steadfast Heart gains additional 16 permanent max Health.",
+      "desc": "Gain a Steadfast Heart. Every X seconds of combat its holder survives, Steadfast Heart gains additional 18 permanent max Health.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/healthygains_ii.png"
     },
     {
@@ -2703,19 +2727,19 @@
     {
       "apiName": "DA_PrismaticDestiny",
       "name": "Prismatic Destiny",
-      "desc": "Gain a random Prismatic Augment and 4 gold.",
+      "desc": "Gain a random Prismatic Augment and 2 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/prismaticdestiny_iii.png"
     },
     {
       "apiName": "DA_CookingPot",
       "name": "Cooking Pot",
-      "desc": "At the start of each turn, all allies holding a Frying Pan or Spatula item grant the nearest champion 60 permanent Health. Gain a Frying Pan.",
+      "desc": "At the start of each turn, all allies holding a Frying Pan or Spatula item grant the nearest champion 70 permanent Health. Gain a Frying Pan.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/cookingpot_ii.png"
     },
     {
       "apiName": "DA_PandorasBench",
       "name": "Pandora's Bench",
-      "desc": "At the start of every round, champions on the 3 rightmost bench slots transform into random champions of the same cost. Gain 4 gold.",
+      "desc": "At the start of every round, champions on the 3 rightmost bench slots transform into random champions of the same cost. Gain 1 gold.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/pandoras-bench-ii.png"
     },
     {
@@ -2779,12 +2803,6 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/onebufftwobuff_iii.png"
     },
     {
-      "apiName": "DA_18_BranchingOut",
-      "name": "Branching Out",
-      "desc": "Gain a random Emblem.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/branching-out-i.png"
-    },
-    {
       "apiName": "DA_CalledShot",
       "name": "Called Shot",
       "desc": "Set your win streak to +X. Gain 4 gold.",
@@ -2845,6 +2863,12 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/hardbargain_ii.png"
     },
     {
+      "apiName": "DA_PandorasItemsIIPlus",
+      "name": "Pandora's Items II+",
+      "desc": "Round start: items on your bench are randomized. Gain X random components and X gold.",
+      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/missing-t2.png"
+    },
+    {
       "apiName": "DA_BronzeForLifeI",
       "name": "Bronze For Life I",
       "desc": "Your team gains 2.5% Damage Amp for each Bronze-tier trait.",
@@ -2853,7 +2877,7 @@
     {
       "apiName": "DA_GiantAndMighty",
       "name": "Giant and Mighty",
-      "desc": "Your team becomes large, gaining 200 Health and X% max Health.",
+      "desc": "Your team becomes large, gaining 225 Health and X% max Health.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/giantandmighty_iii.png"
     },
     {
@@ -2881,15 +2905,9 @@
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/thebaronslair_iii.png"
     },
     {
-      "apiName": "DA_18_GoodForSomethingI",
-      "name": "Good For Something I",
-      "desc": "Champions that aren't holding items have a X% chance to drop 1 gold on death.",
-      "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/good-for-something-i.png"
-    },
-    {
       "apiName": "DA_SpiritOfRedemption",
       "name": "Spirit Of Redemption",
-      "desc": "Gain a Spirit Visage. Every X seconds, Spirit Visage heals allies within 1 hex for 7.5% of their missing Health.",
+      "desc": "Gain a Spirit Visage. Every X seconds, Spirit Visage heals allies within 1 hex for 9% of their missing Health.",
       "icon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/hexcore/spiritofredemption_ii.png"
     },
     {
