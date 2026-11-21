@@ -541,7 +541,9 @@ const UI = {
     // Mode selection
     document.querySelectorAll(".mode-card").forEach((card) => {
       card.addEventListener("click", () => {
-        const mode = parseInt(card.dataset.mode, 10);
+        const modeStr = card.dataset.mode;
+        if (!modeStr || isNaN(modeStr)) return;
+        const mode = parseInt(modeStr, 10);
         this.startQuiz(mode);
       });
     });
