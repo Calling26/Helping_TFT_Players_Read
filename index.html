@@ -43,6 +43,12 @@
           <h3>Spot the Error</h3>
           <p>Spot the fabricated mechanic or error in champion abilities.</p>
         </button>
+                <button class="mode-card mode-card--new" data-mode="tftdle">
+          <div class="mode-icon">&#127959;</div>
+          <span class="mode-badge">Daily</span>
+          <h3>TFTdle</h3>
+          <p>Guess today&#39;s mystery champion from all TFT sets.</p>
+        </button>
         <button class="mode-card" data-mode="1">
           <div class="mode-icon">⚔️</div>
           <h3>Champion Flashcard</h3>
@@ -102,6 +108,50 @@
       </div>
     </main>
 
+    <!-- TFTdle Screen -->
+    <main id="screen-tftdle" class="screen screen-tftdle hidden">
+      <div class="tftdle-header">
+        <div class="tftdle-title-row">
+          <h2 class="tftdle-title">TFTdle</h2>
+          <span id="tftdle-streak" class="tftdle-streak-badge" style="display:none;"></span>
+        </div>
+        <p class="tftdle-subtitle">Guess today's mystery TFT champion. New champion every day!</p>
+        <p id="tftdle-meta" class="tftdle-meta"></p>
+      </div>
+
+      <div id="tftdle-input-wrap" class="tftdle-input-wrap">
+        <input id="tftdle-guess-input" class="tftdle-input" type="text"
+               placeholder="Type a champion name..." autocomplete="off">
+        <button id="tftdle-submit" class="btn btn-submit tftdle-guess-btn" disabled>Guess</button>
+        <ul id="tftdle-ac" class="tftdle-ac hidden"></ul>
+      </div>
+
+      <div id="tftdle-result"></div>
+
+      <div class="tftdle-table-wrap">
+        <table class="tftdle-grid">
+          <thead>
+            <tr>
+              <th class="tftdle-th">Portrait</th>
+              <th class="tftdle-th">Name</th>
+              <th class="tftdle-th">Set</th>
+              <th class="tftdle-th">Cost</th>
+              <th class="tftdle-th">Range</th>
+              <th class="tftdle-th">Traits</th>
+              <th class="tftdle-th">Gender</th>
+            </tr>
+          </thead>
+          <tbody id="tftdle-grid-body"></tbody>
+        </table>
+      </div>
+
+      <div class="tftdle-legend">
+        <span class="legend-chip match">Correct</span>
+        <span class="legend-chip close">Close (&#177;1)</span>
+        <span class="legend-chip wrong">Wrong</span>
+      </div>
+    </main>
+
     <!-- Footer -->
     <footer class="app-footer">
       <p>Helping TFT Players Read isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
@@ -109,5 +159,6 @@
   </div><!-- /app -->
 
   <script src="app.js?v=5"></script>
+  <script src="tftdle.js?v=1"></script>
 </body>
 </html>
