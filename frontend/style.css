@@ -671,3 +671,18 @@ body::before {
   .results-card { padding: 36px 24px; }
   .btn { padding: 12px 24px; font-size: 0.95rem; }
 }
+
+/* -- Footer / Legal Disclaimer -- */
+.app-footer {
+  margin-top: 48px;
+  padding: 24px 16px;
+  border-top: 1px solid var(--border-glass);
+  text-align: center;
+}
+.app-footer p {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  max-width: 620px;
+  margin: 0 auto;
+}

@@ -5,3 +5,7 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+scratch_*.py
+*.log
+.env
